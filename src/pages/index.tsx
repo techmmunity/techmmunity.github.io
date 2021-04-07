@@ -1,5 +1,13 @@
-import { Container } from "styles/pages/Home";
+import { HomeTitle } from "components/HomeTitle";
 
-const Home = () => <Container>Hello World</Container>;
+import { Container, HomeSection } from "styles/pages/Home";
+
+const Home = () => (
+	<Container>
+		<HomeSection>
+			<HomeTitle />
+		</HomeSection>
+	</Container>
+);
 
 export default Home;
