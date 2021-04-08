@@ -6,8 +6,7 @@ export const Container = styled.header`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 7.2rem;
-	padding: 10rem 2.5rem;
+	padding: 5rem 2.5rem;
 `;
 
 export const Description = styled.div`
@@ -15,7 +14,11 @@ export const Description = styled.div`
 `;
 
 export const Title = styled.h1`
-	font-size: 4.8rem;
+	font-size: 5.2rem;
+
+	@media (max-width: 768px) {
+		font-size: 4rem;
+	}
 `;
 
 export const Subtitle = styled.p`
