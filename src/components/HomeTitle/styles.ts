@@ -7,7 +7,7 @@ export const Container = styled.header`
 	align-items: center;
 	justify-content: center;
 	height: 7.2rem;
-	padding: 10rem 1rem;
+	padding: 10rem 2.5rem;
 `;
 
 export const Description = styled.div`
