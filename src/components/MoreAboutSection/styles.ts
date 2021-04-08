@@ -7,9 +7,7 @@ export const Container = styled.section`
 	margin: 1rem 4rem;
 	filter: grayscale(50%);
 
-	> div {
-		> img {
-			border-radius: 3px;
-		}
+	> div > img {
+		border-radius: 3px;
 	}
 `;

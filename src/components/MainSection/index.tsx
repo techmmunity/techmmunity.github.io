@@ -1,6 +1,6 @@
 import { Container, Header, Description, Title, Subtitle } from "./styles";
 
-export const HomeMainSection: React.FC = () => (
+export const MainSection: React.FC = () => (
 	<Container>
 		<Header>
 			<Description>
