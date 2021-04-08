@@ -2,7 +2,16 @@ import styled from "styled-components";
 
 import { Colors } from "assets/colors";
 
-export const Container = styled.header`
+export const Container = styled.section`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	height: 100%;
+`;
+
+export const Header = styled.header`
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -14,15 +23,11 @@ export const Description = styled.div`
 `;
 
 export const Title = styled.h1`
-	font-size: 5.2rem;
-
-	@media (max-width: 768px) {
-		font-size: 4rem;
-	}
+	font-size: clamp(40px, 5.2rem, 5.2rem);
 `;
 
 export const Subtitle = styled.p`
 	color: ${Colors.lightGray};
-	font-size: 2rem;
+	font-size: clamp(20px, 1vw, 2rem);
 	margin: 1rem 0;
 `;
