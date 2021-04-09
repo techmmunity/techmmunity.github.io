@@ -67,6 +67,7 @@
 					"module",
 					"/components/",
 					"/assets/",
+					"/config/",
 					"/styles/",
 					["parent", "sibling", "index"]
 				],
