@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-import { Container } from "./styles";
+import { Container, Image } from "./styles";
 
 export const MoreAboutSection: React.FC = () => (
 	<Container>

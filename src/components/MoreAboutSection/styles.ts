@@ -6,8 +6,8 @@ export const Container = styled.section`
 	justify-content: center;
 	margin: 1rem 4rem;
 	filter: grayscale(50%);
+`;
 
-	> div > img {
-		border-radius: 3px;
-	}
+export const Image = styled.img`
+	border-radius: 3px;
 `;
