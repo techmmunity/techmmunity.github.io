@@ -1,12 +1,12 @@
-import { HomeTitle } from "components/HomeTitle";
+import { MainSection } from "components/MainSection";
+import { MoreAboutSection } from "components/MoreAboutSection";
 
-import { Container, HomeSection } from "styles/pages/Home";
+import { Container } from "styles/pages/Home";
 
-const Home = () => (
+const Home: React.FC = () => (
 	<Container>
-		<HomeSection>
-			<HomeTitle />
-		</HomeSection>
+		<MainSection />
+		<MoreAboutSection />
 	</Container>
 );
 
