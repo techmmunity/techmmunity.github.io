@@ -9,5 +9,9 @@ export const Container = styled.section`
 `;
 
 export const Image = styled.img`
+	width: 100%;
+	max-width: 712px;
+	height: 100%;
+	max-height: 448px;
 	border-radius: 3px;
 `;
