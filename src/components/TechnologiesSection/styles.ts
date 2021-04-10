@@ -1,10 +1,21 @@
 import styled from "styled-components";
 
+import { Colors } from "assets/colors";
+
 export const Container = styled.section`
-	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 7.5rem 2.5rem;
 `;
 
-export const Line = styled.span``;
+export const Line = styled.span`
+	display: flex;
+	width: 100%;
+	max-width: 1100px;
+	border-bottom: 1px solid ${Colors.halfLightGray}80;
+`;
 
 export const Icons = styled.div`
 	display: flex;
@@ -17,13 +28,7 @@ export const Icons = styled.div`
 		max-width: 124px;
 		height: 100%;
 		max-height: 64px;
-		fill: #fff;
+		color: ${Colors.halfLightGray};
+		margin: 3rem 0;
 	}
-`;
-
-export const Icon = styled.img`
-	width: 100%;
-	max-width: 124px;
-	height: 100%;
-	max-height: 64px;
 `;
