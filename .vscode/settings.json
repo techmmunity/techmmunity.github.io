@@ -6,8 +6,11 @@
 		"camelcase",
 		"fauxels",
 		"grayscale",
+		"nestjs",
+		"nextjs",
 		"paren",
 		"pexels",
+		"svgr",
 		"techmmunity",
 		"webp"
 	],
