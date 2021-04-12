@@ -25,9 +25,9 @@ export const Icons = styled.div`
 
 	> svg {
 		width: 100%;
-		max-width: 124px;
+		max-width: 12.4rem;
 		height: 100%;
-		max-height: 64px;
+		max-height: 6.4rem;
 		color: ${Colors.halfLightGray};
 		margin: 3rem 0;
 	}
