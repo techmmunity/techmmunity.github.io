@@ -11,15 +11,9 @@ export const Container = styled.section`
 	height: 100%;
 `;
 
-export const Header = styled.header`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 3rem 2.5rem;
-`;
-
 export const Description = styled.div`
 	text-align: center;
+	padding: 3rem 2.5rem;
 `;
 
 export const Title = styled.h1`
