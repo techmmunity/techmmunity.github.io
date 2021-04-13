@@ -45,6 +45,7 @@ const LinkCSS = css`
 	border-radius: 3px;
 	padding: 1.5rem 3.2rem;
 	margin: 0 1rem;
+	transition: background-color 0.4s ease-out;
 `;
 
 export const Community = styled.div`
@@ -52,8 +53,8 @@ export const Community = styled.div`
 		${LinkCSS}
 		background: ${Colors.primary};
 
-		@media (max-width: 768px) {
-			margin-bottom: 1rem;
+		&:hover {
+			background: ${Colors.darkPrimary};
 		}
 	}
 `;
@@ -62,5 +63,13 @@ export const AboutUs = styled.div`
 	> a {
 		${LinkCSS}
 		background: ${Colors.gray};
+
+		&:hover {
+			background: ${Colors.darkGray};
+		}
+
+		@media (max-width: 768px) {
+			margin-bottom: 1rem;
+		}
 	}
 `;
