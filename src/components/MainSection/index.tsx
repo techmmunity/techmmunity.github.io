@@ -21,6 +21,11 @@ export const MainSection: React.FC = () => (
 			</Subtitle>
 		</Description>
 		<Links>
+			<AboutUs>
+				<Link href="#about-us">
+					<a rel="noopener noreferrer">Learn more about us</a>
+				</Link>
+			</AboutUs>
 			<Community>
 				<Link href={DISCORD_LINK}>
 					<a target="_blank" rel="noopener noreferrer">
@@ -28,11 +33,6 @@ export const MainSection: React.FC = () => (
 					</a>
 				</Link>
 			</Community>
-			<AboutUs>
-				<Link href="#about-us">
-					<a rel="noopener noreferrer">Learn more about us</a>
-				</Link>
-			</AboutUs>
 		</Links>
 	</Container>
 );
