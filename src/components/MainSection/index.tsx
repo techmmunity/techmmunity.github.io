@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { DISCORD_LINK } from "config/config";
+import { DISCORD_LINK } from "config";
 
 import {
 	Container,

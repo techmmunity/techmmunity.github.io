@@ -16,7 +16,7 @@ import {
 	FACEBOOK_LINK,
 	TWITTER_LINK,
 	LINKEDIN_LINK,
-} from "config/config";
+} from "config";
 
 import {
 	Container,
