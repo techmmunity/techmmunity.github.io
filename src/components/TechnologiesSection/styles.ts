@@ -12,7 +12,7 @@ export const Icons = styled.div`
 	align-items: center;
 	justify-content: center;
 
-	> svg {
+	> a > svg {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -22,5 +22,10 @@ export const Icons = styled.div`
 		max-height: 6.4rem;
 		color: ${Colors.halfLightGray};
 		margin: 2rem 0;
+		transition: color 0.2s ease-out;
+
+		&:hover {
+			color: ${Colors.white};
+		}
 	}
 `;
