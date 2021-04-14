@@ -5,20 +5,8 @@ import { Colors } from "assets/colors";
 export const Container = styled.footer`
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	padding: 2.5rem;
-
-	@media (max-width: 768px) {
-		flex-direction: column;
-	}
-`;
-
-export const Content = styled.div`
-	display: flex;
-	align-items: center;
 	justify-content: space-between;
-	width: 100%;
-	max-width: 1100px;
+	margin: 2.5rem 2.5rem 4.5rem 2.5rem;
 
 	@media (max-width: 768px) {
 		flex-direction: column;

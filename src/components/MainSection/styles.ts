@@ -45,7 +45,7 @@ const LinkCSS = css`
 	border-radius: 3px;
 	padding: 1.5rem 3.2rem;
 	margin: 0 1rem;
-	transition: background-color 0.4s ease-out;
+	transition: background-color 0.2s ease-out;
 `;
 
 export const Community = styled.div`
@@ -69,7 +69,7 @@ export const AboutUs = styled.div`
 		}
 
 		@media (max-width: 768px) {
-			margin-bottom: 1rem;
+			margin-bottom: 2rem;
 		}
 	}
 `;

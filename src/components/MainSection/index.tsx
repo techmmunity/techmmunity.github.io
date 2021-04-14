@@ -8,8 +8,8 @@ import {
 	Title,
 	Subtitle,
 	Links,
-	Community,
 	AboutUs,
+	Community,
 } from "./styles";
 
 export const MainSection: React.FC = () => (
