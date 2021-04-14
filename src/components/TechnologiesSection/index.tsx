@@ -7,11 +7,10 @@ import {
 	TypeScript,
 } from "assets/images/svg";
 
-import { Container, Line, Icons } from "./styles";
+import { Container, Icons } from "./styles";
 
 export const TechnologiesSection: React.FC = () => (
 	<Container>
-		<Line />
 		<Icons>
 			<NextJs />
 			<NestJs />
@@ -20,6 +19,5 @@ export const TechnologiesSection: React.FC = () => (
 			<TypeScript />
 			<Docker />
 		</Icons>
-		<Line />
 	</Container>
 );

@@ -2,7 +2,12 @@ import styled from "styled-components";
 
 import { Colors } from "assets/colors";
 
-export const Container = styled.section``;
+export const Container = styled.section`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+`;
 
 export const Description = styled.div`
 	text-align: center;
@@ -22,5 +27,4 @@ export const Cards = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 0 1.5rem;
 `;

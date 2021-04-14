@@ -33,9 +33,9 @@ export const Feedback = styled.p`
 `;
 
 export const Line = styled.span`
-	display: flex;
-	width: 100%;
-	border-bottom: 1px solid ${Colors.halfLightGray}80;
+	display: block;
+	height: 1px;
+	background: ${Colors.halfLightGray}80;
 	margin: 1.5rem 0 2rem 0;
 `;
 
