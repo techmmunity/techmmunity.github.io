@@ -53,7 +53,9 @@ export const Community = styled.div`
 		${LinkCSS}
 		background: ${Colors.primary};
 
-		&:hover {
+		&:hover,
+		&:focus,
+		&:active {
 			background: ${Colors.darkPrimary};
 		}
 	}
@@ -64,7 +66,9 @@ export const AboutUs = styled.div`
 		${LinkCSS}
 		background: ${Colors.gray};
 
-		&:hover {
+		&:hover,
+		&:focus,
+		&:active {
 			background: ${Colors.darkGray};
 		}
 

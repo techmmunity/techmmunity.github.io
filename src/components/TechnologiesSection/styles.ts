@@ -24,7 +24,9 @@ export const Icons = styled.div`
 		margin: 2rem 0;
 		transition: color 0.2s ease-out;
 
-		&:hover {
+		&:hover,
+		&:focus,
+		&:active {
 			color: ${Colors.white};
 		}
 	}
