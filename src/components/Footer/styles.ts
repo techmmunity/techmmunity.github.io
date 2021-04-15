@@ -39,5 +39,13 @@ export const SocialNetworks = styled.div`
 		border-radius: 50%;
 		padding: 0.8rem;
 		margin: 0.5rem;
+		transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background: ${Colors.primary};
+			color: ${Colors.white};
+		}
 	}
 `;
