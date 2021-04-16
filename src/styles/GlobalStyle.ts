@@ -24,6 +24,15 @@ export default createGlobalStyle`
     font-size: 1.6rem;
   }
 
+	a {
+		color: ${Colors.white};
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+	}
+
 	@media (max-width: 768px) {
     html {
       font-size: 57.5%;
