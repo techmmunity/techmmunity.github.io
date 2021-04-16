@@ -6,12 +6,14 @@ export const Container = styled.section`
 	margin: 0 2.5rem;
 `;
 
-export const Icons = styled.div`
+export const Icons = styled.ul`
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+`;
 
+export const IconContainer = styled.li`
 	> a > svg {
 		display: flex;
 		align-items: center;

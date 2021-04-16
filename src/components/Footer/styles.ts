@@ -23,11 +23,13 @@ export const Description = styled.p`
 	font-size: clamp(14px, 1rem + 1vw, 1.4rem);
 `;
 
-export const SocialNetworks = styled.div`
+export const SocialNetworks = styled.ul`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+`;
 
+export const SocialNetwork = styled.li`
 	> a {
 		display: flex;
 		align-items: center;
