@@ -30,5 +30,4 @@ export const Cards = styled.ul`
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	list-style: none;
 `;

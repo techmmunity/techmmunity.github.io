@@ -18,41 +18,53 @@ import {
 	DOCKER_LINK,
 } from "config";
 
-import { Container, Icons } from "./styles";
+import { Container, Icons, IconContainer } from "./styles";
 
 export const TechnologiesSection: React.FC = () => (
 	<Container>
 		<Icons>
-			<Link href={NEXT_LINK}>
-				<a target="_blank" rel="noopener noreferrer" title="NextJS">
-					<NextJs />
-				</a>
-			</Link>
-			<Link href={NEST_LINK}>
-				<a target="_blank" rel="noopener noreferrer" title="NestJS">
-					<NestJs />
-				</a>
-			</Link>
-			<Link href={NODEJS_LINK}>
-				<a target="_blank" rel="noopener noreferrer" title="NodeJS">
-					<NodeJs />
-				</a>
-			</Link>
-			<Link href={REACT_LINK}>
-				<a target="_blank" rel="noopener noreferrer" title="ReactJS">
-					<ReactJs />
-				</a>
-			</Link>
-			<Link href={TYPESCRIPT_LINK}>
-				<a target="_blank" rel="noopener noreferrer" title="TypeScript">
-					<TypeScript />
-				</a>
-			</Link>
-			<Link href={DOCKER_LINK}>
-				<a target="_blank" rel="noopener noreferrer" title="Docker">
-					<Docker />
-				</a>
-			</Link>
+			<IconContainer>
+				<Link href={NEXT_LINK}>
+					<a target="_blank" rel="noopener noreferrer" title="NextJS">
+						<NextJs />
+					</a>
+				</Link>
+			</IconContainer>
+			<IconContainer>
+				<Link href={NEST_LINK}>
+					<a target="_blank" rel="noopener noreferrer" title="NestJS">
+						<NestJs />
+					</a>
+				</Link>
+			</IconContainer>
+			<IconContainer>
+				<Link href={NODEJS_LINK}>
+					<a target="_blank" rel="noopener noreferrer" title="NodeJS">
+						<NodeJs />
+					</a>
+				</Link>
+			</IconContainer>
+			<IconContainer>
+				<Link href={REACT_LINK}>
+					<a target="_blank" rel="noopener noreferrer" title="ReactJS">
+						<ReactJs />
+					</a>
+				</Link>
+			</IconContainer>
+			<IconContainer>
+				<Link href={TYPESCRIPT_LINK}>
+					<a target="_blank" rel="noopener noreferrer" title="TypeScript">
+						<TypeScript />
+					</a>
+				</Link>
+			</IconContainer>
+			<IconContainer>
+				<Link href={DOCKER_LINK}>
+					<a target="_blank" rel="noopener noreferrer" title="Docker">
+						<Docker />
+					</a>
+				</Link>
+			</IconContainer>
 		</Icons>
 	</Container>
 );

@@ -23,7 +23,7 @@ export const Subtitle = styled.p`
 	font-size: clamp(16px, 1rem + 1vw, 2rem);
 `;
 
-export const Cards = styled.div`
+export const Cards = styled.ul`
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
