@@ -7,16 +7,10 @@ import {
 	FaFacebookF,
 	FaTwitter,
 } from "react-icons/fa";
+import { GrInstagram } from "react-icons/gr";
 import { IoLogoLinkedin } from "react-icons/io";
 
-import {
-	DISCORD_LINK,
-	TWITCH_LINK,
-	YOUTUBE_LINK,
-	FACEBOOK_LINK,
-	TWITTER_LINK,
-	LINKEDIN_LINK,
-} from "config";
+import { SocialNetworksLinks } from "config/social-networks-links";
 
 import {
 	Container,
@@ -33,44 +27,51 @@ export const Footer: React.FC = () => (
 		</RightsReserved>
 		<SocialNetworks>
 			<SocialNetwork>
-				<Link href={DISCORD_LINK}>
+				<Link href={SocialNetworksLinks.DISCORD}>
 					<a target="_blank" rel="noopener noreferrer">
 						<FaDiscord />
 					</a>
 				</Link>
 			</SocialNetwork>
 			<SocialNetwork>
-				<Link href={TWITCH_LINK}>
+				<Link href={SocialNetworksLinks.TWITCH}>
 					<a target="_blank" rel="noopener noreferrer">
 						<FaTwitch />
 					</a>
 				</Link>
 			</SocialNetwork>
 			<SocialNetwork>
-				<Link href={YOUTUBE_LINK}>
+				<Link href={SocialNetworksLinks.YOUTUBE}>
 					<a target="_blank" rel="noopener noreferrer">
 						<FaYoutube />
 					</a>
 				</Link>
 			</SocialNetwork>
 			<SocialNetwork>
-				<Link href={FACEBOOK_LINK}>
+				<Link href={SocialNetworksLinks.FACEBOOK}>
 					<a target="_blank" rel="noopener noreferrer">
 						<FaFacebookF />
 					</a>
 				</Link>
 			</SocialNetwork>
 			<SocialNetwork>
-				<Link href={TWITTER_LINK}>
+				<Link href={SocialNetworksLinks.TWITTER}>
 					<a target="_blank" rel="noopener noreferrer">
 						<FaTwitter />
 					</a>
 				</Link>
 			</SocialNetwork>
 			<SocialNetwork>
-				<Link href={LINKEDIN_LINK}>
+				<Link href={SocialNetworksLinks.LINKEDIN}>
 					<a target="_blank" rel="noopener noreferrer">
 						<IoLogoLinkedin />
+					</a>
+				</Link>
+			</SocialNetwork>
+			<SocialNetwork>
+				<Link href={SocialNetworksLinks.INSTAGRAM}>
+					<a target="_blank" rel="noopener noreferrer">
+						<GrInstagram />
 					</a>
 				</Link>
 			</SocialNetwork>
