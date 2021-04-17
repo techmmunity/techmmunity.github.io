@@ -14,7 +14,7 @@ export const Description = styled.div`
 	padding: 3rem 2.5rem;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h2`
 	font-size: clamp(28px, 1rem + 5vw, 3.8rem);
 `;
 
