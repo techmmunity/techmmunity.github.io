@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { DISCORD_LINK } from "config";
+import { SocialNetworksLinks } from "config/social-networks-links";
 
 import {
 	Container,
@@ -27,7 +27,7 @@ export const MainSection: React.FC = () => (
 				</Link>
 			</AboutUs>
 			<Community>
-				<Link href={DISCORD_LINK}>
+				<Link href={SocialNetworksLinks.DISCORD}>
 					<a target="_blank" rel="noopener noreferrer">
 						Join our community
 					</a>

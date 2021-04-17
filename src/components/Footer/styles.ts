@@ -27,6 +27,7 @@ export const SocialNetworks = styled.ul`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 `;
 
 export const SocialNetwork = styled.li`
