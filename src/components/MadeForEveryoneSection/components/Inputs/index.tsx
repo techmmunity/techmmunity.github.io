@@ -1,4 +1,8 @@
-//All elements were described 1 by 1 instead of being rendered via .map() due to the performance requirement.
+/*
+ * All elements were described 1 by 1
+ * instead of being rendered via .map()
+ * due performance requirement.
+ */
 
 import { memo, Dispatch, SetStateAction } from "react";
 import { BiCodeAlt } from "react-icons/bi";

@@ -4,12 +4,14 @@ import styled from "styled-components";
 
 import { Colors } from "assets/colors";
 
-export const Container = styled.div<{ current: boolean; invertOrder: boolean }>`
-	display: ${({ current }) => (current ? "flex" : "none")};
+export const Container = styled.div<{
+	isCurrent: boolean;
+	invertOrder: boolean;
+}>`
+	display: ${({ isCurrent }) => (isCurrent ? "flex" : "none")};
 	flex-direction: ${({ invertOrder }) => (invertOrder ? "row-reverse" : "row")};
 	margin: 2rem;
-	opacity: ${({ current }) => (current ? "100%" : "0%")};
-	animation: ${({ current }) => (current ? "smooth 1s ease-out" : "unset")};
+	animation: ${({ isCurrent }) => (isCurrent ? "smooth 1s ease-out" : "unset")};
 
 	@keyframes smooth {
 		0% {

@@ -39,7 +39,11 @@ export default class MyDocument extends Document {
 			<Html lang="en-us">
 				<Head>
 					<meta charSet="utf-8" />
-					<meta name="description" content="Template" />
+					<meta
+						name="description"
+						content="Techmmunity is a Tech Community, with a focus to teach people how to code, design, make sound design, do robotic engineering stuff, and do company management."
+					/>
+					<link rel="cannonical" href="https://techmmunity.github.io/" />
 				</Head>
 				<body>
 					<Main />

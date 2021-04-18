@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { Colors } from "assets/colors";
 
-export const Container = styled.main`
+export const Container = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -14,7 +14,7 @@ export const Description = styled.div`
 	padding: 3rem 2.5rem;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h2`
 	font-size: clamp(32px, 1rem + 5vw, 4rem);
 `;
 
