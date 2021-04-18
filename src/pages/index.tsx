@@ -1,5 +1,6 @@
 import { FeedbackSection } from "components/FeedbackSection";
 import { Line } from "components/Line";
+import { MadeForEveryoneSection } from "components/MadeForEveryoneSection";
 import { MadeOfSection } from "components/MadeOfSection";
 import { MainSection } from "components/MainSection";
 
@@ -10,6 +11,8 @@ const Home: React.FC = () => (
 		<MainSection />
 		<Line />
 		<MadeOfSection />
+		<Line />
+		<MadeForEveryoneSection />
 		<Line />
 		<FeedbackSection />
 		<Line />
