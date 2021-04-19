@@ -1,5 +1,3 @@
-import { BsArrowRight } from "react-icons/bs";
-
 import styled from "styled-components";
 
 import { Colors } from "assets/colors";
@@ -22,12 +20,11 @@ export const Container = styled.div<{
 		}
 	}
 
-	@media (max-width: 1100px) {
+	@media (max-width: 1020px) {
 		flex-direction: column-reverse;
 		align-items: center;
-		width: 100%;
-		max-width: 552px;
-		padding: 0 5rem;
+		max-width: 50rem;
+		padding: 0 2rem;
 	}
 `;
 
@@ -35,13 +32,15 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 50%;
 	background: ${Colors.gray}80;
 	border-radius: ${({ invertOrder }) =>
 		invertOrder ? "0 5px 5px 0" : "5px 0 0 5px"};
-	padding: 4rem 6.5rem 2rem 2.5rem;
+	padding: 3rem 6.5rem 3rem 2.5rem;
 
-	@media (max-width: 1100px) {
-		padding: 4rem 2.5rem 2rem 2.5rem;
+	@media (max-width: 1020px) {
+		width: 100%;
+		padding: 3rem 2.5rem;
 		border-radius: 0 0 5px 5px;
 	}
 `;
@@ -63,7 +62,7 @@ export const LearnMore = styled.div`
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		max-width: 12.5rem;
+		max-width: 15rem;
 		background: ${Colors.primary};
 		font-size: 1.4rem;
 		font-weight: bold;
@@ -76,27 +75,26 @@ export const LearnMore = styled.div`
 		&:active {
 			background: ${Colors.darkPrimary};
 		}
+
+		@media (max-width: 360px) {
+			max-width: unset;
+		}
 	}
 `;
 
-export const ArrowRight = styled(BsArrowRight)`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 1.4rem;
-	margin-left: 1rem;
-`;
-
 export const Image = styled.img<{ invertOrder: boolean }>`
-	width: 100%;
-	max-width: 552px;
+	width: 50%;
+	min-height: 36rem;
 	height: 100%;
-	max-height: 392px;
+	max-height: 36rem;
 	border-radius: ${({ invertOrder }) =>
 		invertOrder ? "5px 0 0 5px" : "0 5px 5px 0"};
 	filter: grayscale(40%);
+	object-fit: cover;
 
-	@media (max-width: 1100px) {
+	@media (max-width: 1020px) {
+		width: 100%;
+		min-height: unset;
 		border-radius: 5px 5px 0 0;
 	}
 `;
