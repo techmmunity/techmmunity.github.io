@@ -55,8 +55,8 @@ export const Cards: React.FC<Props> = ({ currentCard }) => (
 		<Card
 			isCurrent={currentCard === CardEnum.MANAGER}
 			invertOrder={CardEnum.MANAGER % 2 === 0}
-			title="Optimize and scale, easy to start"
-			description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+			title="Our management division"
+			description="Management encompasses several areas of any company, be it finance, human resources, entrepreneurship, and several others. We created the management division both for people who want to do a better job for the company they are employed in and for people who want to start their own."
 			url="#"
 			image="pexels-management.webp"
 			alt="management"
