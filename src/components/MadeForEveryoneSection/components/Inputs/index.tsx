@@ -64,7 +64,7 @@ export const Inputs: React.FC<Props> = memo(({ setCurrentCard }) => (
 			/>
 			<Label htmlFor="made-for-everyone-card-4">
 				<BsGearFill />
-				<Text>Robotics</Text>
+				<Text>Robotic E.</Text>
 			</Label>
 		</InputContainer>
 		<InputContainer>
