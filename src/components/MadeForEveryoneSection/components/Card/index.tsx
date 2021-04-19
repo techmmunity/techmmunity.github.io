@@ -19,10 +19,11 @@ interface Props {
 	description: string;
 	url: string;
 	image: string;
+	alt: string;
 }
 
 export const Card: React.FC<Props> = memo(
-	({ isCurrent, invertOrder, title, description, url, image }) => (
+	({ isCurrent, invertOrder, title, description, url, image, alt }) => (
 		<Container isCurrent={isCurrent} invertOrder={invertOrder}>
 			<Content invertOrder={invertOrder}>
 				<Title>{title}</Title>
@@ -35,7 +36,7 @@ export const Card: React.FC<Props> = memo(
 					</Link>
 				</LearnMore>
 			</Content>
-			<Image src={image} invertOrder={invertOrder} />
+			<Image src={image} alt={alt} invertOrder={invertOrder} />
 		</Container>
 	),
 );
