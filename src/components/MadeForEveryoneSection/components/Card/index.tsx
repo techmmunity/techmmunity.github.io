@@ -8,7 +8,6 @@ import {
 	Title,
 	Description,
 	LearnMore,
-	ArrowRight,
 	Image,
 } from "./styles";
 
@@ -17,25 +16,23 @@ interface Props {
 	invertOrder: boolean;
 	title: string;
 	description: string;
-	url: string;
 	image: string;
+	alt: string;
 }
 
 export const Card: React.FC<Props> = memo(
-	({ isCurrent, invertOrder, title, description, url, image }) => (
+	({ isCurrent, invertOrder, title, description, image, alt }) => (
 		<Container isCurrent={isCurrent} invertOrder={invertOrder}>
 			<Content invertOrder={invertOrder}>
 				<Title>{title}</Title>
 				<Description>{description}</Description>
 				<LearnMore>
-					<Link href={url}>
-						<a rel="noopener noreferrer">
-							Learn more <ArrowRight />
-						</a>
+					<Link href="#">
+						<a rel="noopener noreferrer">Learn more</a>
 					</Link>
 				</LearnMore>
 			</Content>
-			<Image src={image} invertOrder={invertOrder} />
+			<Image src={image} alt={alt} invertOrder={invertOrder} />
 		</Container>
 	),
 );
