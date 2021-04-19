@@ -28,8 +28,8 @@ export const Cards: React.FC<Props> = ({ currentCard }) => (
 		<Card
 			isCurrent={currentCard === CardEnum.GRAPHIC}
 			invertOrder={CardEnum.GRAPHIC % 2 === 0}
-			title="Optimize and scale, easy to start"
-			description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+			title="Our graphic design division"
+			description="Design is a very creative area, but it requires knowledge of some very specific concepts that are complicated to learn on your own. We created our design division especially for this so that both professionals and aspirants in the field can share their experiences and refine their skills even more."
 			url="#"
 			image="pexels-graphic.webp"
 			alt="graphic"
