@@ -37,7 +37,7 @@ export const Cards: React.FC<Props> = ({ currentCard }) => (
 		<Card
 			isCurrent={currentCard === CardEnum.SONG}
 			invertOrder={CardEnum.SONG % 2 === 0}
-			title="Our division of sound design"
+			title="Our sound design division"
 			description="When talking about sound design, the first thing that comes to mind is dubbing, however, this universe is much broader and more diverse. Sound design is necessary for almost all projects and we created this division to encourage the growth of the area."
 			url="#"
 			image="pexels-sound.webp"
