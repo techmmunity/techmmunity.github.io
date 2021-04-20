@@ -1,6 +1,6 @@
 import { Card } from "./components/Card";
 
-import { EN } from "assets/languages/en-Us";
+import { EN } from "assets/languages/en-US";
 
 import { Container, Description, Title, Subtitle, Cards } from "./styles";
 
