@@ -20,9 +20,10 @@ export const Title = styled.h1`
 	font-size: clamp(38px, 1rem + 5vw, 5.2rem);
 `;
 
-export const Subtitle = styled.p`
+export const Subtitle = styled.h2`
 	color: ${Colors.lightGray};
-	font-size: clamp(20px, 1rem + 1vw, 2rem);
+	font-size: 2rem;
+	font-weight: normal;
 	margin: 1rem 0;
 `;
 
