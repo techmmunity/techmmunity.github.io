@@ -13,7 +13,7 @@ export const Container = styled.li`
 	background: ${Colors.gray}80;
 	border-radius: 3px;
 	padding: 2.5rem;
-	margin: 1.2rem;
+	margin: 1rem;
 `;
 
 export const Content = styled.div``;

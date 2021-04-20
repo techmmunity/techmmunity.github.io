@@ -28,4 +28,8 @@ export const Cards = styled.ul`
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+
+	@media (max-width: 1100px) {
+		padding: 0 2rem;
+	}
 `;
