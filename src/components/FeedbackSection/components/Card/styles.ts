@@ -40,7 +40,10 @@ export const Line = styled.span`
 	margin: 1.5rem 0 2rem 0;
 `;
 
-export const Author = styled.span`
-	font-size: clamp(14px, 1rem + 1vw, 1.6rem);
-	font-weight: bold;
+export const Author = styled.div`
+	> a {
+		font-size: 1.6rem;
+		font-weight: bold;
+		padding: 1rem 0;
+	}
 `;
