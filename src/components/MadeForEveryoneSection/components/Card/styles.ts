@@ -22,10 +22,10 @@ export const Container = styled.div<{
 		}
 	}
 
-	@media (max-width: 1020px) {
+	@media (max-width: 1000px) {
 		flex-direction: column-reverse;
 		align-items: center;
-		max-width: 50rem;
+		max-width: 45rem;
 		padding: 0 2rem;
 	}
 `;
@@ -40,7 +40,7 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 		invertOrder ? "0 5px 5px 0" : "5px 0 0 5px"};
 	padding: 3rem 6.5rem 3rem 2.5rem;
 
-	@media (max-width: 1020px) {
+	@media (max-width: 1000px) {
 		width: 100%;
 		padding: 3rem 2.5rem;
 		border-radius: 0 0 5px 5px;
@@ -93,17 +93,19 @@ export const ArrowRight = styled(BsArrowRight)`
 
 export const Image = styled.img<{ invertOrder: boolean }>`
 	width: 50%;
-	min-height: 36rem;
-	height: 100%;
-	max-height: 36rem;
+	min-height: 39.2rem;
+	height: 39.2rem;
+	max-height: 39.2rem;
 	border-radius: ${({ invertOrder }) =>
 		invertOrder ? "5px 0 0 5px" : "0 5px 5px 0"};
 	filter: grayscale(40%);
 	object-fit: cover;
 
-	@media (max-width: 1020px) {
+	@media (max-width: 1000px) {
 		width: 100%;
 		min-height: unset;
+		height: 100%;
+		max-height: unset;
 		border-radius: 5px 5px 0 0;
 	}
 `;
