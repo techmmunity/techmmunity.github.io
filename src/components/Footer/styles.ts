@@ -20,7 +20,7 @@ export const RightsReserved = styled.div`
 
 export const Description = styled.p`
 	color: ${Colors.lightGray}80;
-	font-size: clamp(14px, 1rem + 1vw, 1.4rem);
+	font-size: 1.4rem;
 `;
 
 export const SocialNetworks = styled.ul`
