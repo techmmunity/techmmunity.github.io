@@ -1,9 +1,12 @@
 import { LayoutsEnum } from "types/enums/LayoutsEnum";
 
 import { DefaultLayout } from "./default";
+import { ErrorLayout } from "./error";
 
 const getLayout = (layout?: LayoutsEnum) => {
 	switch (layout) {
+		case "ERROR":
+			return ErrorLayout;
 		default:
 			return DefaultLayout;
 	}
