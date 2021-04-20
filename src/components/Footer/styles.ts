@@ -6,7 +6,7 @@ export const Container = styled.footer`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 2.5rem 2.5rem 4.5rem 2.5rem;
+	margin: 0 2.5rem 1rem 2.5rem;
 
 	@media (max-width: 768px) {
 		flex-direction: column;
@@ -19,7 +19,7 @@ export const RightsReserved = styled.div`
 `;
 
 export const Description = styled.p`
-	color: ${Colors.lightGray}80;
+	color: ${Colors.lightGray}ba;
 	font-size: 1.4rem;
 `;
 
@@ -38,7 +38,6 @@ export const SocialNetwork = styled.li`
 		background: ${Colors.gray};
 		color: ${Colors.primary};
 		font-size: clamp(18px, 1rem + 1vw, 1.8rem);
-		text-decoration: none;
 		border-radius: 50%;
 		padding: 0.8rem;
 		margin: 0.5rem;

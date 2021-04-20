@@ -10,6 +10,8 @@ import {
 import { GrInstagram } from "react-icons/gr";
 import { IoLogoLinkedin } from "react-icons/io";
 
+import { Line } from "components/Line";
+
 import { SocialNetworksLinks } from "config/social-networks-links";
 
 import {
@@ -20,61 +22,62 @@ import {
 	SocialNetwork,
 } from "./styles";
 
+const socialNetworks = [
+	{
+		id: 1,
+		url: SocialNetworksLinks.DISCORD,
+		Icon: FaDiscord,
+	},
+	{
+		id: 2,
+		url: SocialNetworksLinks.TWITCH,
+		Icon: FaTwitch,
+	},
+	{
+		id: 3,
+		url: SocialNetworksLinks.YOUTUBE,
+		Icon: FaYoutube,
+	},
+	{
+		id: 4,
+		url: SocialNetworksLinks.FACEBOOK,
+		Icon: FaFacebookF,
+	},
+	{
+		id: 5,
+		url: SocialNetworksLinks.TWITTER,
+		Icon: FaTwitter,
+	},
+	{
+		id: 6,
+		url: SocialNetworksLinks.LINKEDIN,
+		Icon: IoLogoLinkedin,
+	},
+	{
+		id: 7,
+		url: SocialNetworksLinks.INSTAGRAM,
+		Icon: GrInstagram,
+	},
+];
+
 export const Footer: React.FC = () => (
-	<Container>
-		<RightsReserved>
-			<Description>&copy; 2020 Techmmunity. All rights reserved.</Description>
-		</RightsReserved>
-		<SocialNetworks>
-			<SocialNetwork>
-				<Link href={SocialNetworksLinks.DISCORD}>
-					<a target="_blank" rel="noopener noreferrer">
-						<FaDiscord />
-					</a>
-				</Link>
-			</SocialNetwork>
-			<SocialNetwork>
-				<Link href={SocialNetworksLinks.TWITCH}>
-					<a target="_blank" rel="noopener noreferrer">
-						<FaTwitch />
-					</a>
-				</Link>
-			</SocialNetwork>
-			<SocialNetwork>
-				<Link href={SocialNetworksLinks.YOUTUBE}>
-					<a target="_blank" rel="noopener noreferrer">
-						<FaYoutube />
-					</a>
-				</Link>
-			</SocialNetwork>
-			<SocialNetwork>
-				<Link href={SocialNetworksLinks.FACEBOOK}>
-					<a target="_blank" rel="noopener noreferrer">
-						<FaFacebookF />
-					</a>
-				</Link>
-			</SocialNetwork>
-			<SocialNetwork>
-				<Link href={SocialNetworksLinks.TWITTER}>
-					<a target="_blank" rel="noopener noreferrer">
-						<FaTwitter />
-					</a>
-				</Link>
-			</SocialNetwork>
-			<SocialNetwork>
-				<Link href={SocialNetworksLinks.LINKEDIN}>
-					<a target="_blank" rel="noopener noreferrer">
-						<IoLogoLinkedin />
-					</a>
-				</Link>
-			</SocialNetwork>
-			<SocialNetwork>
-				<Link href={SocialNetworksLinks.INSTAGRAM}>
-					<a target="_blank" rel="noopener noreferrer">
-						<GrInstagram />
-					</a>
-				</Link>
-			</SocialNetwork>
-		</SocialNetworks>
-	</Container>
+	<>
+		<Line />
+		<Container>
+			<RightsReserved>
+				<Description>&copy; 2020 Techmmunity. All rights reserved.</Description>
+			</RightsReserved>
+			<SocialNetworks>
+				{socialNetworks.map(({ id, url, Icon }) => (
+					<SocialNetwork key={id}>
+						<Link href={url}>
+							<a target="_blank" rel="noopener noreferrer">
+								<Icon />
+							</a>
+						</Link>
+					</SocialNetwork>
+				))}
+			</SocialNetworks>
+		</Container>
+	</>
 );

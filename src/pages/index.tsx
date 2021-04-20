@@ -17,7 +17,6 @@ const Home: FCWithLayout = () => (
 		<MadeForEveryoneSection />
 		<Line />
 		<FeedbackSection />
-		<Line />
 	</Container>
 );
 
