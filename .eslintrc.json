@@ -68,6 +68,8 @@
 					"/components/",
 					"/assets/",
 					"/config/",
+					"/layouts/",
+					"/types/",
 					"/styles/",
 					["parent", "sibling", "index"]
 				],
