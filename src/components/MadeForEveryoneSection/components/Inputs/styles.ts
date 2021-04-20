@@ -35,6 +35,7 @@ export const Label = styled.label`
 	&:focus,
 	&:active {
 		color: ${Colors.almostWhite};
+		filter: opacity(100%);
 	}
 
 	${Input}:checked + & {
