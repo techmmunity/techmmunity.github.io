@@ -17,7 +17,7 @@ export const Description = styled.div`
 `;
 
 export const Title = styled.h1`
-	font-size: clamp(38px, 1rem + 5vw, 5.2rem);
+	font-size: clamp(3.8rem, 1rem + 5vw, 5.2rem);
 `;
 
 export const Subtitle = styled.h2`

@@ -36,13 +36,13 @@ export const IconContainer = styled.div`
 `;
 
 export const Title = styled.span`
-	font-size: clamp(24px, 1rem + 1vw, 2.4rem);
+	font-size: 2.4rem;
 	font-weight: bold;
 	margin: 1rem 0;
 `;
 
 export const Description = styled.p`
 	color: ${Colors.lightGray};
-	font-size: clamp(18px, 1rem + 1vw, 1.8rem);
+	font-size: 1.8rem;
 	text-align: center;
 `;

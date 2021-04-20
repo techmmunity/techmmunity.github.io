@@ -15,12 +15,12 @@ export const Description = styled.div`
 `;
 
 export const Title = styled.h2`
-	font-size: clamp(28px, 1rem + 5vw, 3.8rem);
+	font-size: clamp(3.2rem, 1rem + 5vw, 4rem);
 `;
 
 export const Subtitle = styled.h3`
 	color: ${Colors.lightGray};
-	font-size: clamp(16px, 1rem + 1vw, 2rem);
+	font-size: 2rem;
 	font-weight: normal;
 `;
 
