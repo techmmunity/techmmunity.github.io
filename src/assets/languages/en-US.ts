@@ -21,4 +21,9 @@ export const EN = {
 			author: "People 3",
 		},
 	],
+	system: {
+		metas: {
+			ogLocale: "en_US",
+		},
+	},
 };
