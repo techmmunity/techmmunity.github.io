@@ -19,7 +19,7 @@ export const RightsReserved = styled.div`
 `;
 
 export const Description = styled.p`
-	color: ${Colors.lightGray}ba;
+	color: ${Colors.gray100}ba;
 	font-size: 1.4rem;
 `;
 
@@ -35,7 +35,7 @@ export const SocialNetwork = styled.li`
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: ${Colors.gray};
+		background: ${Colors.gray500};
 		color: ${Colors.primary};
 		font-size: clamp(18px, 1rem + 1vw, 1.8rem);
 		border-radius: 50%;
@@ -47,7 +47,7 @@ export const SocialNetwork = styled.li`
 		&:focus,
 		&:active {
 			background: ${Colors.primary};
-			color: ${Colors.white};
+			color: ${Colors.white1000};
 		}
 	}
 `;

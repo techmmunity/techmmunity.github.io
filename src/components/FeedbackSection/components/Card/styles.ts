@@ -10,7 +10,7 @@ export const Container = styled.li`
 	justify-content: space-between;
 	width: 100%;
 	max-width: 34.4rem;
-	background: ${Colors.gray}80;
+	background: ${Colors.gray500}80;
 	border-radius: 3px;
 	padding: 2.5rem;
 	margin: 1rem;
@@ -26,7 +26,7 @@ export const QuoteIcon = styled(ImQuotesLeft)`
 export const Feedback = styled.p`
 	display: flex;
 	flex-direction: column;
-	color: ${Colors.lightGray};
+	color: ${Colors.gray100};
 	font-size: clamp(16px, 1rem + 1vw, 1.8rem);
 	text-indent: 1.8rem;
 	line-height: 1.5;
@@ -36,7 +36,7 @@ export const Feedback = styled.p`
 export const Line = styled.span`
 	display: block;
 	height: 1px;
-	background: ${Colors.halfLightGray}80;
+	background: ${Colors.gray200}80;
 	margin: 1.5rem 0 2rem 0;
 `;
 

@@ -23,7 +23,7 @@ export const IconContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	background: ${Colors.primary};
-	color: ${Colors.white};
+	color: ${Colors.white1000};
 	border-radius: 50%;
 	padding: 1.5rem;
 
@@ -42,7 +42,7 @@ export const Title = styled.span`
 `;
 
 export const Description = styled.p`
-	color: ${Colors.lightGray};
+	color: ${Colors.gray100};
 	font-size: 1.8rem;
 	text-align: center;
 `;

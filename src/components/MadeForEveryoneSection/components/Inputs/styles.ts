@@ -22,8 +22,8 @@ export const Label = styled.label`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: ${Colors.gray}80;
-	color: ${Colors.lightGray};
+	background: ${Colors.gray500}80;
+	color: ${Colors.gray100};
 	border-radius: 50px;
 	padding: 1rem 1.25rem;
 	margin: 0.5rem;
@@ -34,7 +34,7 @@ export const Label = styled.label`
 	&:hover,
 	&:focus,
 	&:active {
-		color: ${Colors.almostWhite};
+		color: ${Colors.gray50};
 		filter: opacity(100%);
 	}
 

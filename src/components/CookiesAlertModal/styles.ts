@@ -34,7 +34,7 @@ export const Description = styled.p`
 
 export const ConfirmationButton = styled.button`
 	background: ${Colors.primary};
-	color: ${Colors.white};
+	color: ${Colors.white1000};
 	border-radius: 3px;
 	font-weight: bold;
 	padding: 1rem 1.5rem;

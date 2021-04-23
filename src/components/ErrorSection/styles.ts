@@ -16,7 +16,7 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-	color: ${Colors.lightGray};
+	color: ${Colors.gray100};
 	font-size: 2rem;
 	margin: 1rem 0;
 `;
@@ -27,7 +27,7 @@ export const RedirectToHomeButton = styled.div`
 		align-items: center;
 		justify-content: center;
 		background: ${Colors.primary};
-		color: ${Colors.white};
+		color: ${Colors.white1000};
 		font-weight: 500;
 		border-radius: 3px;
 		padding: 1.25rem 1.5rem;
