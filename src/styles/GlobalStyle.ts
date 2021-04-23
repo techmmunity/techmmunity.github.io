@@ -29,6 +29,14 @@ export default createGlobalStyle`
 		text-decoration: none;
 	}
 
+	button {
+		border: transparent;
+
+		&:not(:disabled) {
+			cursor: pointer;
+		}
+	}
+
 	ul {
 		list-style: none;
 	}
