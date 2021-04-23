@@ -26,4 +26,9 @@ export const EN = {
 			ogLocale: "en_US",
 		},
 	},
+	cookiesMessage: {
+		alert:
+			"This website uses cookies to ensure you get the best experience on our website.",
+		confirmation: "Got It!",
+	},
 };
