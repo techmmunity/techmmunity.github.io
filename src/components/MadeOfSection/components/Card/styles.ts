@@ -23,7 +23,7 @@ export const IconContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	background: ${Colors.primary};
-	color: ${Colors.white};
+	color: ${Colors.white1000};
 	border-radius: 50%;
 	padding: 1.5rem;
 

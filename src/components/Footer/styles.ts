@@ -47,7 +47,7 @@ export const SocialNetwork = styled.li`
 		&:focus,
 		&:active {
 			background: ${Colors.primary};
-			color: ${Colors.white};
+			color: ${Colors.white1000};
 		}
 	}
 `;

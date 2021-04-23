@@ -39,7 +39,7 @@ const LinkCSS = css`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: ${Colors.white};
+	color: ${Colors.white1000};
 	font-weight: 500;
 	text-align: center;
 	text-decoration: none;
