@@ -35,7 +35,7 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 	flex-direction: column;
 	justify-content: center;
 	width: 50%;
-	background: ${Colors.gray}80;
+	background: ${Colors.gray500}80;
 	border-radius: ${({ invertOrder }) =>
 		invertOrder ? "0 5px 5px 0" : "5px 0 0 5px"};
 	padding: 3rem 6.5rem 3rem 2.5rem;
@@ -52,7 +52,7 @@ export const Title = styled.h4`
 `;
 
 export const Description = styled.p`
-	color: ${Colors.lightGray};
+	color: ${Colors.gray100};
 	font-size: 1.8rem;
 	line-height: 1.5;
 	margin: 1rem 0 2.5rem 0;

@@ -42,7 +42,7 @@ export const Title = styled.span`
 `;
 
 export const Description = styled.p`
-	color: ${Colors.lightGray};
+	color: ${Colors.gray100};
 	font-size: 1.8rem;
 	text-align: center;
 `;

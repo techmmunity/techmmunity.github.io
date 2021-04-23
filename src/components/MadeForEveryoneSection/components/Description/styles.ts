@@ -12,7 +12,7 @@ export const Title = styled.h2`
 `;
 
 export const Subtitle = styled.h3`
-	color: ${Colors.lightGray};
+	color: ${Colors.gray100};
 	font-size: 2rem;
 	font-weight: normal;
 	margin: 1rem 0;

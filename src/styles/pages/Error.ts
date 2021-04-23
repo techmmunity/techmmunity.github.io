@@ -23,7 +23,7 @@ export const Container = styled.main`
 		align-items: center;
 		justify-content: center;
 		content: "404";
-		color: ${Colors.gray};
+		color: ${Colors.gray500};
 		font-size: clamp(1.6rem, 1rem + 50vw, 50rem);
 		font-weight: bold;
 		z-index: -1;

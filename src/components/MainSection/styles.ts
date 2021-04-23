@@ -21,7 +21,7 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.h2`
-	color: ${Colors.lightGray};
+	color: ${Colors.gray100};
 	font-size: 2rem;
 	font-weight: normal;
 	margin: 1rem 0;
@@ -65,12 +65,12 @@ export const Community = styled.div`
 export const AboutUs = styled.div`
 	> a {
 		${LinkCSS}
-		background: ${Colors.gray};
+		background: ${Colors.gray500};
 
 		&:hover,
 		&:focus,
 		&:active {
-			background: ${Colors.darkGray};
+			background: ${Colors.gray800};
 		}
 
 		@media (max-width: 768px) {

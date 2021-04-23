@@ -11,6 +11,6 @@ export const Container = styled.div`
 export const Content = styled.span`
 	width: 100%;
 	height: 1px;
-	background: ${Colors.halfLightGray}80;
+	background: ${Colors.gray200}80;
 	margin: 2rem;
 `;
