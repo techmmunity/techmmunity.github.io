@@ -35,6 +35,7 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 	flex-direction: column;
 	justify-content: center;
 	width: 50%;
+	max-height: 39.2rem;
 	background: ${Colors.gray500}80;
 	border-radius: ${({ invertOrder }) =>
 		invertOrder ? "0 5px 5px 0" : "5px 0 0 5px"};
@@ -42,6 +43,7 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 
 	@media (max-width: 1000px) {
 		width: 100%;
+		max-height: unset;
 		padding: 3rem 2.5rem;
 		border-radius: 0 0 5px 5px;
 	}
@@ -54,7 +56,7 @@ export const Title = styled.h4`
 export const Description = styled.p`
 	color: ${Colors.gray100};
 	font-size: 1.8rem;
-	line-height: 1.5;
+	line-height: 2.8rem;
 	margin: 1rem 0 2.5rem 0;
 `;
 
