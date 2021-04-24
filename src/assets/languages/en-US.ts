@@ -21,6 +21,25 @@ export const EN = {
 			author: "People 3",
 		},
 	],
+	madeForEveryoneSection: {
+		inputs: {
+			dev: {
+				textLabel: "Programming",
+			},
+			graphic: {
+				textLabel: "Graphic Design",
+			},
+			song: {
+				textLabel: "Sound Design",
+			},
+			robotic: {
+				textLabel: "Robotic E.",
+			},
+			manager: {
+				textLabel: "Management",
+			},
+		},
+	},
 	system: {
 		metas: {
 			ogLocale: "en_US",
