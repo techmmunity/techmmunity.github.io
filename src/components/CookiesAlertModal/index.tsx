@@ -20,9 +20,9 @@ export const CookiesAlertModal: React.FC = () => {
 
 	return (
 		<Container isCookiesAccepted={isCookiesAccepted}>
-			<Description>{EN.cookiesMessage.alert}</Description>
+			<Description>{EN.cookiesAlertModal.alert}</Description>
 			<ConfirmationButton onClick={handleConfirmationCookies}>
-				{EN.cookiesMessage.confirmation}
+				{EN.cookiesAlertModal.confirmation}
 			</ConfirmationButton>
 		</Container>
 	);
