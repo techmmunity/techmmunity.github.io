@@ -45,5 +45,11 @@ export const Author = styled.div`
 		font-size: 1.6rem;
 		font-weight: bold;
 		padding: 1rem 0;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: underline;
+		}
 	}
 `;
