@@ -15,6 +15,23 @@ export const EN = {
 		},
 	},
 	madeForEveryoneSection: {
+    inputs: {
+      dev: {
+        textLabel: "Programming",
+      },
+      graphic: {
+        textLabel: "Graphic Design",
+      },
+      song: {
+        textLabel: "Sound Design",
+      },
+      robotic: {
+        textLabel: "Robotic E.",
+      },
+      manager: {
+        textLabel: "Management",
+      },
+    },
 		cards: {
 			dev: {
 				title: "Our programming division",
