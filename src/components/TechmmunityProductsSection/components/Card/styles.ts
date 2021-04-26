@@ -46,9 +46,18 @@ export const DescriptionContainer = styled.div`
 	padding: 0 2rem;
 `;
 
-export const Title = styled.h4`
-	font-size: 2.4rem;
-	margin-bottom: 1rem;
+export const Title = styled.div`
+	> a {
+		font-size: 2.4rem;
+		font-weight: bold;
+		margin-bottom: 2rem;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: underline;
+		}
+	}
 `;
 
 export const Description = styled.p`

@@ -29,7 +29,13 @@ export const Card: React.FC<Props> = ({ url, Icon, title, description }) => (
 				</Link>
 			</IconContainer>
 			<DescriptionContainer>
-				<Title>{title}</Title>
+				<Title>
+					<Link href={url}>
+						<a target="_blank" rel="noopener noreferrer">
+							{title}
+						</a>
+					</Link>
+				</Title>
 				<Description>{description}</Description>
 			</DescriptionContainer>
 		</Content>
