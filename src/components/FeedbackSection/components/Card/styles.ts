@@ -27,9 +27,9 @@ export const Feedback = styled.p`
 	display: flex;
 	flex-direction: column;
 	color: ${Colors.gray100};
-	font-size: clamp(16px, 1rem + 1vw, 1.8rem);
+	font-size: 1.8rem;
 	text-indent: 1.8rem;
-	line-height: 1.5;
+	line-height: 2.8rem;
 	margin: 1.5rem 0;
 `;
 
