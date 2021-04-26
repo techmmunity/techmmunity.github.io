@@ -24,7 +24,7 @@ export const Container = styled.div<{ isCookiesAccepted: boolean }>`
 export const Description = styled.p`
 	width: 75%;
 	font-size: 1.5rem;
-	line-height: 2.2rem;
+	line-height: 2.8rem;
 
 	@media (max-width: 380px) {
 		width: 100%;
