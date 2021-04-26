@@ -1,4 +1,14 @@
 export const EN = {
+	system: {
+		metas: {
+			ogLocale: "en_US",
+		},
+	},
+	cookiesAlertModal: {
+		alert:
+			"This website uses cookies to ensure you get the best experience on our website.",
+		confirmation: "Got It!",
+	},
 	feedbackSection: {
 		feedbacks: {
 			alessandroRamos: {
@@ -11,6 +21,25 @@ export const EN = {
 			plactronic: {
 				feedback:
 					"If you are looking for a community to learn, be it an exercise of a Bootcamp, college, work or want to understand why your code is returning a NaN or NullPointerException, it arrived on the right server. Always growing and with programmers working in the field for more than 5, 10 years and / or studying at an advanced level the languages they use, Techmmunity is your 127.0.0.1 to increase your networking and progress at the same time.",
+			},
+		},
+	},
+	madeOfSection: {
+		cards: {
+			technology: {
+				title: "Technology",
+				description:
+					"We talk about every technology sector, like programming, graphic design, sound design, robotics, entrepreneurship, human resources, and and many other topics.",
+			},
+			community: {
+				title: "Community",
+				description:
+					"We are friendly and without prejudice, we help everyone, regardless of the question! After all, we've all been beginners once, right?",
+			},
+			diversity: {
+				title: "Diversity",
+				description:
+					"Our community is made up of all types of people, who provide a different point of view on a problem, always leading us to different discussions and new learnings.",
 			},
 		},
 	},
@@ -60,33 +89,28 @@ export const EN = {
 			},
 		},
 	},
-	madeOfSection: {
-		cards: {
-			technology: {
-				title: "Technology",
-				description:
-					"We talk about every technology sector, like programming, graphic design, sound design, robotics, entrepreneurship, human resources, and and many other topics.",
-			},
-			community: {
-				title: "Community",
-				description:
-					"We are friendly and without prejudice, we help everyone, regardless of the question! After all, we've all been beginners once, right?",
-			},
-			diversity: {
-				title: "Diversity",
-				description:
-					"Our community is made up of all types of people, who provide a different point of view on a problem, always leading us to different discussions and new learnings.",
-			},
+	techmmunityProductsSection: {
+		description: {
+			title: "Our ways to change the world",
+			subtitle:
+				"We have more than one way to help the people, and all of us are very proud of them! Give a look, maybe one of them is exactly what you are looking for right now.",
 		},
-	},
-	cookiesAlertModal: {
-		alert:
-			"This website uses cookies to ensure you get the best experience on our website.",
-		confirmation: "Got It!",
-	},
-	system: {
-		metas: {
-			ogLocale: "en_US",
+		cards: {
+			discord: {
+				title: "Discord Community",
+				description:
+					"Here we do some networking and help each other with our daily problems. If you have a question, this is the right place to get the answer.",
+			},
+			youtube: {
+				title: "Youtube Channel",
+				description:
+					"Videos about the most varied things, useful to facilitate the explanation of a specific topic.",
+			},
+			twitch: {
+				title: "Twitch Channel",
+				description:
+					"Live streams to teach things by having closer and direct contact with people, thus being able to answer doubts on the spot, giving more detailed explanations.",
+			},
 		},
 	},
 };
