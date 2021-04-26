@@ -8,7 +8,7 @@ import { Container } from "./styles";
 
 const DEFAULT_CHECKED_CARD_ID = 1;
 
-export const MadeForEveryoneSection: React.FC = () => {
+export const TechmmunityDivisionsSection: React.FC = () => {
 	const [currentCard, setCurrentCard] = useState(DEFAULT_CHECKED_CARD_ID);
 
 	return (

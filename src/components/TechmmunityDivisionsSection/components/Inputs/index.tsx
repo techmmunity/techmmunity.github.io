@@ -13,47 +13,47 @@ interface Props {
 	setCurrentCard: Dispatch<SetStateAction<number>>;
 }
 
-const madeForEveryoneInputs = [
+const techmmunityDivisionsInput = [
 	{
 		id: 1,
 		Icon: BiCodeAlt,
-		textLabel: EN.madeForEveryoneSection.inputs.dev.textLabel,
+		textLabel: EN.techmmunityDivisionsSection.inputs.dev.textLabel,
 	},
 	{
 		id: 2,
 		Icon: FaPencilAlt,
-		textLabel: EN.madeForEveryoneSection.inputs.graphic.textLabel,
+		textLabel: EN.techmmunityDivisionsSection.inputs.graphic.textLabel,
 	},
 	{
 		id: 3,
 		Icon: RiVolumeUpFill,
-		textLabel: EN.madeForEveryoneSection.inputs.song.textLabel,
+		textLabel: EN.techmmunityDivisionsSection.inputs.song.textLabel,
 	},
 	{
 		id: 4,
 		Icon: BsGearFill,
-		textLabel: EN.madeForEveryoneSection.inputs.robotic.textLabel,
+		textLabel: EN.techmmunityDivisionsSection.inputs.robotic.textLabel,
 	},
 	{
 		id: 5,
 		Icon: RiSuitcaseFill,
-		textLabel: EN.madeForEveryoneSection.inputs.manager.textLabel,
+		textLabel: EN.techmmunityDivisionsSection.inputs.manager.textLabel,
 	},
 ];
 
 export const Inputs: React.FC<Props> = memo(
 	({ defaultCheckedCardId, setCurrentCard }) => (
 		<Container>
-			{madeForEveryoneInputs.map(({ id, Icon, textLabel }) => (
+			{techmmunityDivisionsInput.map(({ id, Icon, textLabel }) => (
 				<InputContainer key={id}>
 					<Input
 						type="radio"
-						id={`made-for-everyone-card-${id}`}
-						name="made-for-everyone"
+						id={`techmmunity-divisions-card-${id}`}
+						name="techmmunity-divisions-card"
 						defaultChecked={id === defaultCheckedCardId}
 						onClick={() => setCurrentCard(id)}
 					/>
-					<Label htmlFor={`made-for-everyone-card-${id}`}>
+					<Label htmlFor={`techmmunity-divisions-card-${id}`}>
 						<Icon />
 						<Text>{textLabel}</Text>
 					</Label>
