@@ -1,8 +1,8 @@
 import { FeedbackSection } from "components/FeedbackSection";
 import { Line } from "components/Line";
-import { MadeForEveryoneSection } from "components/MadeForEveryoneSection";
 import { MadeOfSection } from "components/MadeOfSection";
 import { MainSection } from "components/MainSection";
+import { TechmmunityDivisionsSection } from "components/TechmmunityDivisionsSection";
 
 import { FCWithLayout } from "types/interfaces/FCWithLayout";
 
@@ -14,7 +14,7 @@ const Home: FCWithLayout = () => (
 		<Line />
 		<MadeOfSection />
 		<Line />
-		<MadeForEveryoneSection />
+		<TechmmunityDivisionsSection />
 		<Line />
 		<FeedbackSection />
 	</Container>
