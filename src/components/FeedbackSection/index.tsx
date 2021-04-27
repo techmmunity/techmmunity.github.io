@@ -29,7 +29,7 @@ export const FeedbackSection: React.FC = () => (
 	<Container>
 		<Description>
 			<Title>Don&apos;t take our word for it</Title>
-			<Subtitle>See what our members have to talk about us.</Subtitle>
+			<Subtitle>See what our members have to say about us.</Subtitle>
 		</Description>
 		<Cards>
 			{feedbacksCards.map(({ id, ...props }) => (

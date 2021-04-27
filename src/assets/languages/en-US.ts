@@ -12,7 +12,7 @@ export const EN = {
 	feedbackSection: {
 		feedbacks: {
 			alessandroRamos: {
-				feedback: `The community is very welcoming, I was always afraid to ask questions in other communities for fear of being "too stupid questions", but at Techmmunity, people understand that nobody is born knowing, answer even the stupid questions without making fun of whoever is asking. It's cool to be able to ask questions without fear.`,
+				feedback: `The community is very welcoming, I was always afraid to ask questions in others communities for fear of being "too stupid questions", but at Techmmunity, people understand that nobody is born knowing, answer even the stupid questions without making fun of whoever is asking. It's cool to be able to ask questions without fear.`,
 			},
 			diegoPinheiro: {
 				feedback:
@@ -29,7 +29,7 @@ export const EN = {
 			technology: {
 				title: "Technology",
 				description:
-					"We talk about every technology sector, like programming, graphic design, sound design, robotics, entrepreneurship, human resources, and and many other topics.",
+					"We talk about every technology sector, like programming, graphic design, sound design, robotics, entrepreneurship, human resources, and many other topics.",
 			},
 			community: {
 				title: "Community",
@@ -39,7 +39,7 @@ export const EN = {
 			diversity: {
 				title: "Diversity",
 				description:
-					"Our community is made up of all types of people, who provide a different point of view on a problem, always leading us to different discussions and new learnings.",
+					"Our community is made up of all types of people, who provide a different point of view in a problem, always leading us to different discussions and new learning.",
 			},
 		},
 	},
@@ -93,7 +93,7 @@ export const EN = {
 		description: {
 			title: "Our ways to change the world",
 			subtitle:
-				"We have more than one way to help the people, and all of us are very proud of them! Give a look, maybe one of them is exactly what you are looking for right now.",
+				"We have more than one way to help people, and all of us are very proud of them! Give a look, maybe one of them is exactly what you are looking for right now.",
 		},
 		cards: {
 			discord: {
