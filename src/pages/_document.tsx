@@ -42,7 +42,7 @@ export default class MyDocument extends Document {
 				<Head>
 					<meta
 						name="description"
-						content="Techmmunity is a Tech Community, with a focus to teach people how to code, design, make sound design, do robotic engineering stuff, and do company management."
+						content="Techmmunity is a Tech Community, with focus to teach people how to code, design, make sound design, do robotic engineering stuff, and do company management."
 					/>
 					<meta name="og:site_name" content="Techmmunity" />
 					<meta name="og:url" content="https://techmmunity.github.io/" />
