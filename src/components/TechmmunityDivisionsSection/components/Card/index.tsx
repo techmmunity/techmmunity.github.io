@@ -1,6 +1,6 @@
-import Link from "next/link";
-
 import { memo } from "react";
+
+import { LinkWithLanguage } from "components/LinkWithLanguage";
 
 import {
 	Container,
@@ -29,11 +29,9 @@ export const Card: React.FC<Props> = memo(
 				<Title>{title}</Title>
 				<Description>{description}</Description>
 				<LearnMore>
-					<Link href={url}>
-						<a rel="noopener noreferrer">
-							Learn more <ArrowRight />
-						</a>
-					</Link>
+					<LinkWithLanguage href={url}>
+						Learn more <ArrowRight />
+					</LinkWithLanguage>
 				</LearnMore>
 			</Content>
 			<Image src={image} alt={alt} invertOrder={invertOrder} />

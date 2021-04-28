@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { Link } from "components/Link";
+import { LinkWithLanguage } from "components/LinkWithLanguage";
 
 import { SocialNetworksLinks } from "config/social-networks-links";
 
@@ -22,15 +23,13 @@ export const MainSection: React.FC = () => (
 		</Description>
 		<Links>
 			<AboutUs>
-				<Link href="#about-us">
-					<a rel="noopener noreferrer">Learn more about us</a>
-				</Link>
+				<LinkWithLanguage href="#about-us">
+					Learn more about us
+				</LinkWithLanguage>
 			</AboutUs>
 			<Community>
-				<Link href={SocialNetworksLinks.DISCORD}>
-					<a target="_blank" rel="noopener noreferrer">
-						Join our community
-					</a>
+				<Link href={SocialNetworksLinks.DISCORD} blank>
+					Join our community
 				</Link>
 			</Community>
 		</Links>

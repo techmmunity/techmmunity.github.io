@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "components/Link";
 
 import {
 	Container,
@@ -24,10 +24,8 @@ export const Card: React.FC<Props> = ({ feedback, url, author }) => (
 		<Content>
 			<Line />
 			<Author>
-				<Link href={url}>
-					<a target="_blank" rel="noopener noreferrer">
-						{author}
-					</a>
+				<Link href={url} blank>
+					{author}
 				</Link>
 			</Author>
 		</Content>
