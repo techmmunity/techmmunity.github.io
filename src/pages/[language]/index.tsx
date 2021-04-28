@@ -1,3 +1,4 @@
+import { i18n } from "../../../next-i18next.config";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
@@ -29,10 +30,10 @@ const Home: FCWithLayout = () => (
 export default Home;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-	const languages = ["en-US", "pt-BR"];
+	const languages = i18n.locales;
 
 	return {
-		paths: languages.map(lang => ({
+		paths: languages.map((lang: string) => ({
 			params: {
 				language: lang,
 			},
@@ -42,7 +43,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-	const language = (params?.lang as string) || "en-US";
+	const defaultLanguage = i18n.defaultLocale;
+	const language = (params?.lang || defaultLanguage) as string;
 
 	return {
 		props: {
