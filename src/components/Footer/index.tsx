@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import {
 	FaDiscord,
 	FaTwitch,
@@ -11,6 +9,7 @@ import { GrInstagram } from "react-icons/gr";
 import { IoLogoLinkedin } from "react-icons/io";
 
 import { Line } from "components/Line";
+import { Link } from "components/Link";
 
 import { SocialNetworksLinks } from "config/social-networks-links";
 
@@ -70,10 +69,8 @@ export const Footer: React.FC = () => (
 			<SocialNetworks>
 				{socialNetworks.map(({ id, url, Icon }) => (
 					<SocialNetwork key={id}>
-						<Link href={url}>
-							<a target="_blank" rel="noopener noreferrer">
-								<Icon />
-							</a>
+						<Link href={url} blank>
+							<Icon />
 						</Link>
 					</SocialNetwork>
 				))}

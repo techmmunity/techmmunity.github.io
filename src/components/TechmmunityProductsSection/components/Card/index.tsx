@@ -1,6 +1,6 @@
-import Link from "next/link";
-
 import { IconType } from "react-icons";
+
+import { Link } from "components/Link";
 
 import {
 	Container,
@@ -22,18 +22,14 @@ export const Card: React.FC<Props> = ({ url, Icon, title, description }) => (
 	<Container>
 		<Content>
 			<IconContainer>
-				<Link href={url}>
-					<a target="_blank" rel="noopener noreferrer">
-						<Icon />
-					</a>
+				<Link href={url} blank>
+					<Icon />
 				</Link>
 			</IconContainer>
 			<DescriptionContainer>
 				<Title>
-					<Link href={url}>
-						<a target="_blank" rel="noopener noreferrer">
-							{title}
-						</a>
+					<Link href={url} blank>
+						{title}
 					</Link>
 				</Title>
 				<Description>{description}</Description>
