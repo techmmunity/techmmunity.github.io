@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { Colors } from "assets/colors";
 
-export const Container = styled.div`
+export const Container = styled.header`
 	text-align: center;
 	padding: 3rem 2.5rem;
 `;
