@@ -9,7 +9,7 @@ export const Container = styled.section`
 	justify-content: center;
 `;
 
-export const Description = styled.div`
+export const Description = styled.header`
 	text-align: center;
 	padding: 3rem 2.5rem;
 `;
