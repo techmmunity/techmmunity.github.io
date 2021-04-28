@@ -1,8 +1,8 @@
 module.exports = {
+	assetPrefix: "/",
 	future: {
 		webpack5: true,
 	},
-	assetPrefix: "/",
 	webpack: config => {
 		config.module.rules.push({
 			test: /\.svg$/,

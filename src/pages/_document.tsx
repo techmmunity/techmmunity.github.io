@@ -8,7 +8,25 @@ import Document, {
 
 import { ServerStyleSheet } from "styled-components";
 
-import { EN } from "assets/languages/en-US";
+const getLocale = (url?: string) => {
+	switch (true) {
+		case url?.startsWith("/pt-"):
+			return "pt-BR";
+		case url?.startsWith("/en-"):
+		default:
+			return "en-US";
+	}
+};
+
+const getHtmlLang = (locale: string) => {
+	switch (locale) {
+		case "pt-BR":
+			return "pt";
+		case "en-US":
+		default:
+			return "en";
+	}
+};
 
 export default class MyDocument extends Document {
 	static async getInitialProps(ctx: DocumentContext) {
@@ -22,8 +40,12 @@ export default class MyDocument extends Document {
 				});
 
 			const initialProps = await Document.getInitialProps(ctx);
+
+			const locale = getLocale(ctx.req?.url as string);
+
 			return {
 				...initialProps,
+				locale,
 				styles: (
 					<>
 						{initialProps.styles}
@@ -37,8 +59,12 @@ export default class MyDocument extends Document {
 	}
 
 	render() {
+		const { locale } = this.props;
+
+		const htmlLang = getHtmlLang(locale as string);
+
 		return (
-			<Html lang="en-us">
+			<Html lang={htmlLang}>
 				<Head>
 					<meta
 						name="description"
@@ -46,7 +72,7 @@ export default class MyDocument extends Document {
 					/>
 					<meta name="og:site_name" content="Techmmunity" />
 					<meta name="og:url" content="https://techmmunity.github.io/" />
-					<meta name="og:locale" content={EN.system.metas.ogLocale} />
+					<meta name="og:locale" content={htmlLang} />
 					<link rel="cannonical" href="https://techmmunity.github.io/" />
 				</Head>
 				<body>

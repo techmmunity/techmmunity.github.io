@@ -9,6 +9,7 @@
 		"builtins",
 		"camelcase",
 		"cannonical",
+		"fallbacklang",
 		"fauxels",
 		"grayscale",
 		"nestjs",

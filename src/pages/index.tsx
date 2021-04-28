@@ -1,26 +1,26 @@
-import { FeedbackSection } from "components/FeedbackSection";
-import { Line } from "components/Line";
-import { MadeOfSection } from "components/MadeOfSection";
-import { MainSection } from "components/MainSection";
-import { TechmmunityDivisionsSection } from "components/TechmmunityDivisionsSection";
-import { TechmmunityProductsSection } from "components/TechmmunityProductsSection";
+import { useEffect } from "react";
 
+import { LayoutsEnum } from "types/enums/LayoutsEnum";
 import { FCWithLayout } from "types/interfaces/FCWithLayout";
 
-import { Container } from "styles/pages/Home";
+const Home: FCWithLayout = () => {
+	useEffect(() => {
+		const language = window.navigator.language;
 
-const Home: FCWithLayout = () => (
-	<Container>
-		<MainSection />
-		<Line />
-		<MadeOfSection />
-		<Line />
-		<TechmmunityDivisionsSection />
-		<Line />
-		<TechmmunityProductsSection />
-		<Line />
-		<FeedbackSection />
-	</Container>
-);
+		switch (true) {
+			case language.startsWith("pt-"):
+				window.location.href = "/pt-BR";
+				return;
+			case language.startsWith("en-"):
+			default:
+				window.location.href = "/en-US";
+				return;
+		}
+	}, []);
+
+	return <></>;
+};
+
+Home.layout = LayoutsEnum.NONE;
 
 export default Home;
