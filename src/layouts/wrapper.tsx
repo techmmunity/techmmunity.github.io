@@ -3,10 +3,13 @@ import { LayoutsEnum } from "types/enums/LayoutsEnum";
 import { DefaultLayout } from "./default";
 import { ErrorLayout } from "./error";
 
-const getLayout = (layout?: LayoutsEnum) => {
+const getLayout = (layout?: LayoutsEnum): React.FC => {
 	switch (layout) {
-		case "ERROR":
+		case LayoutsEnum.ERROR:
 			return ErrorLayout;
+		case LayoutsEnum.NONE:
+			return ({ children }) => <>{children}</>;
+		case LayoutsEnum.DEFAULT:
 		default:
 			return DefaultLayout;
 	}

@@ -29,14 +29,14 @@ const Home: FCWithLayout = () => (
 export default Home;
 
 export const getStaticPaths: GetStaticPaths = async () => {
+	const languages = ["en-US", "pt-BR"];
+
 	return {
-		paths: [
-			{
-				params: {
-					language: "en-US",
-				},
+		paths: languages.map(lang => ({
+			params: {
+				language: lang,
 			},
-		],
+		})),
 		fallback: false,
 	};
 };

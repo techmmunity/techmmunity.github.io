@@ -1,4 +1,5 @@
 export enum LayoutsEnum {
-	"DEFAULT" = "DEFAULT",
-	"ERROR" = "ERROR",
+	DEFAULT = "DEFAULT",
+	ERROR = "ERROR",
+	NONE = "NONE",
 }
