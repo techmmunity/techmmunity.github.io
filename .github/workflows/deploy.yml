@@ -2,10 +2,11 @@ name: Deploy To GitHub Pages
 
 on:
   push:
-    branches: [master]
+    branches:
+      - master
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     strategy:
