@@ -7,7 +7,7 @@ export const Container = styled.footer`
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 3rem;
-	margin: 0 auto 6rem auto;
+	margin-bottom: 6rem;
 
 	@media (max-width: 810px) {
 		flex-direction: column;
@@ -51,7 +51,7 @@ export const SocialNetwork = styled.li`
 		justify-content: center;
 		background: ${Colors.gray500};
 		color: ${Colors.primary};
-		font-size: clamp(22px, 1.6rem + 1.1vw, 2.6rem);
+		font-size: 2.6rem;
 		border-radius: 50%;
 		padding: 1rem;
 		transition: background-color 0.2s ease-out, color 0.2s ease-out;
