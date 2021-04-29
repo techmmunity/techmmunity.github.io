@@ -15,8 +15,8 @@ import { SocialNetworksLinks } from "config/social-networks-links";
 
 import {
 	Container,
-	RightsReserved,
-	Description,
+	CopyrightContainer,
+	Copyright,
 	SocialNetworks,
 	SocialNetwork,
 } from "./styles";
@@ -63,9 +63,9 @@ export const Footer: React.FC = () => (
 	<>
 		<Line />
 		<Container>
-			<RightsReserved>
-				<Description>&copy; 2020 Techmmunity. All rights reserved.</Description>
-			</RightsReserved>
+			<CopyrightContainer>
+				<Copyright>&copy; 2020 Techmmunity. All rights reserved.</Copyright>
+			</CopyrightContainer>
 			<SocialNetworks>
 				{socialNetworks.map(({ id, url, Icon }) => (
 					<SocialNetwork key={id}>

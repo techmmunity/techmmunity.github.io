@@ -6,41 +6,54 @@ export const Container = styled.footer`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0 2.5rem 6rem 2.5rem;
+	padding: 0 3rem;
+	margin: 0 auto 6rem auto;
 
-	@media (max-width: 768px) {
+	@media (max-width: 810px) {
 		flex-direction: column;
 	}
 `;
 
-export const RightsReserved = styled.div`
+export const CopyrightContainer = styled.div`
 	text-align: center;
 	margin: 1rem 0;
 `;
 
-export const Description = styled.p`
+export const Copyright = styled.p`
 	color: ${Colors.gray100}ba;
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 `;
 
 export const SocialNetworks = styled.ul`
-	display: flex;
+	display: grid;
+	grid-template: 1fr / repeat(7, 1fr);
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
+	gap: 1.2rem;
+
+	@media (max-width: 360px) {
+		grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+	}
 `;
 
 export const SocialNetwork = styled.li`
+	&:last-child {
+		@media (max-width: 360px) {
+			justify-self: center;
+			grid-column: 1 / 4;
+			grid-row: 3 / 4;
+		}
+	}
+
 	> a {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background: ${Colors.gray500};
 		color: ${Colors.primary};
-		font-size: clamp(18px, 1rem + 1vw, 1.8rem);
+		font-size: clamp(22px, 1.6rem + 1.1vw, 2.6rem);
 		border-radius: 50%;
-		padding: 0.8rem;
-		margin: 0.5rem;
+		padding: 1rem;
 		transition: background-color 0.2s ease-out, color 0.2s ease-out;
 
 		&:hover,
