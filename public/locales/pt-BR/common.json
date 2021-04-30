@@ -13,8 +13,8 @@
 			"subtitle": "Aqui nós compartilhamos conhecimento, gratuito e acessível."
 		},
 		"links": {
-			"aboutUsLinkText": "Saiba mais sobre nós",
-			"communityLinkText": "Faça parte da comunidade"
+			"aboutUsText": "Saiba mais sobre nós",
+			"communityText": "Faça parte da comunidade"
 		}
 	},
 	"feedbackSection": {
@@ -23,15 +23,9 @@
 			"subtitle": "Veja o que nossos membros tem a dizer sobre nós."
 		},
 		"feedbacks": {
-			"alessandroRamos": {
-				"feedback": "A comunidade é muito acolhedora, eu sempre tive medo de fazer perguntas em outras comunidades, porque achava que elas eram \"perguntas estúpidas demais\", mas na Techmmunity, as pessoas entendem que ninguém nasce sabendo, respondem até mesmo as perguntas mais estupidas sem ridicularizar a pessoa que pergunta. É muito bom poder fazer perguntas sem medo."
-			},
-			"diegoPinheiro": {
-				"feedback": "Já estive em diversas comunidades de tecnologia para buscar interação no intuito de dividir experiências, mas nenhuma delas satisfez minhas expectativas como a Techmmunity. Organizada e com um senso visionário, a Techmmunity busca integrar pessoas de diferentes áreas com a finalidade de produzir conhecimento e agregar valor na forma de projetos, possibilitando assim uma melhor qualificação para obter uma posição sólida no mercado de trabalho."
-			},
-			"plactronic": {
-				"feedback": "Se você está procurando uma comunidade para aprender mesmo, seja um exercício de um Bootcamp, da faculdade, do trabalho ou quer entender porque o seu código está retornando um NaN ou NullPointerException, chegou no servidor certo. Sempre em crescimento e com programadores que trabalham na área há mais de 5, 10 anos e/ou estudam em um level avançado as linguagens que utilizam, a Techmmunity é a sua 127.0.0.1 para aumentar o seu networking e progredir ao mesmo tempo."
-			}
+			"alessandroRamos": "A comunidade é muito acolhedora, eu sempre tive medo de fazer perguntas em outras comunidades, porque achava que elas eram \"perguntas estúpidas demais\", mas na Techmmunity, as pessoas entendem que ninguém nasce sabendo, respondem até mesmo as perguntas mais estupidas sem ridicularizar a pessoa que pergunta. É muito bom poder fazer perguntas sem medo.",
+			"diegoPinheiro": "Já estive em diversas comunidades de tecnologia para buscar interação no intuito de dividir experiências, mas nenhuma delas satisfez minhas expectativas como a Techmmunity. Organizada e com um senso visionário, a Techmmunity busca integrar pessoas de diferentes áreas com a finalidade de produzir conhecimento e agregar valor na forma de projetos, possibilitando assim uma melhor qualificação para obter uma posição sólida no mercado de trabalho.",
+			"plactronic": "Se você está procurando uma comunidade para aprender mesmo, seja um exercício de um Bootcamp, da faculdade, do trabalho ou quer entender porque o seu código está retornando um NaN ou NullPointerException, chegou no servidor certo. Sempre em crescimento e com programadores que trabalham na área há mais de 5, 10 anos e/ou estudam em um level avançado as linguagens que utilizam, a Techmmunity é a sua 127.0.0.1 para aumentar o seu networking e progredir ao mesmo tempo."
 		}
 	},
 	"madeOfSection": {
@@ -57,47 +51,45 @@
 	"techmmunityDivisionsSection": {
 		"inputs": {
 			"dev": {
-				"textLabel": "Programação"
+				"text": "Programação"
 			},
 			"graphic": {
-				"textLabel": "Design Gráfico"
+				"text": "Design Gráfico"
 			},
 			"song": {
-				"textLabel": "Sonoplastia"
+				"text": "Sonoplastia"
 			},
 			"robotic": {
-				"textLabel": "Eng. Robótica"
+				"text": "Eng. Robótica"
 			},
 			"manager": {
-				"textLabel": "Gestão"
+				"text": "Gestão"
 			}
 		},
 		"cards": {
 			"dev": {
 				"title": "Nossa divisão de programação",
-				"description": "Com o aumento da demanda do mercado, profissionais que estão pensando em trabalhar na área precisam conhecer cada vez mais e mais tecnologias. Com isso em mente, nós criamos uma divisão de programação, que ajuda tanto os iniciantes quanto os mais experientes a entender as tecnologias mais usadas do mercado.",
-				"links": "Saiba mais"
+				"description": "Com o aumento da demanda do mercado, profissionais que estão pensando em trabalhar na área precisam conhecer cada vez mais e mais tecnologias. Com isso em mente, nós criamos uma divisão de programação, que ajuda tanto os iniciantes quanto os mais experientes a entender as tecnologias mais usadas do mercado."
 			},
 			"graphic": {
 				"title": "Nossa divisão de design gráfico",
-				"description": "Design é uma área muito criativa, mas requer conhecimento de conceitos bem específicos que são complicados de serem entendidos por conta própria. Nós criamos nossa divisão de design gráfico especialmente para isso, então tanto profissionais quanto iniciantes podem compartilhar seus conhecimentos.",
-				"links": "Saiba mais"
+				"description": "Design é uma área muito criativa, mas requer conhecimento de conceitos bem específicos que são complicados de serem entendidos por conta própria. Nós criamos nossa divisão de design gráfico especialmente para isso, então tanto profissionais quanto iniciantes podem compartilhar seus conhecimentos."
 			},
 			"song": {
 				"title": "Nossa divisão de sonoplastia",
-				"description": "Quando falamos de sonoplastia, a primeira coisa que nos vem à mente é dublagem, entretanto, esse universo é muito mais vasto e quase todos os projetos precisam de algo relacionado a sonoplastia. Nós criamos essa divisão para incentivar o crescimento dessa área.",
-				"links": "Saiba mais"
+				"description": "Quando falamos de sonoplastia, a primeira coisa que nos vem à mente é dublagem, entretanto, esse universo é muito mais vasto e quase todos os projetos precisam de algo relacionado a sonoplastia. Nós criamos essa divisão para incentivar o crescimento dessa área."
 			},
 			"robotic": {
 				"title": "Nossa divisão de engenharia robótica",
-				"description": "Engenharia robótica é um setor em constante crescimento, tanto para indústrias quanto para entretenimento do público em geral. Com os avanços tecnológicos, a demanda por profissionais qualificados cresce cada vez mais, então criamos essa divisão para preparar os profissionais para essa demanda iminente.",
-				"links": "Saiba mais"
+				"description": "Engenharia robótica é um setor em constante crescimento, tanto para indústrias quanto para entretenimento do público em geral. Com os avanços tecnológicos, a demanda por profissionais qualificados cresce cada vez mais, então criamos essa divisão para preparar os profissionais para essa demanda iminente."
 			},
 			"manager": {
 				"title": "Nossa divisão de gestão",
-				"description": "A gestão engloba diversas áreas de uma empresa, seja financeira, recursos humanos, empreendedorismo, entre outras. Criamos nossa divisão de gestão tanto para ajudar pessoas que querem abrir sua própria empresa, quanto para aquelas que querem ser funcionários mais qualificados em empresas de terceiros.",
-				"links": "Saiba mais"
+				"description": "A gestão engloba diversas áreas de uma empresa, seja financeira, recursos humanos, empreendedorismo, entre outras. Criamos nossa divisão de gestão tanto para ajudar pessoas que querem abrir sua própria empresa, quanto para aquelas que querem ser funcionários mais qualificados em empresas de terceiros."
 			}
+		},
+		"link": {
+			"learnMore": "Saiba mais"
 		}
 	},
 	"techmmunityProductsSection": {
