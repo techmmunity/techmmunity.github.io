@@ -4,21 +4,32 @@
 			"ogLocale": "pt_BR"
 		}
 	},
+	"head": {
+		"title": "🧑‍💻 | Techmmunity"
+	},
+	"mainSection": {
+		"description":{
+			"title": "Techmmunity - A Tech Community",
+			"subtitle": "Here we share knowledge, free of charge and accessible."
+		},
+		"links": {
+			"aboutUsText": "Learn more about us",
+			"communityText": "Join our community"
+		}
+	},
 	"cookiesAlertModal": {
 		"alert": "This website uses cookies to ensure you get the best experience on our website.",
 		"confirmation": "Got It!"
 	},
 	"feedbackSection": {
 		"feedbacks": {
-			"alessandroRamos": {
-				"feedback": "The community is very welcoming, I was always afraid to ask questions in other communities for fear of being \"too stupid questions\", but at Techmmunity, people understand that nobody is born knowing, answer even the stupid questions without making fun of whoever is asking. It's cool to be able to ask questions without fear."
-			},
-			"diegoPinheiro": {
-				"feedback": "I have been to several technology communities to seek interaction to share experiences, but none of them met my expectations like the Techmmunity. Organized and with a visionary sense, Techmmunity seeks to integrate people from different areas to produce knowledge and add value in the form of projects, thus enabling better qualifications to obtain a solid position in the job market."
-			},
-			"plactronic": {
-				"feedback": "If you are looking for a community to learn, be it an exercise of a Bootcamp, college, work or want to understand why your code is returning a NaN or NullPointerException, it arrived on the right server. Always growing and with programmers working in the field for more than 5, 10 years and / or studying at an advanced level the languages they use, Techmmunity is your 127.0.0.1 to increase your networking and progress at the same time."
-			}
+			"alessandroRamos": "The community is very welcoming, I was always afraid to ask questions in other communities for fear of being \"too stupid questions\", but at Techmmunity, people understand that nobody is born knowing, answer even the stupid questions without making fun of whoever is asking. It's cool to be able to ask questions without fear.",
+			"diegoPinheiro": "I have been to several technology communities to seek interaction to share experiences, but none of them met my expectations like the Techmmunity. Organized and with a visionary sense, Techmmunity seeks to integrate people from different areas to produce knowledge and add value in the form of projects, thus enabling better qualifications to obtain a solid position in the job market.",
+			"plactronic": "If you are looking for a community to learn, be it an exercise of a Bootcamp, college, work or want to understand why your code is returning a NaN or NullPointerException, it arrived on the right server. Always growing and with programmers working in the field for more than 5, 10 years and / or studying at an advanced level the languages they use, Techmmunity is your 127.0.0.1 to increase your networking and progress at the same time."
+		},
+		"description": {
+			"title": "Don't take our word for it",
+			"subtitle": "See what our members have to say about us."
 		}
 	},
 	"madeOfSection": {
@@ -35,25 +46,23 @@
 				"title": "Diversity",
 				"description": "Our community is made up of all types of people, who provide a different point of view on a problem, always leading us to different discussions and new learnings."
 			}
+		},
+		"description": {
+			"title": "With space for everyone hungry for knowledge",
+			"subtitle": {
+				"subtitleBegin": "What is ",
+				"subtitleTechmmunity": "<COMPANY_NAME>",
+				"subtitleEnd": " made of?"
+			}
 		}
 	},
 	"techmmunityDivisionsSection": {
 		"inputs": {
-			"dev": {
-				"textLabel": "Programming"
-			},
-			"graphic": {
-				"textLabel": "Graphic Design"
-			},
-			"song": {
-				"textLabel": "Sound Design"
-			},
-			"robotic": {
-				"textLabel": "Robotic E."
-			},
-			"manager": {
-				"textLabel": "Management"
-			}
+			"dev": "Programming",
+			"graphic": "Graphic Design",
+			"song": "Sound Design",
+			"robotic": "Robotic E.",
+			"manager": "Management"
 		},
 		"cards": {
 			"dev": {
@@ -97,5 +106,13 @@
 				"description": "Live streams to teach things by having closer and direct contact with people, thus being able to answer doubts on the spot, giving more detailed explanations."
 			}
 		}
+	},
+	"footer": {
+		"copyright": "2020 Techmmunity. All rights reserved."
+	},
+	"errorSection": {
+		"title": "Oh no, no one is here!",
+		"subtitle": "Come on, click here to see if we find more people:",
+		"redirectToHome": "Go to home page"
 	}
 }
