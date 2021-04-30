@@ -5,20 +5,20 @@
 		}
 	},
 	"head": {
-		"mainContainer": {
-			"title": "🧑‍💻 | Techmmunity"
-		}
+		"title": "🧑‍💻 | Techmmunity"
 	},
 	"mainSection": {
-		"mainContainer": {
+		"description": {
 			"title": "Techmmunity - Uma comunidade Tech",
-			"subtitle": "Aqui nós compartilhamos conhecimento, gratuito e acessível.",
+			"subtitle": "Aqui nós compartilhamos conhecimento, gratuito e acessível."
+		},
+		"links": {
 			"aboutUsLinkText": "Saiba mais sobre nós",
 			"communityLinkText": "Faça parte da comunidade"
 		}
 	},
 	"feedbackSection": {
-		"mainContainer": {
+		"description": {
 			"title": "Não confie na nossa palavra pra isso",
 			"subtitle": "Veja o que nossos membros tem a dizer sobre nós."
 		},
@@ -35,25 +35,22 @@
 		}
 	},
 	"madeOfSection": {
-		"madeDescription": {
+		"description": {
 			"title": "Com espaço para quem tem fome por conhecimento",
 			"subtitle": "Do que a <COMPANY_NAME> é feita?"
 		},
 		"cards": {
 			"technology": {
 				"title": "Tecnologia",
-				"description": "Nós falamos sobre todos os setores de tecnologia, como programação, design gráfico, sonoplastia, engenharia robótica, empreendedorismo e vários outros tópicos.",
-				"button": "Saiba mais"
+				"description": "Nós falamos sobre todos os setores de tecnologia, como programação, design gráfico, sonoplastia, engenharia robótica, empreendedorismo e vários outros tópicos."
 			},
 			"community": {
 				"title": "Comunidade",
-				"description": "Somos amigáveis e sem preconceitos, ajudamos todo mundo, independente da pergunta! Afinal, todos nós já fomos iniciantes alguma vez, certo?",
-				"button": "Saiba mais"
+				"description": "Somos amigáveis e sem preconceitos, ajudamos todo mundo, independente da pergunta! Afinal, todos nós já fomos iniciantes alguma vez, certo?"
 			},
 			"diversity": {
 				"title": "Diversidade",
-				"description": "Nossa comunidade é formada por todos os tipos de pessoas, com pontos de vista diferentes, sempre nos guiando a diferentes discussões e aprendizados.",
-				"button": "Saiba mais"
+				"description": "Nossa comunidade é formada por todos os tipos de pessoas, com pontos de vista diferentes, sempre nos guiando a diferentes discussões e aprendizados."
 			}
 		}
 	},
@@ -78,23 +75,28 @@
 		"cards": {
 			"dev": {
 				"title": "Nossa divisão de programação",
-				"description": "Com o aumento da demanda do mercado, profissionais que estão pensando em trabalhar na área precisam conhecer cada vez mais e mais tecnologias. Com isso em mente, nós criamos uma divisão de programação, que ajuda tanto os iniciantes quanto os mais experientes a entender as tecnologias mais usadas do mercado."
+				"description": "Com o aumento da demanda do mercado, profissionais que estão pensando em trabalhar na área precisam conhecer cada vez mais e mais tecnologias. Com isso em mente, nós criamos uma divisão de programação, que ajuda tanto os iniciantes quanto os mais experientes a entender as tecnologias mais usadas do mercado.",
+				"links": "Saiba mais"
 			},
 			"graphic": {
 				"title": "Nossa divisão de design gráfico",
-				"description": "Design é uma área muito criativa, mas requer conhecimento de conceitos bem específicos que são complicados de serem entendidos por conta própria. Nós criamos nossa divisão de design gráfico especialmente para isso, então tanto profissionais quanto iniciantes podem compartilhar seus conhecimentos."
+				"description": "Design é uma área muito criativa, mas requer conhecimento de conceitos bem específicos que são complicados de serem entendidos por conta própria. Nós criamos nossa divisão de design gráfico especialmente para isso, então tanto profissionais quanto iniciantes podem compartilhar seus conhecimentos.",
+				"links": "Saiba mais"
 			},
 			"song": {
 				"title": "Nossa divisão de sonoplastia",
-				"description": "Quando falamos de sonoplastia, a primeira coisa que nos vem à mente é dublagem, entretanto, esse universo é muito mais vasto e quase todos os projetos precisam de algo relacionado a sonoplastia. Nós criamos essa divisão para incentivar o crescimento dessa área."
+				"description": "Quando falamos de sonoplastia, a primeira coisa que nos vem à mente é dublagem, entretanto, esse universo é muito mais vasto e quase todos os projetos precisam de algo relacionado a sonoplastia. Nós criamos essa divisão para incentivar o crescimento dessa área.",
+				"links": "Saiba mais"
 			},
 			"robotic": {
 				"title": "Nossa divisão de engenharia robótica",
-				"description": "Engenharia robótica é um setor em constante crescimento, tanto para indústrias quanto para entretenimento do público em geral. Com os avanços tecnológicos, a demanda por profissionais qualificados cresce cada vez mais, então criamos essa divisão para preparar os profissionais para essa demanda iminente."
+				"description": "Engenharia robótica é um setor em constante crescimento, tanto para indústrias quanto para entretenimento do público em geral. Com os avanços tecnológicos, a demanda por profissionais qualificados cresce cada vez mais, então criamos essa divisão para preparar os profissionais para essa demanda iminente.",
+				"links": "Saiba mais"
 			},
 			"manager": {
 				"title": "Nossa divisão de gestão",
-				"description": "A gestão engloba diversas áreas de uma empresa, seja financeira, recursos humanos, empreendedorismo, entre outras. Criamos nossa divisão de gestão tanto para ajudar pessoas que querem abrir sua própria empresa, quanto para aquelas que querem ser funcionários mais qualificados em empresas de terceiros."
+				"description": "A gestão engloba diversas áreas de uma empresa, seja financeira, recursos humanos, empreendedorismo, entre outras. Criamos nossa divisão de gestão tanto para ajudar pessoas que querem abrir sua própria empresa, quanto para aquelas que querem ser funcionários mais qualificados em empresas de terceiros.",
+				"links": "Saiba mais"
 			}
 		}
 	},
@@ -119,16 +121,12 @@
 		}
 	},
 	"footer": {
-		"mainContainer": {
-			"copywriteText": "© 2020 Techmmunity. Todos os direitos reservados."
-		}
+		"copyright": "© 2020 Techmmunity. Todos os direitos reservados."
 	},
 	"errorSection": {
-		"mainContainer": {
-			"title": "Oh não, não há nada aqui!",
-			"subtitle": "Qual é, clique aqui para ver se nós conseguimos achar mais pessoas:",
-			"linkText": "Ir para página inicial"
-		}
+		"title": "Oh não, não há nada aqui!",
+		"subtitle": "Qual é, clique aqui para ver se nós conseguimos achar mais pessoas:",
+		"redirectToHome": "Ir para página inicial"
 	},
 	"cookiesAlertModal": {
 		"alert": "Esse site utiliza cookies para você ter uma experiência melhor.",
