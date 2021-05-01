@@ -31,11 +31,7 @@
 	"madeOfSection": {
 		"description": {
 			"title": "With space for everyone hungry for knowledge",
-			"subtitle": {
-				"subtitleBegin": "What is ",
-				"subtitleTechmmunity": "<COMPANY_NAME>",
-				"subtitleEnd": " made of?"
-			}
+			"subtitle": "What is <COMPANY_NAME> made of?"
 		},
 		"cards": {
 			"technology": {
