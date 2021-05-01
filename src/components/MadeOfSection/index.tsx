@@ -41,7 +41,7 @@ export const MadeOfSection: React.FC = () => (
 		<Description>
 			<Title>With space for everyone hungry for knowledge</Title>
 			<Subtitle>
-				What is <Strong>techmmunity</Strong> made of?
+				What is <Strong>Techmmunity</Strong> made of?
 			</Subtitle>
 		</Description>
 		<Cards>
