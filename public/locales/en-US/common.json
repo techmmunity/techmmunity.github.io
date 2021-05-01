@@ -36,11 +36,11 @@
 		"cards": {
 			"technology": {
 				"title": "Technology",
-				"description": "We talk about every technology sector, like programming, graphic design, sound design, robotics, entrepreneurship, human resources, and and many other topics."
+				"description": "We talk about every technology sector, like programming, graphic design, sound design, robotics engineering, entrepreneurship, and many other topics."
 			},
 			"community": {
 				"title": "Community",
-				"description": "We are friendly and without prejudice, we help everyone, regardless of the question! After all, we've all been beginners once, right?"
+				"description": "We are friendly and without prejudgement, we help everyone, regardless of the question! After all, we've all been beginners once, right?"
 			},
 			"diversity": {
 				"title": "Diversity",
@@ -67,7 +67,7 @@
 			},
 			"song": {
 				"title": "Our sound design division",
-				"description": "When talking about sound design, the first thing that comes to mind is dubbing, however, this universe is much broader and more diverse. Sound design is necessary for almost all projects and we created this division to encourage the growth of the area."
+				"description": "When talking about sound design, the first thing that comes to mind is voice acting, however, this universe is much broader and more diverse. Sound design is necessary for almost all projects and we created this division to encourage the growth of the area."
 			},
 			"robotic": {
 				"title": "Our robotic engineering division",

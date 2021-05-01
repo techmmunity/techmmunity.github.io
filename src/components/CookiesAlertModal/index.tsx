@@ -1,11 +1,13 @@
 import { useState, useEffect, useCallback } from "react";
 
-import { EN } from "assets/languages/en-US";
+import { useTranslation } from "next-i18next";
 
 import { Container, Description, ConfirmationButton } from "./styles";
 
 export const CookiesAlertModal: React.FC = () => {
 	const [isCookiesAccepted, setIsCookiesAccepted] = useState(true);
+
+	const { t } = useTranslation();
 
 	useEffect(() => {
 		const cookiesAccepted = localStorage.getItem("cookies-accepted");
@@ -20,9 +22,9 @@ export const CookiesAlertModal: React.FC = () => {
 
 	return (
 		<Container isCookiesAccepted={isCookiesAccepted}>
-			<Description>{EN.cookiesAlertModal.alert}</Description>
+			<Description>{t("cookiesAlertModal.alert")}</Description>
 			<ConfirmationButton onClick={handleConfirmationCookies}>
-				{EN.cookiesAlertModal.confirmation}
+				{t("cookiesAlertModal.confirmation")}
 			</ConfirmationButton>
 		</Container>
 	);
