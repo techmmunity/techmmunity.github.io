@@ -10,7 +10,7 @@ export const Container = styled.footer`
 	margin-bottom: 6rem;
 
 	@media (max-width: 810px) {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 `;
 
@@ -22,6 +22,10 @@ export const CopyrightContainer = styled.div`
 export const Copyright = styled.p`
 	color: ${Colors.gray100}ba;
 	font-size: 1.8rem;
+
+	@media (max-width: 810px) {
+		margin-top: 1.5rem;
+	}
 `;
 
 export const SocialNetworks = styled.ul`
