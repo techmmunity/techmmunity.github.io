@@ -6,14 +6,7 @@ import { TiGroup } from "react-icons/ti";
 
 import { Card } from "./components/Card";
 
-import {
-	Container,
-	Description,
-	Title,
-	Subtitle,
-	Strong,
-	Cards,
-} from "./styles";
+import { Container, Description, Title, Subtitle, Cards } from "./styles";
 
 export const MadeOfSection: React.FC = () => {
 	const { t } = useTranslation();
@@ -42,10 +35,8 @@ export const MadeOfSection: React.FC = () => {
 	return (
 		<Container>
 			<Description>
-				<Title>With space for everyone hungry for knowledge</Title>
-				<Subtitle>
-					What is <Strong>Techmmunity</Strong> made of?
-				</Subtitle>
+				<Title>{t("madeOfSection.description.title")}</Title>
+				<Subtitle>{t("madeOfSection.description.subtitle")}</Subtitle>
 			</Description>
 			<Cards>
 				{madeOfCards.map(({ id, ...props }) => (

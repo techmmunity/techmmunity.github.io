@@ -34,6 +34,7 @@ export const TechmmunityProductsSection: React.FC = () => {
 			description: t("techmmunityProductsSection.cards.twitch.description"),
 		},
 	];
+
 	return (
 		<Container>
 			<Description>

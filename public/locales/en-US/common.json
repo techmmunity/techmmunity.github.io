@@ -49,6 +49,10 @@
 		}
 	},
 	"techmmunityDivisionsSection": {
+		"description": {
+			"title": "Made for all types of people!",
+			"subtitle": "Whatever your goal, we can help you get the knowledge or find someone who has it!"
+		},
 		"inputs": {
 			"dev": "Programming",
 			"graphic": "Graphic Design",
@@ -77,6 +81,9 @@
 				"title": "Our management division",
 				"description": "Management encompasses several areas of any company, be it finance, human resources, entrepreneurship, and several others. We created the management division both for people who want to do a better job for the company they are employed in and for people who want to start their own."
 			}
+		},
+		"links": {
+			"learnMore": "Learn more"
 		}
 	},
 	"techmmunityProductsSection": {
