@@ -49,6 +49,10 @@
 		}
 	},
 	"techmmunityDivisionsSection": {
+		"description": {
+			"title": "Feita para todos os tipos de pessoas!",
+			"subtitle": "Seja qual for seu objetivo, nós podemos te ajudar a conseguir o conhecimento ou encontrar as pessoas q o tenham, para fazerem seu sonho se tornar realidade!"
+		},
 		"inputs": {
 			"dev": "Programação",
 			"graphic": "Design Gráfico",
