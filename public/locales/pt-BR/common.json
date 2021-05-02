@@ -13,8 +13,8 @@
 			"subtitle": "Aqui nós compartilhamos conhecimento, gratuito e acessível."
 		},
 		"links": {
-			"aboutUsText": "Saiba mais sobre nós",
-			"communityText": "Faça parte da comunidade"
+			"aboutUs": "Saiba mais sobre nós",
+			"community": "Faça parte da comunidade"
 		}
 	},
 	"feedbackSection": {
