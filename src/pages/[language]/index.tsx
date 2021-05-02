@@ -44,7 +44,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
 	const defaultLanguage = i18n.defaultLocale;
-	const language = (params?.lang || defaultLanguage) as string;
+	const language = (params?.language || defaultLanguage) as string;
 
 	return {
 		props: {

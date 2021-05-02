@@ -31,8 +31,8 @@ export const FeedbackSection: React.FC = () => {
 	return (
 		<Container>
 			<Description>
-				<Title>{t("feedbackSection.title")}</Title>
-				<Subtitle>{t("feedbackSection.subtitle")}</Subtitle>
+				<Title>{t("feedbackSection.description.title")}</Title>
+				<Subtitle>{t("feedbackSection.description.subtitle")}</Subtitle>
 			</Description>
 			<Cards>
 				{feedbacksCards.map(({ id, ...props }) => (
