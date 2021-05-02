@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
 			<Line />
 			<Container>
 				<CopyrightContainer>
-					<Copyright>&copy; {t("footer.copyright")}</Copyright>
+					<Copyright>{t("footer.copyright")}</Copyright>
 				</CopyrightContainer>
 				<SocialNetworks>
 					{socialNetworks.map(({ id, url, Icon }) => (
