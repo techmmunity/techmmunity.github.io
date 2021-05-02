@@ -1,35 +1,46 @@
 {
 	"system": {
 		"metas": {
-			"ogLocale": "pt_BR"
+			"ogLocale": "en_US"
 		}
 	},
-	"cookiesAlertModal": {
-		"alert": "This website uses cookies to ensure you get the best experience on our website.",
-		"confirmation": "Got It!"
+	"head": {
+		"title": "🧑‍💻 | Techmmunity"
+	},
+	"mainSection": {
+		"description": {
+			"title": "Techmmunity - A Tech Community",
+			"subtitle": "Here we share knowledge, free of charge and accessible."
+		},
+		"links": {
+			"aboutUs": "Learn more about us",
+			"community": "Join our community"
+		}
 	},
 	"feedbackSection": {
+		"description": {
+			"title": "Don't take our word for it",
+			"subtitle": "See what our members have to say about us."
+		},
 		"feedbacks": {
-			"alessandroRamos": {
-				"feedback": "The community is very welcoming, I was always afraid to ask questions in other communities for fear of being \"too stupid questions\", but at Techmmunity, people understand that nobody is born knowing, answer even the stupid questions without making fun of whoever is asking. It's cool to be able to ask questions without fear."
-			},
-			"diegoPinheiro": {
-				"feedback": "I have been to several technology communities to seek interaction to share experiences, but none of them met my expectations like the Techmmunity. Organized and with a visionary sense, Techmmunity seeks to integrate people from different areas to produce knowledge and add value in the form of projects, thus enabling better qualifications to obtain a solid position in the job market."
-			},
-			"plactronic": {
-				"feedback": "If you are looking for a community to learn, be it an exercise of a Bootcamp, college, work or want to understand why your code is returning a NaN or NullPointerException, it arrived on the right server. Always growing and with programmers working in the field for more than 5, 10 years and / or studying at an advanced level the languages they use, Techmmunity is your 127.0.0.1 to increase your networking and progress at the same time."
-			}
+			"alessandroRamos": "The community is very welcoming, I was always afraid to ask questions in other communities for fear of being \"too stupid questions\", but at Techmmunity, people understand that nobody is born knowing, answer even the stupid questions without making fun of whoever is asking. It's cool to be able to ask questions without fear.",
+			"diegoPinheiro": "I have been to several technology communities to seek interaction to share experiences, but none of them met my expectations like the Techmmunity. Organized and with a visionary sense, Techmmunity seeks to integrate people from different areas to produce knowledge and add value in the form of projects, thus enabling better qualifications to obtain a solid position in the job market.",
+			"plactronic": "If you are looking for a community to learn, be it an exercise of a Bootcamp, college, work or want to understand why your code is returning a NaN or NullPointerException, it arrived on the right server. Always growing and with programmers working in the field for more than 5, 10 years and / or studying at an advanced level the languages they use, Techmmunity is your 127.0.0.1 to increase your networking and progress at the same time."
 		}
 	},
 	"madeOfSection": {
+		"description": {
+			"title": "With space for everyone hungry for knowledge",
+			"subtitle": "What is Techmmunity made of?"
+		},
 		"cards": {
 			"technology": {
 				"title": "Technology",
-				"description": "We talk about every technology sector, like programming, graphic design, sound design, robotics, entrepreneurship, human resources, and and many other topics."
+				"description": "We talk about every technology sector, like programming, graphic design, sound design, robotics engineering, entrepreneurship, and many other topics."
 			},
 			"community": {
 				"title": "Community",
-				"description": "We are friendly and without prejudice, we help everyone, regardless of the question! After all, we've all been beginners once, right?"
+				"description": "We are friendly and without prejudgement, we help everyone, regardless of the question! After all, we've all been beginners once, right?"
 			},
 			"diversity": {
 				"title": "Diversity",
@@ -38,22 +49,16 @@
 		}
 	},
 	"techmmunityDivisionsSection": {
+		"description": {
+			"title": "Made for all types of people!",
+			"subtitle": "Whatever your goal, we can help you get the knowledge or find someone who has it!"
+		},
 		"inputs": {
-			"dev": {
-				"textLabel": "Programming"
-			},
-			"graphic": {
-				"textLabel": "Graphic Design"
-			},
-			"song": {
-				"textLabel": "Sound Design"
-			},
-			"robotic": {
-				"textLabel": "Robotic E."
-			},
-			"manager": {
-				"textLabel": "Management"
-			}
+			"dev": "Programming",
+			"graphic": "Graphic Design",
+			"song": "Sound Design",
+			"robotic": "Robotic E.",
+			"manager": "Management"
 		},
 		"cards": {
 			"dev": {
@@ -66,7 +71,7 @@
 			},
 			"song": {
 				"title": "Our sound design division",
-				"description": "When talking about sound design, the first thing that comes to mind is dubbing, however, this universe is much broader and more diverse. Sound design is necessary for almost all projects and we created this division to encourage the growth of the area."
+				"description": "When talking about sound design, the first thing that comes to mind is voice acting, however, this universe is much broader and more diverse. Sound design is necessary for almost all projects and we created this division to encourage the growth of the area."
 			},
 			"robotic": {
 				"title": "Our robotic engineering division",
@@ -76,6 +81,9 @@
 				"title": "Our management division",
 				"description": "Management encompasses several areas of any company, be it finance, human resources, entrepreneurship, and several others. We created the management division both for people who want to do a better job for the company they are employed in and for people who want to start their own."
 			}
+		},
+		"links": {
+			"learnMore": "Learn more"
 		}
 	},
 	"techmmunityProductsSection": {
@@ -97,5 +105,17 @@
 				"description": "Live streams to teach things by having closer and direct contact with people, thus being able to answer doubts on the spot, giving more detailed explanations."
 			}
 		}
+	},
+	"footer": {
+		"copyright": "© 2020 Techmmunity. All rights reserved."
+	},
+	"errorSection": {
+		"title": "Oh no, no one is here!",
+		"subtitle": "Come on, click here to see if we find more people:",
+		"redirectToHome": "Go to home page"
+	},
+	"cookiesAlertModal": {
+		"alert": "This website uses cookies to ensure you get the best experience on our website.",
+		"confirmation": "Got It!"
 	}
 }
