@@ -1,3 +1,5 @@
+import { useTranslation } from "next-i18next";
+
 import {
 	FaDiscord,
 	FaTwitch,
@@ -59,22 +61,26 @@ const socialNetworks = [
 	},
 ];
 
-export const Footer: React.FC = () => (
-	<>
-		<Line />
-		<Container>
-			<CopyrightContainer>
-				<Copyright>&copy; 2020 Techmmunity. All rights reserved.</Copyright>
-			</CopyrightContainer>
-			<SocialNetworks>
-				{socialNetworks.map(({ id, url, Icon }) => (
-					<SocialNetwork key={id}>
-						<Link href={url} blank>
-							<Icon />
-						</Link>
-					</SocialNetwork>
-				))}
-			</SocialNetworks>
-		</Container>
-	</>
-);
+export const Footer: React.FC = () => {
+	const { t } = useTranslation();
+
+	return (
+		<>
+			<Line />
+			<Container>
+				<CopyrightContainer>
+					<Copyright>{t("footer.copyright")}</Copyright>
+				</CopyrightContainer>
+				<SocialNetworks>
+					{socialNetworks.map(({ id, url, Icon }) => (
+						<SocialNetwork key={id}>
+							<Link href={url} blank>
+								<Icon />
+							</Link>
+						</SocialNetwork>
+					))}
+				</SocialNetworks>
+			</Container>
+		</>
+	);
+};
