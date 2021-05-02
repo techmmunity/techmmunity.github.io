@@ -8,7 +8,7 @@
 		"title": "🧑‍💻 | Techmmunity"
 	},
 	"mainSection": {
-		"description":{
+		"description": {
 			"title": "Techmmunity - A Tech Community",
 			"subtitle": "Here we share knowledge, free of charge and accessible."
 		},
@@ -31,7 +31,7 @@
 	"madeOfSection": {
 		"description": {
 			"title": "With space for everyone hungry for knowledge",
-			"subtitle": "What is <COMPANY_NAME> made of?"
+			"subtitle": "What is Techmmunity made of?"
 		},
 		"cards": {
 			"technology": {

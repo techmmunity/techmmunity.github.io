@@ -24,7 +24,7 @@ export const TechmmunityProductsSection: React.FC = () => {
 			url: SocialNetworksLinks.YOUTUBE,
 			Icon: FaYoutube,
 			title: t("techmmunityProductsSection.cards.youtube.title"),
-			description: t("techmmunityProductsSection.card.youtube.description"),
+			description: t("techmmunityProductsSection.cards.youtube.description"),
 		},
 		{
 			id: 3,
