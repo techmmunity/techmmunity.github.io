@@ -57,7 +57,7 @@
 			"dev": "Programação",
 			"graphic": "Design Gráfico",
 			"song": "Sonoplastia",
-			"robotic": "E. Robótica",
+			"robotic": "Eng. Robótica",
 			"manager": "Gestão"
 		},
 		"cards": {
@@ -79,7 +79,7 @@
 			},
 			"manager": {
 				"title": "Nossa divisão de gestão",
-				"description": "Gestão engloba diversas áreas de uma empresa, seja financeira, recursos humanos, empreendedorismo, entre outras. Criamos nossa divisão de gestão tanto para ajudar pessoas que querem abrir sua própria empresa, quanto para aquelas que querem ser funcionários mais qualificados em empresas de terceiros."
+				"description": "A gestão engloba diversas áreas de uma empresa, seja financeira, recursos humanos, empreendedorismo, entre outras. Criamos nossa divisão de gestão tanto para ajudar pessoas que querem abrir sua própria empresa, quanto para aquelas que querem ser funcionários mais qualificados em empresas de terceiros."
 			}
 		},
 		"links": {
