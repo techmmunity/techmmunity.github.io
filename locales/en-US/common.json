@@ -109,11 +109,6 @@
 	"footer": {
 		"copyright": "© 2020 Techmmunity. All rights reserved."
 	},
-	"errorSection": {
-		"title": "Oh no, no one is here!",
-		"subtitle": "Come on, click here to see if we find more people:",
-		"redirectToHome": "Go to home page"
-	},
 	"cookiesAlertModal": {
 		"alert": "This website uses cookies to ensure you get the best experience on our website.",
 		"confirmation": "Got It!"
