@@ -9,7 +9,7 @@
 	},
 	"mainSection": {
 		"description": {
-			"title": "Techmmunity - Uma comunidade Tech",
+			"title": "Techmmunity - Uma Comunidade de Tecnologia",
 			"subtitle": "Aqui nós compartilhamos conhecimento, gratuito e acessível."
 		},
 		"links": {
@@ -30,8 +30,8 @@
 	},
 	"madeOfSection": {
 		"description": {
-			"title": "Com espaço para quem tem fome por conhecimento",
-			"subtitle": "Do que a <COMPANY_NAME> é feita?"
+			"title": "Com espaço para todos com fome de aprendizado",
+			"subtitle": "Do que a Techmmunity é feita?"
 		},
 		"cards": {
 			"technology": {
@@ -98,7 +98,7 @@
 			},
 			"youtube": {
 				"title": "Canal no Youtube",
-				"description": "Vídeos sobre assuntos variados, tutoriais e discussões mais elaboradas que merecem ficar registradas pra sempre. Muito útil pra ficar por dentro das novidades."
+				"description": "Vídeos sobre assuntos variados, tutoriais e discussões mais elaboradas que merecem ficar registradas pra sempre. Muito útil para o aprendizado!"
 			},
 			"twitch": {
 				"title": "Canal na Twitch",
@@ -108,11 +108,6 @@
 	},
 	"footer": {
 		"copyright": "© 2020 Techmmunity. Todos os direitos reservados."
-	},
-	"errorSection": {
-		"title": "Oh não, não há nada aqui!",
-		"subtitle": "Qual é, clique aqui para ver se nós conseguimos achar mais pessoas:",
-		"redirectToHome": "Ir para página inicial"
 	},
 	"cookiesAlertModal": {
 		"alert": "Esse site utiliza cookies para você ter uma experiência melhor.",
