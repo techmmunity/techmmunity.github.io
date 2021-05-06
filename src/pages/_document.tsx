@@ -74,6 +74,10 @@ export default class MyDocument extends Document {
 					<meta name="og:url" content="https://techmmunity.github.io/" />
 					<meta name="og:locale" content={htmlLang} />
 					<link rel="cannonical" href="https://techmmunity.github.io/" />
+					<link
+						href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+						rel="stylesheet"
+					/>
 				</Head>
 				<body>
 					<Main />
