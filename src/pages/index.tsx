@@ -1,4 +1,6 @@
 import { i18n } from "../../next-i18next.config";
+import { GetStaticProps } from "next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useRouter } from "next/router";
 
 import { useEffect } from "react";
@@ -31,3 +33,13 @@ const Home: FCWithLayout = () => {
 Home.layout = LayoutsEnum.NONE;
 
 export default Home;
+
+export const getStaticProps: GetStaticProps = async () => {
+	const defaultLanguage = i18n.defaultLocale;
+
+	return {
+		props: {
+			...(await serverSideTranslations(defaultLanguage)),
+		},
+	};
+};
