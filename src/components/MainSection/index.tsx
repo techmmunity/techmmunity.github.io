@@ -1,5 +1,6 @@
 import { useTranslation } from "next-i18next";
 
+import { RedirectButtons } from "./components/RedirectButtons";
 import { Link } from "components/Link";
 import { LinkWithLanguage } from "components/LinkWithLanguage";
 
@@ -20,6 +21,7 @@ export const MainSection: React.FC = () => {
 
 	return (
 		<Container id="main">
+			<RedirectButtons />
 			<Description>
 				<Title>{t("mainSection.description.title")}</Title>
 				<Subtitle>{t("mainSection.description.subtitle")}</Subtitle>
