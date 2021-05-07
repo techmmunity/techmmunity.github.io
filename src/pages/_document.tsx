@@ -47,10 +47,9 @@ export default class MyDocument extends Document {
 	}
 
 	render() {
-		const { __NEXT_DATA__ } = this.props;
-		const { query } = __NEXT_DATA__;
+		const { language } = this.props.__NEXT_DATA__.query;
 		const defaultLanguage = i18n.defaultLocale;
-		const htmlLang = getHtmlLang((query.language || defaultLanguage) as string);
+		const htmlLang = getHtmlLang((language || defaultLanguage) as string);
 
 		return (
 			<Html lang={htmlLang}>
