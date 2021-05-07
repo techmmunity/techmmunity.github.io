@@ -1,7 +1,5 @@
 import { useTranslation } from "next-i18next";
 
-import { useCallback } from "react";
-
 import { Link } from "components/Link";
 
 import { SocialNetworksLinks } from "config/social-networks-links";
@@ -19,11 +17,10 @@ import {
 export const MainSection: React.FC = () => {
 	const { t } = useTranslation();
 
-	const scrollToMadeOfSection = useCallback(() => {
+	const scrollToMadeOfSection = () =>
 		document.querySelector("#made-of")?.scrollIntoView({
 			behavior: "smooth",
 		});
-	}, []);
 
 	return (
 		<Container id="main">
