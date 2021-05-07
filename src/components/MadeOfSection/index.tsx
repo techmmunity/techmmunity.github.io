@@ -32,11 +32,25 @@ export const MadeOfSection: React.FC = () => {
 		},
 	];
 
+	const getSubtitle = () => {
+		const text = t("madeOfSection.description.subtitle");
+
+		const [firstPart, lastPart] = text.split("Techmmunity");
+
+		return (
+			<>
+				{firstPart}
+				<strong>Techmmunity</strong>
+				{lastPart}
+			</>
+		);
+	};
+
 	return (
 		<Container>
 			<Description>
 				<Title>{t("madeOfSection.description.title")}</Title>
-				<Subtitle>{t("madeOfSection.description.subtitle")}</Subtitle>
+				<Subtitle>{getSubtitle()}</Subtitle>
 			</Description>
 			<Cards>
 				{madeOfCards.map(({ id, ...props }) => (
