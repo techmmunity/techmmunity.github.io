@@ -35,7 +35,7 @@ export const Links = styled.div`
 	}
 `;
 
-const LinkCSS = css`
+const RedirectCSS = css`
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -50,7 +50,7 @@ const LinkCSS = css`
 
 export const Community = styled.div`
 	> a {
-		${LinkCSS}
+		${RedirectCSS}
 		font-weight: 500;
 		background: ${Colors.primary};
 
@@ -63,7 +63,7 @@ export const Community = styled.div`
 `;
 
 export const AboutUs = styled.button`
-	${LinkCSS}
+	${RedirectCSS}
 	background: ${Colors.gray500};
 	font-size: 1.6rem;
 	font-weight: 600;
