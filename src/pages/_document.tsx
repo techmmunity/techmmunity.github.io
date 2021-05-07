@@ -1,3 +1,4 @@
+import { i18n } from "../../next-i18next.config";
 import Document, {
 	DocumentContext,
 	Html,
@@ -7,16 +8,6 @@ import Document, {
 } from "next/document";
 
 import { ServerStyleSheet } from "styled-components";
-
-const getLocale = (url?: string) => {
-	switch (true) {
-		case url?.startsWith("/pt-"):
-			return "pt-BR";
-		case url?.startsWith("/en-"):
-		default:
-			return "en-US";
-	}
-};
 
 const getHtmlLang = (locale: string) => {
 	switch (locale) {
@@ -41,11 +32,8 @@ export default class MyDocument extends Document {
 
 			const initialProps = await Document.getInitialProps(ctx);
 
-			const locale = getLocale(ctx.req?.url as string);
-
 			return {
 				...initialProps,
-				locale,
 				styles: (
 					<>
 						{initialProps.styles}
@@ -59,9 +47,9 @@ export default class MyDocument extends Document {
 	}
 
 	render() {
-		const { locale } = this.props;
-
-		const htmlLang = getHtmlLang(locale as string);
+		const { language } = this.props.__NEXT_DATA__.query;
+		const defaultLanguage = i18n.defaultLocale;
+		const htmlLang = getHtmlLang((language || defaultLanguage) as string);
 
 		return (
 			<Html lang={htmlLang}>
