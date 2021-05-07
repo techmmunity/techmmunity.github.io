@@ -25,8 +25,6 @@ export const Subtitle = styled.h3`
 	margin: 1rem 0;
 `;
 
-export const Strong = styled.strong``;
-
 export const Cards = styled.ul`
 	display: flex;
 	flex-wrap: wrap;
