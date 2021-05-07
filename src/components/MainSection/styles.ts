@@ -36,6 +36,7 @@ export const Links = styled.div`
 `;
 
 const RedirectCSS = css`
+	font-size: 1.6rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -65,7 +66,6 @@ export const Community = styled.div`
 export const AboutUs = styled.button`
 	${RedirectCSS}
 	background: ${Colors.gray500};
-	font-size: 1.6rem;
 	font-weight: 600;
 
 	&:hover,
