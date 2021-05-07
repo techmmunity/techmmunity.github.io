@@ -1,7 +1,6 @@
 import { useTranslation } from "next-i18next";
 
 import { Link } from "components/Link";
-import { LinkWithLanguage } from "components/LinkWithLanguage";
 
 import { SocialNetworksLinks } from "config/social-networks-links";
 
@@ -18,6 +17,11 @@ import {
 export const MainSection: React.FC = () => {
 	const { t } = useTranslation();
 
+	const scrollToMadeOfSection = () =>
+		document.querySelector("#made-of")?.scrollIntoView({
+			behavior: "smooth",
+		});
+
 	return (
 		<Container id="main">
 			<Description>
@@ -25,10 +29,8 @@ export const MainSection: React.FC = () => {
 				<Subtitle>{t("mainSection.description.subtitle")}</Subtitle>
 			</Description>
 			<Links>
-				<AboutUs>
-					<LinkWithLanguage href="#about-us">
-						{t("mainSection.links.aboutUs")}
-					</LinkWithLanguage>
+				<AboutUs onClick={scrollToMadeOfSection}>
+					{t("mainSection.links.aboutUs")}
 				</AboutUs>
 				<Community>
 					<Link href={SocialNetworksLinks.DISCORD} blank>

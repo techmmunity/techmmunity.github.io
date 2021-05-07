@@ -29,7 +29,7 @@ export const FeedbackSection: React.FC = () => {
 	];
 
 	return (
-		<Container>
+		<Container id="feedbacks">
 			<Description>
 				<Title>{t("feedbackSection.description.title")}</Title>
 				<Subtitle>{t("feedbackSection.description.subtitle")}</Subtitle>

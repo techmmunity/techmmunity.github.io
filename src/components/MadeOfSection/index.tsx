@@ -47,7 +47,7 @@ export const MadeOfSection: React.FC = () => {
 	};
 
 	return (
-		<Container>
+		<Container id="made-of">
 			<Description>
 				<Title>{t("madeOfSection.description.title")}</Title>
 				<Subtitle>{getSubtitle()}</Subtitle>

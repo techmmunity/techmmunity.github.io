@@ -7,7 +7,7 @@ import { Container, Title, Subtitle } from "./styles";
 export const Description: React.FC = memo(() => {
 	const { t } = useTranslation();
 
-	return(
+	return (
 		<Container>
 			<Title>{t("techmmunityDivisionsSection.description.title")}</Title>
 			<Subtitle>

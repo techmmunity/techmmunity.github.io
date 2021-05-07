@@ -12,7 +12,7 @@ export const TechmmunityDivisionsSection: React.FC = () => {
 	const [currentCard, setCurrentCard] = useState(DEFAULT_CHECKED_CARD_ID);
 
 	return (
-		<Container>
+		<Container id="divisions">
 			<Description />
 			<Inputs
 				defaultCheckedCardId={DEFAULT_CHECKED_CARD_ID}
