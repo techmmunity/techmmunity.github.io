@@ -36,7 +36,7 @@ export const TechmmunityProductsSection: React.FC = () => {
 	];
 
 	return (
-		<Container>
+		<Container id="products">
 			<Description>
 				<Title>{t("techmmunityProductsSection.description.title")}</Title>
 				<Subtitle>

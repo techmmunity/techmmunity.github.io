@@ -40,7 +40,6 @@ const LinkCSS = css`
 	align-items: center;
 	justify-content: center;
 	color: ${Colors.white1000};
-	font-weight: 500;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 3px;
@@ -52,6 +51,7 @@ const LinkCSS = css`
 export const Community = styled.div`
 	> a {
 		${LinkCSS}
+		font-weight: 500;
 		background: ${Colors.primary};
 
 		&:hover,
@@ -62,19 +62,19 @@ export const Community = styled.div`
 	}
 `;
 
-export const AboutUs = styled.div`
-	> a {
-		${LinkCSS}
-		background: ${Colors.gray500};
+export const AboutUs = styled.button`
+	${LinkCSS}
+	background: ${Colors.gray500};
+	font-size: 1.6rem;
+	font-weight: 600;
 
-		&:hover,
-		&:focus,
-		&:active {
-			background: ${Colors.gray800};
-		}
+	&:hover,
+	&:focus,
+	&:active {
+		background: ${Colors.gray800};
+	}
 
-		@media (max-width: 768px) {
-			margin-bottom: 2rem;
-		}
+	@media (max-width: 768px) {
+		margin-bottom: 2rem;
 	}
 `;
