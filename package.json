@@ -4,7 +4,7 @@
 	"description": "",
 	"author": "Techmmunity",
 	"private": false,
-	"license": "UNLICENSED",
+	"license": "Apache-2.0",
 	"lint-staged": {
 		"*.{ts,tsx}": [
 			"npx prettier --write src",
