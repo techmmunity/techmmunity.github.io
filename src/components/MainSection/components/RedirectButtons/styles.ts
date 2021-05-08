@@ -14,7 +14,7 @@ export const Container = styled.div`
 	}
 `;
 
-export const ChangeButton = styled.div<{ (active: boolean, id: string) }>`
+export const ChangeButton = styled.div<{ active: boolean; value: string }>`
 	> a {
 		display: flex;
 		align-items: center;
@@ -26,8 +26,9 @@ export const ChangeButton = styled.div<{ (active: boolean, id: string) }>`
 		padding: 1.5rem 3.2rem;
 		transition: background-color 0.2s ease-out;
 		background: ${({ active }) => (active ? Colors.primary : Colors.gray500)};
-		border-radius: ${({ id }) =>
-		Number(id) == 1 ? "5px 0 0 5px" : "0 5px 5px 0"};
+		border-radius: ${({ value }) =>
+		Number(value) == 1 ? "5px 0 0 5px" : "0 5px 5px 0"};
+
 		&:hover,
 		&:focus,
 		&:active {

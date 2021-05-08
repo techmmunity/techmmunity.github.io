@@ -9,12 +9,12 @@ export const RedirectButtons: React.FC = () => {
 
 	return (
 		<Container>
-			<ChangeButton id="1" active={query.language === "en-US"}>
+			<ChangeButton value="1" active={query.language === "en-US"}>
 				<Link href="/en-US" disabled={query.language === "en-US"}>
 					English
 				</Link>
 			</ChangeButton>
-			<ChangeButton id="2" active={query.language === "pt-BR"}>
+			<ChangeButton value="2" active={query.language === "pt-BR"}>
 				<Link href="/pt-BR" disabled={query.language === "pt-BR"}>
 					Português
 				</Link>
