@@ -21,7 +21,6 @@ export const MainSection: React.FC = () => {
 
 	return (
 		<Container id="main">
-			<RedirectButtons />
 			<Description>
 				<Title>{t("mainSection.description.title")}</Title>
 				<Subtitle>{t("mainSection.description.subtitle")}</Subtitle>
@@ -38,6 +37,7 @@ export const MainSection: React.FC = () => {
 					</Link>
 				</Community>
 			</Links>
+			<RedirectButtons />
 		</Container>
 	);
 };
