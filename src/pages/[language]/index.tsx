@@ -9,7 +9,7 @@ import { MainSection } from "components/MainSection";
 import { TechmmunityDivisionsSection } from "components/TechmmunityDivisionsSection";
 import { TechmmunityProductsSection } from "components/TechmmunityProductsSection";
 
-import { FCWithLayout } from "types/interfaces/FCWithLayout";
+import { FCWithLayout } from "types/interfaces/layout";
 
 import { Container } from "styles/pages/Home";
 
