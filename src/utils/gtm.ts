@@ -8,8 +8,12 @@ export const GTMPageView = (url: string) => {
 		event: "pageview",
 		page: url,
 	};
-	// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-	//@ts-ignore
-	window?.dataLayer?.push(pageEvent);
+
+	if (window.dataLayer) {
+		window.dataLayer.push(pageEvent);
+	} else {
+		window.dataLayer = [pageEvent];
+	}
+
 	return pageEvent;
 };
