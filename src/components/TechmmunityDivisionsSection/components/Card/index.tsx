@@ -2,7 +2,7 @@ import { useTranslation } from "next-i18next";
 
 import { memo } from "react";
 
-import { LinkWithLanguage } from "components/LinkWithLanguage";
+import { Link } from "components/Link";
 
 import { SocialNetworksLinks } from "config/social-networks-links";
 
@@ -35,9 +35,9 @@ export const Card: React.FC<Props> = memo(
 					<Title>{title}</Title>
 					<Description>{description}</Description>
 					<LearnMore>
-						<LinkWithLanguage href={SocialNetworksLinks.DISCORD}>
+						<Link href={SocialNetworksLinks.DISCORD} blank>
 							{t("techmmunityDivisionsSection.links.learnMore")} <ArrowRight />
-						</LinkWithLanguage>
+						</Link>
 					</LearnMore>
 				</Content>
 				<Image src={image} alt={alt} invertOrder={invertOrder} />
