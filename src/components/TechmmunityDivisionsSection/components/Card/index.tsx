@@ -4,6 +4,8 @@ import { memo } from "react";
 
 import { LinkWithLanguage } from "components/LinkWithLanguage";
 
+import { SocialNetworksLinks } from "config/social-networks-links";
+
 import {
 	Container,
 	Content,
@@ -19,13 +21,12 @@ interface Props {
 	invertOrder: boolean;
 	title: string;
 	description: string;
-	url: string;
 	image: string;
 	alt: string;
 }
 
 export const Card: React.FC<Props> = memo(
-	({ isCurrent, invertOrder, title, description, url, image, alt }) => {
+	({ isCurrent, invertOrder, title, description, image, alt }) => {
 		const { t } = useTranslation();
 
 		return (
@@ -34,7 +35,7 @@ export const Card: React.FC<Props> = memo(
 					<Title>{title}</Title>
 					<Description>{description}</Description>
 					<LearnMore>
-						<LinkWithLanguage href={url}>
+						<LinkWithLanguage href={SocialNetworksLinks.DISCORD}>
 							{t("techmmunityDivisionsSection.links.learnMore")} <ArrowRight />
 						</LinkWithLanguage>
 					</LearnMore>
