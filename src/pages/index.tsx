@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 import { useEffect } from "react";
 
-import { LayoutsEnum } from "types/enums/LayoutsEnum";
+import { LayoutsEnum } from "types/enums/layout";
 import { FCWithLayout } from "types/interfaces/layout";
 
 const defaultLanguage = i18n.defaultLocale;
