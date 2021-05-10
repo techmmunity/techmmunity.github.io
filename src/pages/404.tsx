@@ -4,8 +4,8 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import { ErrorSection } from "components/ErrorSection";
 
-import { LayoutsEnum } from "types/enums/LayoutsEnum";
-import { FCWithLayout } from "types/interfaces/FCWithLayout";
+import { LayoutsEnum } from "types/enums/layout";
+import { FCWithLayout } from "types/interfaces/layout";
 
 import { Container } from "styles/pages/Error";
 
