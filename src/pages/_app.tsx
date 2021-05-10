@@ -6,11 +6,11 @@ import React, { useEffect } from "react";
 
 import { Head } from "components/Head";
 
+import { GTMPageView } from "utils/gtm";
+
 import { LayoutWrapper } from "layouts/wrapper";
 
 import GlobalStyle from "styles/GlobalStyle";
-
-import { GTMPageView } from "../utils/gtm";
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
 	useEffect(() => {
