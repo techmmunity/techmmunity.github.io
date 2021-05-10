@@ -14,7 +14,7 @@ export const Container = styled.div`
 	}
 `;
 
-export const RedirectButton = styled.div<{ active: boolean; position: string }>`
+export const RedirectLink = styled.div<{ active: boolean; position: string }>`
 	> a {
 		display: flex;
 		align-items: center;

@@ -1,6 +1,6 @@
 import { useTranslation } from "next-i18next";
 
-import { RedirectButtons } from "./components/RedirectButtons";
+import { RedirectLinks } from "./components/RedirectLinks";
 import { Link } from "components/Link";
 import { LinkWithLanguage } from "components/LinkWithLanguage";
 
@@ -37,7 +37,7 @@ export const MainSection: React.FC = () => {
 					</Link>
 				</Community>
 			</Links>
-			<RedirectButtons />
+			<RedirectLinks />
 		</Container>
 	);
 };
