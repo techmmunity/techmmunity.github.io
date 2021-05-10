@@ -4,7 +4,7 @@ import { FaDiscord, FaYoutube, FaTwitch } from "react-icons/fa";
 
 import { Card } from "./components/Card";
 
-import { SocialNetworksLinks } from "config/social-networks-links";
+import { SocialNetworksUrls } from "config/social-networks-urls";
 
 import { Container, Description, Title, Subtitle, Cards } from "./styles";
 
@@ -14,21 +14,21 @@ export const TechmmunityProductsSection: React.FC = () => {
 	const techmmunityProductsCards = [
 		{
 			id: 1,
-			url: SocialNetworksLinks.DISCORD,
+			url: SocialNetworksUrls.discord,
 			Icon: FaDiscord,
 			title: t("techmmunityProductsSection.cards.discord.title"),
 			description: t("techmmunityProductsSection.cards.discord.description"),
 		},
 		{
 			id: 2,
-			url: SocialNetworksLinks.YOUTUBE,
+			url: SocialNetworksUrls.youtube,
 			Icon: FaYoutube,
 			title: t("techmmunityProductsSection.cards.youtube.title"),
 			description: t("techmmunityProductsSection.cards.youtube.description"),
 		},
 		{
 			id: 3,
-			url: SocialNetworksLinks.TWITCH,
+			url: SocialNetworksUrls.twitch,
 			Icon: FaTwitch,
 			title: t("techmmunityProductsSection.cards.twitch.title"),
 			description: t("techmmunityProductsSection.cards.twitch.description"),
