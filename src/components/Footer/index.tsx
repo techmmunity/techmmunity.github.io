@@ -13,7 +13,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 import { Line } from "components/Line";
 import { Link } from "components/Link";
 
-import { SocialNetworksLinks } from "config/social-networks-links";
+import { SocialNetworksUrls } from "config/social-networks-urls";
 
 import {
 	Container,
@@ -26,37 +26,37 @@ import {
 const socialNetworks = [
 	{
 		id: 1,
-		url: SocialNetworksLinks.DISCORD,
+		url: SocialNetworksUrls.discord,
 		Icon: FaDiscord,
 	},
 	{
 		id: 2,
-		url: SocialNetworksLinks.TWITCH,
+		url: SocialNetworksUrls.twitch,
 		Icon: FaTwitch,
 	},
 	{
 		id: 3,
-		url: SocialNetworksLinks.YOUTUBE,
+		url: SocialNetworksUrls.youtube,
 		Icon: FaYoutube,
 	},
 	{
 		id: 4,
-		url: SocialNetworksLinks.FACEBOOK,
+		url: SocialNetworksUrls.facebook,
 		Icon: FaFacebookF,
 	},
 	{
 		id: 5,
-		url: SocialNetworksLinks.TWITTER,
+		url: SocialNetworksUrls.twitter,
 		Icon: FaTwitter,
 	},
 	{
 		id: 6,
-		url: SocialNetworksLinks.LINKEDIN,
+		url: SocialNetworksUrls.linkedin,
 		Icon: IoLogoLinkedin,
 	},
 	{
 		id: 7,
-		url: SocialNetworksLinks.INSTAGRAM,
+		url: SocialNetworksUrls.instagram,
 		Icon: GrInstagram,
 	},
 ];

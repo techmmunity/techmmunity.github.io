@@ -4,7 +4,7 @@ import { memo } from "react";
 
 import { Link } from "components/Link";
 
-import { SocialNetworksLinks } from "config/social-networks-links";
+import { SocialNetworksUrls } from "config/social-networks-urls";
 
 import {
 	Container,
@@ -35,7 +35,7 @@ export const Card: React.FC<Props> = memo(
 					<Title>{title}</Title>
 					<Description>{description}</Description>
 					<LearnMore>
-						<Link href={SocialNetworksLinks.DISCORD} blank>
+						<Link href={SocialNetworksUrls.discord} blank>
 							{t("techmmunityDivisionsSection.links.learnMore")} <ArrowRight />
 						</Link>
 					</LearnMore>
