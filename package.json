@@ -36,12 +36,14 @@
 		"eslint-plugin-react-hooks": "^4.2.0",
 		"husky": "^6.0.0",
 		"lint-staged": "^10.5.4",
+		"next-sitemap": "^1.6.57",
 		"prettier": "^2.2.1",
 		"typescript": "4.0"
 	},
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
+		"postbuild": "next-sitemap --config sitemap-generator.js",
 		"start": "next start",
 		"export": "next export",
 		"husky:pre-commit": "tsc && lint-staged"
