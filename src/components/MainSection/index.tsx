@@ -1,5 +1,6 @@
 import { useTranslation } from "next-i18next";
 
+import { RedirectLinks } from "./components/RedirectLinks";
 import { Link } from "components/Link";
 
 import { SocialNetworksUrls } from "config/social-networks-urls";
@@ -38,6 +39,7 @@ export const MainSection: React.FC = () => {
 					</Link>
 				</Community>
 			</Links>
+			<RedirectLinks />
 		</Container>
 	);
 };
