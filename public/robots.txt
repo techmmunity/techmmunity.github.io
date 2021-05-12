@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: 404.html
-Disallow: index.html
-
-Sitemap: https://techmmunity.github.io/sitemap.xml
