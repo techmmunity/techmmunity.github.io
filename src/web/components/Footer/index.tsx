@@ -10,9 +10,6 @@ import {
 import { GrInstagram } from "react-icons/gr";
 import { IoLogoLinkedin } from "react-icons/io";
 
-import { Line } from "components/Line";
-import { Link } from "components/Link";
-
 import { SocialNetworksUrls } from "config/social-networks-urls";
 
 import {
@@ -22,6 +19,9 @@ import {
 	SocialNetworks,
 	SocialNetwork,
 } from "./styles";
+
+import { Line } from "../Line";
+import { Link } from "../Link";
 
 const socialNetworks = [
 	{

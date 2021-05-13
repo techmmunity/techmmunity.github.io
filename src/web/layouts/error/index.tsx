@@ -1,4 +1,4 @@
-import { PageContainer } from "components/PageContainer";
+import { PageContainer } from "web/components/PageContainer";
 
 export const ErrorLayout: React.FC = ({ children }) => (
 	<PageContainer>{children}</PageContainer>

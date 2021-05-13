@@ -2,7 +2,7 @@ import { i18n } from "../../next-i18next.config";
 import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-import { ErrorSection } from "components/ErrorSection";
+import { ErrorSection } from "../web/components/ErrorSection";
 
 import { LayoutsEnum } from "types/enums/layout";
 import { FCWithLayout } from "types/interfaces/layout";

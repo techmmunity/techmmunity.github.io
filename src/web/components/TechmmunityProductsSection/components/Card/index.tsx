@@ -1,7 +1,5 @@
 import { IconType } from "react-icons";
 
-import { Link } from "components/Link";
-
 import {
 	Container,
 	Content,
@@ -10,6 +8,8 @@ import {
 	Title,
 	Description,
 } from "./styles";
+
+import { Link } from "../../../Link";
 
 interface Props {
 	url: string;

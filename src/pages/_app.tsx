@@ -4,11 +4,11 @@ import { Router } from "next/router";
 
 import React, { useEffect } from "react";
 
-import { Head } from "components/Head";
+import { Head } from "../web/components/Head";
 
 import { GTMPageView } from "utils/gtm";
 
-import { LayoutWrapper } from "layouts/wrapper";
+import { LayoutWrapper } from "../web/layouts/wrapper";
 
 import GlobalStyle from "styles/GlobalStyle";
 

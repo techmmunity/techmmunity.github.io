@@ -2,7 +2,7 @@ import { useTranslation } from "next-i18next";
 
 import { memo } from "react";
 
-import { Link } from "components/Link";
+import { Link } from "web/components/Link";
 
 import { SocialNetworksUrls } from "config/social-networks-urls";
 

@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import { Link } from "components/Link";
+import { Link } from "web/components/Link";
 
 import { Container, RedirectLink } from "./styles";
 

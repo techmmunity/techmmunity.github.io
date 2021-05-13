@@ -1,4 +1,4 @@
-import { CookiesAlertModal } from "components/CookiesAlertModal";
+import { CookiesAlertModal } from "web/components/CookiesAlertModal";
 
 import { Container, Content } from "./styles";
 
