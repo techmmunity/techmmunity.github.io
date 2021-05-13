@@ -1,5 +1,7 @@
 import { useTranslation } from "next-i18next";
 
+import { Link } from "web/components/Link";
+
 import { RedirectLinks } from "./components/RedirectLinks";
 
 import { SocialNetworksUrls } from "config/social-networks-urls";
@@ -13,8 +15,6 @@ import {
 	AboutUs,
 	Community,
 } from "./styles";
-
-import { Link } from "../Link";
 
 export const MainSection: React.FC = () => {
 	const { t } = useTranslation();

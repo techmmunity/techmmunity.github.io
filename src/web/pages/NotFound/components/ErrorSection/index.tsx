@@ -1,6 +1,6 @@
-import { Container, Title, Subtitle, RedirectToHomeButton } from "./styles";
+import { Link } from "web/components/Link";
 
-import { Link } from "../Link";
+import { Container, Title, Subtitle, RedirectToHomeButton } from "./styles";
 
 export const ErrorSection: React.FC = () => (
 	<Container>

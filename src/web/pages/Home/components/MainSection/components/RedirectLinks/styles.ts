@@ -27,13 +27,13 @@ export const RedirectLink = styled.div<{ active: boolean; position: string }>`
 		transition: background-color 0.2s ease-out;
 		background: ${({ active }) => (active ? Colors.primary : Colors.gray500)};
 		border-radius: ${({ position }) =>
-		position === "left" ? "5px 0 0 5px" : "0 5px 5px 0"};
+			position === "left" ? "5px 0 0 5px" : "0 5px 5px 0"};
 
 		&:hover,
 		&:focus,
 		&:active {
 			background: ${({ active }) =>
-		active ? Colors.darkPrimary : Colors.gray800};
+				active ? Colors.darkPrimary : Colors.gray800};
 		}
 
 		@media (max-width: 768px) {

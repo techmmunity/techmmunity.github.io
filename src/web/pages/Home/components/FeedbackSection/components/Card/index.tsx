@@ -1,3 +1,5 @@
+import { Link } from "web/components/Link";
+
 import {
 	Container,
 	Content,
@@ -6,8 +8,6 @@ import {
 	Line,
 	Author,
 } from "./styles";
-
-import { Link } from "../../../Link";
 
 interface Props {
 	feedback: string;
