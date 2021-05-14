@@ -38,3 +38,6 @@ yarn-error.log*
 !.vscode/launch.json
 !.vscode/settings.json
 !.vscode/tasks.json
+
+# core
+src/core
