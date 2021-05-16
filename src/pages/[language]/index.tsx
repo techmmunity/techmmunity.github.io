@@ -2,32 +2,9 @@ import { i18n } from "../../../next-i18next.config";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-import { FeedbackSection } from "components/FeedbackSection";
-import { Line } from "components/Line";
-import { MadeOfSection } from "components/MadeOfSection";
-import { MainSection } from "components/MainSection";
-import { TechmmunityDivisionsSection } from "components/TechmmunityDivisionsSection";
-import { TechmmunityProductsSection } from "components/TechmmunityProductsSection";
+import { HomePage } from "web/pages/Home";
 
-import { FCWithLayout } from "types/interfaces/layout";
-
-import { Container } from "styles/pages/Home";
-
-const Home: FCWithLayout = () => (
-	<Container>
-		<MainSection />
-		<Line />
-		<MadeOfSection />
-		<Line />
-		<TechmmunityDivisionsSection />
-		<Line />
-		<TechmmunityProductsSection />
-		<Line />
-		<FeedbackSection />
-	</Container>
-);
-
-export default Home;
+export default HomePage;
 
 export const getStaticPaths: GetStaticPaths = async () => {
 	const languages = i18n.locales;
