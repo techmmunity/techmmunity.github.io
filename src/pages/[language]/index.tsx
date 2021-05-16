@@ -2,9 +2,9 @@ import { i18n } from "../../../next-i18next.config";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-import { Home } from "web/pages/Home";
+import { HomePage } from "web/pages/Home";
 
-export default Home;
+export default HomePage;
 
 export const getStaticPaths: GetStaticPaths = async () => {
 	const languages = i18n.locales;
