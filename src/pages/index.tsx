@@ -1,8 +1,9 @@
-import { i18n } from "../../next-i18next.config";
 import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import { RedirectToHomePage } from "web/pages/RedirectToHome";
+
+import { i18n } from "config/i18n";
 
 import { LayoutsEnum } from "types/enums/layout";
 

@@ -1,4 +1,3 @@
-import { i18n } from "../../next-i18next.config";
 import Document, {
 	DocumentContext,
 	Html,
@@ -8,6 +7,8 @@ import Document, {
 } from "next/document";
 
 import { ServerStyleSheet } from "styled-components";
+
+import { i18n } from "config/i18n";
 
 const getHtmlLang = (locale: string) => {
 	switch (locale) {
@@ -48,8 +49,7 @@ export default class MyDocument extends Document {
 
 	render() {
 		const { language } = this.props.__NEXT_DATA__.query;
-		const defaultLanguage = i18n.defaultLocale;
-		const htmlLang = getHtmlLang((language || defaultLanguage) as string);
+		const htmlLang = getHtmlLang((language || i18n.defaultLocale) as string);
 
 		return (
 			<Html lang={htmlLang}>
