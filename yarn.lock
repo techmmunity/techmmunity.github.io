@@ -1179,6 +1179,11 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
+"@techmmunity/easy-check@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@techmmunity/easy-check/-/easy-check-3.1.2.tgz#a31ac3529a2969b20feded7434ad6b67e1568aa8"
+  integrity sha512-6LSiVIQyKZKJN3fLwBtNyr/VexwSxkwGc3bXcU12b3OStDuGcyLxYZvsPwClTrv1Yxqnx31izj05gaUfOkY1JA==
+
 "@types/hoist-non-react-statics@*", "@types/hoist-non-react-statics@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"

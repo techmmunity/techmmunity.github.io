@@ -1,5 +1,7 @@
 import { useTranslation } from "next-i18next";
 
+import { isOdd } from "@techmmunity/easy-check";
+
 import { Container } from "./styles";
 
 import { Card } from "../Card";
@@ -13,35 +15,35 @@ export const Cards: React.FC<Props> = ({ currentCard }) => {
 
 	const techmmunityDivisionsCards = [
 		{
-			id: 1,
+			order: 1,
 			title: t("techmmunityDivisionsSection.cards.dev.title"),
 			description: t("techmmunityDivisionsSection.cards.dev.description"),
 			image: "pexels-programming.webp",
 			alt: t("techmmunityDivisionsSection.cards.dev.title"),
 		},
 		{
-			id: 2,
+			order: 2,
 			title: t("techmmunityDivisionsSection.cards.graphic.title"),
 			description: t("techmmunityDivisionsSection.cards.graphic.description"),
 			image: "pexels-graphic.webp",
 			alt: t("techmmunityDivisionsSection.cards.graphic.title"),
 		},
 		{
-			id: 3,
+			order: 3,
 			title: t("techmmunityDivisionsSection.cards.song.title"),
 			description: t("techmmunityDivisionsSection.cards.song.description"),
 			image: "pexels-sound.webp",
 			alt: t("techmmunityDivisionsSection.cards.song.title"),
 		},
 		{
-			id: 4,
+			order: 4,
 			title: t("techmmunityDivisionsSection.cards.robotic.title"),
 			description: t("techmmunityDivisionsSection.cards.robotic.description"),
 			image: "pexels-robotic.webp",
 			alt: t("techmmunityDivisionsSection.cards.robotic.title"),
 		},
 		{
-			id: 5,
+			order: 5,
 			title: t("techmmunityDivisionsSection.cards.manager.title"),
 			description: t("techmmunityDivisionsSection.cards.manager.description"),
 			image: "pexels-management.webp",
@@ -51,11 +53,11 @@ export const Cards: React.FC<Props> = ({ currentCard }) => {
 
 	return (
 		<Container>
-			{techmmunityDivisionsCards.map(({ id, ...props }) => (
+			{techmmunityDivisionsCards.map(({ order, ...props }) => (
 				<Card
-					key={id}
-					isCurrent={currentCard === id}
-					invertOrder={id % 2 === 0}
+					key={order}
+					isCurrent={currentCard === order}
+					invertOrder={isOdd(order)}
 					{...props}
 				/>
 			))}
