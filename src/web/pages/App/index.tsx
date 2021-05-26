@@ -11,10 +11,7 @@ import { LayoutWrapper } from "web/layouts/wrapper";
 
 import GlobalStyle from "./styles";
 
-export const MyApp: React.FC<AppProps> = ({
-	Component,
-	pageProps,
-}: AppProps) => {
+export const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 	useEffect(() => {
 		const handleRouteChange = (url: string) => GTMPageView(url);
 

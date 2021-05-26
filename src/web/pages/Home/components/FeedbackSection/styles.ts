@@ -11,7 +11,7 @@ export const Container = styled.section`
 
 export const Description = styled.header`
 	text-align: center;
-	padding: 3rem 2.5rem;
+	padding: 1rem 0;
 `;
 
 export const Title = styled.h2`
@@ -22,14 +22,11 @@ export const Subtitle = styled.h3`
 	color: ${Colors.gray100};
 	font-size: 2rem;
 	font-weight: normal;
+	margin: 1rem 0;
 `;
 
 export const Cards = styled.ul`
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-
-	@media (max-width: 1100px) {
-		padding: 0 2rem;
-	}
 `;

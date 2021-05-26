@@ -16,13 +16,10 @@ export const Container = styled.div`
 
 export const RedirectLink = styled.div<{ active: boolean; position: string }>`
 	> a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		display: block;
 		color: ${Colors.white1000};
 		font-weight: 500;
 		text-align: center;
-		text-decoration: none;
 		padding: 1.5rem 3.2rem;
 		transition: background-color 0.2s ease-out;
 		background: ${({ active }) => (active ? Colors.primary : Colors.gray500)};

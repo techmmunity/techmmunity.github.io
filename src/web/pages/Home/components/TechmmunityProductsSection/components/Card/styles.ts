@@ -5,7 +5,7 @@ import { Colors } from "assets/colors";
 export const Container = styled.li`
 	width: 100%;
 	max-width: 42.4rem;
-	margin: 2rem 1rem;
+	margin: 2rem;
 `;
 
 export const Content = styled.div`
@@ -27,9 +27,6 @@ export const IconContainer = styled.div`
 		transition: background-color 0.2s ease-out;
 
 		> svg {
-			display: flex;
-			align-items: center;
-			justify-content: center;
 			font-size: 3rem;
 		}
 
@@ -50,7 +47,6 @@ export const Title = styled.div`
 	> a {
 		font-size: 2.4rem;
 		font-weight: bold;
-		margin-bottom: 2rem;
 
 		&:hover,
 		&:focus,

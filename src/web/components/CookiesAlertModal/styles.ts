@@ -39,10 +39,10 @@ export const ConfirmationButton = styled.button`
 	font-weight: bold;
 	padding: 1rem 1.5rem;
 	transition: background-color 0.2s ease-out;
+	cursor: pointer;
 
 	&:hover,
-	&:focus,
-	&:active {
+	&:focus {
 		background: ${Colors.darkPrimary};
 	}
 

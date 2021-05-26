@@ -28,16 +28,12 @@ export const IconContainer = styled.div`
 	padding: 1.5rem;
 
 	> svg {
-		display: flex;
-		align-items: center;
-		justify-content: center;
 		font-size: 3rem;
 	}
 `;
 
-export const Title = styled.span`
+export const Title = styled.h4`
 	font-size: 2.4rem;
-	font-weight: bold;
 	margin: 1rem 0;
 `;
 

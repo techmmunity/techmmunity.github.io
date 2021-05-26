@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { Colors } from "assets/colors";
 
-export const Container = styled.main`
+export const Container = styled.div`
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -11,6 +11,7 @@ export const Container = styled.main`
 	min-height: 100vh;
 	height: 100%;
 	z-index: 1;
+	overflow-y: hidden;
 
 	&::before {
 		position: absolute;
