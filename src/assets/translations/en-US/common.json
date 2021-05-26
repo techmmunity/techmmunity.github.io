@@ -60,27 +60,54 @@
 		"cards": {
 			"dev": {
 				"title": "Our programming division",
-				"description": "With an increasingly demanding market, professionals who are thinking of working in the area need to know more and more technologies from different areas. With that in mind, we created our programming division, which helps both the beginners and the more experienced to better understand the most used technologies on the market."
+				"description": "With an increasingly demanding market, professionals who are thinking of working in the area need to know more and more technologies from different areas. With that in mind, we created our programming division, which helps both the beginners and the more experienced to better understand the most used technologies on the market",
+				"links": {
+					"learnMore": {
+						"text": "Learn more",
+						"ariaLabel": "Learn more about our programming division"
+					}
+				}
 			},
 			"graphic": {
 				"title": "Our graphic design division",
-				"description": "Design is a very creative area, but it requires knowledge of some very specific concepts that are complicated to learn on your own. We created our design division especially for this so that both professionals and aspirants in the field can share their experiences and refine their skills even more."
+				"description": "Design is a very creative area, but it requires knowledge of some very specific concepts that are complicated to learn on your own. We created our design division especially for this so that both professionals and aspirants in the field can share their experiences and refine their skills even more.",
+				"links": {
+					"learnMore": {
+						"text": "Learn more",
+						"ariaLabel": "Learn more about our graphic design division"
+					}
+				}
 			},
 			"song": {
 				"title": "Our sound design division",
-				"description": "When talking about sound design, the first thing that comes to mind is voice acting, however, this universe is much broader and more diverse. Sound design is necessary for almost all projects and we created this division to encourage the growth of the area."
+				"description": "When talking about sound design, the first thing that comes to mind is voice acting, however, this universe is much broader and more diverse. Sound design is necessary for almost all projects and we created this division to encourage the growth of the area.",
+				"links": {
+					"learnMore": {
+						"text": "Learn more",
+						"ariaLabel": "Learn more about our sound design division"
+					}
+				}
 			},
 			"robotic": {
 				"title": "Our robotic engineering division",
-				"description": "Robotic engineering is a constantly expanding sector, both for industries and the entertainment of the general population. With our technological advancement, the demand for professionals capable of working in this area should grow more and more, so we created our technology sector to prepare professionals for this future demand."
+				"description": "Robotic engineering is a constantly expanding sector, both for industries and the entertainment of the general population. With our technological advancement, the demand for professionals capable of working in this area should grow more and more, so we created our technology sector to prepare professionals for this future demand.",
+				"links": {
+					"learnMore": {
+						"text": "Learn more",
+						"ariaLabel": "Learn more about our robotic engineering division"
+					}
+				}
 			},
 			"manager": {
 				"title": "Our management division",
-				"description": "Management encompasses several areas of any company, be it finance, human resources, entrepreneurship, and several others. We created the management division both for people who want to do a better job for the company they are employed in and for people who want to start their own."
+				"description": "Management encompasses several areas of any company, be it finance, human resources, entrepreneurship, and several others. We created the management division both for people who want to do a better job for the company they are employed in and for people who want to start their own.",
+				"links": {
+					"learnMore": {
+						"text": "Learn more",
+						"ariaLabel": "Learn more about our management division"
+					}
+				}
 			}
-		},
-		"links": {
-			"learnMore": "Learn more"
 		}
 	},
 	"techmmunityProductsSection": {

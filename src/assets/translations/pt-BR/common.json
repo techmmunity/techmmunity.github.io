@@ -60,27 +60,54 @@
 		"cards": {
 			"dev": {
 				"title": "Nossa divisão de programação",
-				"description": "Com o aumento da demanda do mercado, profissionais que estão pensando em trabalhar na área precisam conhecer cada vez mais e mais tecnologias. Com isso em mente, nós criamos uma divisão de programação, que ajuda tanto os iniciantes quanto os mais experientes a entender as tecnologias mais usadas do mercado."
+				"description": "Com o aumento da demanda do mercado, profissionais que estão pensando em trabalhar na área precisam conhecer cada vez mais e mais tecnologias. Com isso em mente, nós criamos uma divisão de programação, que ajuda tanto os iniciantes quanto os mais experientes a entender as tecnologias mais usadas do mercado.",
+				"links": {
+					"learnMore": {
+						"text": "Saiba mais",
+						"ariaLabel": "Saiba mais sobre nossa divisão de programação"
+					}
+				}
 			},
 			"graphic": {
 				"title": "Nossa divisão de design gráfico",
-				"description": "Design é uma área muito criativa, mas requer conhecimento de conceitos bem específicos que são complicados de serem entendidos por conta própria. Nós criamos nossa divisão de design gráfico especialmente para isso, então tanto profissionais quanto iniciantes podem compartilhar seus conhecimentos."
+				"description": "Design é uma área muito criativa, mas requer conhecimento de conceitos bem específicos que são complicados de serem entendidos por conta própria. Nós criamos nossa divisão de design gráfico especialmente para isso, então tanto profissionais quanto iniciantes podem compartilhar seus conhecimentos.",
+				"links": {
+					"learnMore": {
+						"text": "Saiba mais",
+						"ariaLabel": "Saiba mais sobre nossa divisão de programação"
+					}
+				}
 			},
 			"song": {
 				"title": "Nossa divisão de sonoplastia",
-				"description": "Quando falamos de sonoplastia, a primeira coisa que nos vem à mente é dublagem, entretanto, esse universo é muito mais vasto e quase todos os projetos precisam de algo relacionado a sonoplastia. Nós criamos essa divisão para incentivar o crescimento dessa área."
+				"description": "Quando falamos de sonoplastia, a primeira coisa que nos vem à mente é dublagem, entretanto, esse universo é muito mais vasto e quase todos os projetos precisam de algo relacionado a sonoplastia. Nós criamos essa divisão para incentivar o crescimento dessa área.",
+				"links": {
+					"learnMore": {
+						"text": "Saiba mais",
+						"ariaLabel": "Saiba mais sobre nossa divisão de sonoplastia"
+					}
+				}
 			},
 			"robotic": {
 				"title": "Nossa divisão de engenharia robótica",
-				"description": "Engenharia robótica é um setor em constante crescimento, tanto para indústrias quanto para entretenimento do público em geral. Com os avanços tecnológicos, a demanda por profissionais qualificados cresce cada vez mais, então criamos essa divisão para preparar os profissionais para essa demanda iminente."
+				"description": "Engenharia robótica é um setor em constante crescimento, tanto para indústrias quanto para entretenimento do público em geral. Com os avanços tecnológicos, a demanda por profissionais qualificados cresce cada vez mais, então criamos essa divisão para preparar os profissionais para essa demanda iminente.",
+				"links": {
+					"learnMore": {
+						"text": "Saiba mais",
+						"ariaLabel": "Saiba mais sobre nossa divisão de engenharia robótica"
+					}
+				}
 			},
 			"manager": {
 				"title": "Nossa divisão de gestão",
-				"description": "A gestão engloba diversas áreas de uma empresa, seja financeira, recursos humanos, empreendedorismo, entre outras. Criamos nossa divisão de gestão tanto para ajudar pessoas que querem abrir sua própria empresa, quanto para aquelas que querem ser funcionários mais qualificados em empresas de terceiros."
+				"description": "A gestão engloba diversas áreas de uma empresa, seja financeira, recursos humanos, empreendedorismo, entre outras. Criamos nossa divisão de gestão tanto para ajudar pessoas que querem abrir sua própria empresa, quanto para aquelas que querem ser funcionários mais qualificados em empresas de terceiros.",
+				"links": {
+					"learnMore": {
+						"text": "Saiba mais",
+						"ariaLabel": "Saiba mais sobre nossa divisão de gestão"
+					}
+				}
 			}
-		},
-		"links": {
-			"learnMore": "Saiba mais"
 		}
 	},
 	"techmmunityProductsSection": {
