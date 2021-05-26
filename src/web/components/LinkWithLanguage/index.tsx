@@ -1,22 +1,26 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-interface Props {
-	href: string;
-	blank?: boolean;
-}
+import { LinkProps } from "types/interfaces/link";
 
-export const LinkWithLanguage: React.FC<Props> = ({
+export const LinkWithLanguage: React.FC<LinkProps> = ({
 	href,
-	children,
 	blank,
+	disabled,
+	children,
+	...props
 }) => {
 	const { query } = useRouter();
 	const { language } = query;
 
 	return (
 		<Link href={`/${language}${href}`}>
-			<a target={blank ? "_blank" : "_self"} rel="noopener noreferrer">
+			<a
+				style={{ pointerEvents: disabled ? "none" : "auto" }}
+				target={blank ? "_blank" : "_self"}
+				rel="noopener noreferrer"
+				{...props}
+			>
 				{children}
 			</a>
 		</Link>

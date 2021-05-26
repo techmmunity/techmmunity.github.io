@@ -4,7 +4,7 @@ import { Colors } from "assets/colors";
 
 export const Container = styled.header`
 	text-align: center;
-	padding: 3rem 2.5rem;
+	padding: 1rem 0;
 `;
 
 export const Title = styled.h2`

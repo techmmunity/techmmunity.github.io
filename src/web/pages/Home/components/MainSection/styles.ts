@@ -27,33 +27,39 @@ export const Subtitle = styled.h2`
 	margin: 1rem 0;
 `;
 
-export const Links = styled.div`
-	display: flex;
-
-	@media (max-width: 768px) {
-		flex-direction: column;
-	}
-`;
-
 const RedirectCSS = css`
-	font-size: 1.6rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display: block;
 	color: ${Colors.white1000};
-	text-align: center;
-	text-decoration: none;
+	font-size: 1.6rem;
 	border-radius: 3px;
 	padding: 1.5rem 3.2rem;
 	margin: 0 1rem;
 	transition: background-color 0.2s ease-out;
 `;
 
-export const Community = styled.div`
-	> a {
+export const Links = styled.div`
+	display: flex;
+
+	> a:first-child {
 		${RedirectCSS}
-		font-weight: 500;
+		background: ${Colors.gray500};
+		font-weight: 600;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background: ${Colors.gray800};
+		}
+
+		@media (max-width: 768px) {
+			margin-bottom: 2rem;
+		}
+	}
+
+	> a:last-child {
+		${RedirectCSS}
 		background: ${Colors.primary};
+		font-weight: 500;
 
 		&:hover,
 		&:focus,
@@ -61,20 +67,8 @@ export const Community = styled.div`
 			background: ${Colors.darkPrimary};
 		}
 	}
-`;
-
-export const AboutUs = styled.button`
-	${RedirectCSS}
-	background: ${Colors.gray500};
-	font-weight: 600;
-
-	&:hover,
-	&:focus,
-	&:active {
-		background: ${Colors.gray800};
-	}
 
 	@media (max-width: 768px) {
-		margin-bottom: 2rem;
+		flex-direction: column;
 	}
 `;

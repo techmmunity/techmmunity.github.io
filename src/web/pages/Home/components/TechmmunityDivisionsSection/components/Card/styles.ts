@@ -17,6 +17,7 @@ export const Container = styled.div<{
 		0% {
 			opacity: 0%;
 		}
+
 		100% {
 			opacity: 100%;
 		}
@@ -26,7 +27,6 @@ export const Container = styled.div<{
 		flex-direction: column-reverse;
 		align-items: center;
 		max-width: 45rem;
-		padding: 0 2rem;
 	}
 `;
 
@@ -41,26 +41,6 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 		invertOrder ? "0 5px 5px 0" : "5px 0 0 5px"};
 	padding: 3rem 6.5rem 3rem 2.5rem;
 
-	@media (max-width: 1000px) {
-		width: 100%;
-		max-height: unset;
-		padding: 3rem 2.5rem;
-		border-radius: 0 0 5px 5px;
-	}
-`;
-
-export const Title = styled.h4`
-	font-size: 2.4rem;
-`;
-
-export const Description = styled.p`
-	color: ${Colors.gray100};
-	font-size: 1.8rem;
-	line-height: 2.8rem;
-	margin: 1rem 0 2.5rem 0;
-`;
-
-export const LearnMore = styled.div`
 	> a {
 		display: flex;
 		align-items: center;
@@ -84,12 +64,27 @@ export const LearnMore = styled.div`
 			max-width: unset;
 		}
 	}
+
+	@media (max-width: 1000px) {
+		width: 100%;
+		max-height: unset;
+		padding: 2rem;
+		border-radius: 0 0 5px 5px;
+	}
+`;
+
+export const Title = styled.h4`
+	font-size: 2.4rem;
+`;
+
+export const Description = styled.p`
+	color: ${Colors.gray100};
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+	margin: 1rem 0 2.5rem 0;
 `;
 
 export const ArrowRight = styled(BsArrowRight)`
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	margin-left: 1rem;
 `;
 
