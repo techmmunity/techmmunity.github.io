@@ -6,26 +6,19 @@ export const Container = styled.footer`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 3rem;
-	margin-bottom: 6rem;
+	padding: 0 2rem;
+	margin-bottom: 5.5rem;
 
 	@media (max-width: 810px) {
 		flex-direction: column-reverse;
 	}
 `;
 
-export const CopyrightContainer = styled.div`
-	text-align: center;
-	margin: 1rem 0;
-`;
-
 export const Copyright = styled.p`
-	color: ${Colors.gray100}ba;
+	text-align: center;
+	color: ${Colors.gray100};
 	font-size: 1.8rem;
-
-	@media (max-width: 810px) {
-		margin-top: 1.5rem;
-	}
+	margin: 2rem 0;
 `;
 
 export const SocialNetworks = styled.ul`
