@@ -7,8 +7,11 @@ export const Container = styled.section`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+`;
+
+export const Description = styled.header`
 	text-align: center;
-	padding: 3rem 2.5rem;
+	padding: 1rem 0;
 `;
 
 export const Title = styled.h1`
@@ -23,9 +26,7 @@ export const Subtitle = styled.p`
 
 export const RedirectToHomeButton = styled.div`
 	> a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		display: block;
 		background: ${Colors.primary};
 		color: ${Colors.white1000};
 		font-weight: 500;

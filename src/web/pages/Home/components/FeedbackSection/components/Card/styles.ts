@@ -24,8 +24,6 @@ export const QuoteIcon = styled(ImQuotesLeft)`
 `;
 
 export const Feedback = styled.p`
-	display: flex;
-	flex-direction: column;
 	color: ${Colors.gray100};
 	font-size: 1.8rem;
 	text-indent: 1.8rem;

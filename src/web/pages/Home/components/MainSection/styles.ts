@@ -13,11 +13,11 @@ export const Container = styled.section`
 
 export const Description = styled.header`
 	text-align: center;
-	padding: 3rem 2.5rem;
+	padding: 1rem 0;
 `;
 
 export const Title = styled.h1`
-	font-size: clamp(3.8rem, 1rem + 5vw, 5.2rem);
+	font-size: clamp(3.6rem, 1rem + 5vw, 5rem);
 `;
 
 export const Subtitle = styled.h2`
