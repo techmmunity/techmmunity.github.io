@@ -54,7 +54,7 @@ export default class MyDocument extends Document {
 
 	render() {
 		const { language } = this.props.__NEXT_DATA__.query;
-		const { html, metas } = getSystemInformation(
+		const { html, head } = getSystemInformation(
 			(language || i18n.defaultLocale) as string,
 		);
 
@@ -72,10 +72,10 @@ export default class MyDocument extends Document {
 						}}
 					/>
 					{/* End Google Tag Manager */}
-					<meta name="description" content={metas.description} />
+					<meta name="description" content={head.metas.description} />
 					<meta name="og:site_name" content="Techmmunity" />
 					<meta name="og:url" content="https://techmmunity.github.io/" />
-					<meta name="og:locale" content={metas.ogLocale} />
+					<meta name="og:locale" content={head.metas.ogLocale} />
 					<link
 						href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
 						rel="stylesheet"

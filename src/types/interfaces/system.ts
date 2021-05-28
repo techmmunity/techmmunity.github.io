@@ -2,8 +2,10 @@ export interface GetSystemInformationResult {
 	html: {
 		lang: string;
 	};
-	metas: {
-		description: string;
-		ogLocale: string;
+	head: {
+		metas: {
+			description: string;
+			ogLocale: string;
+		};
 	};
 }
