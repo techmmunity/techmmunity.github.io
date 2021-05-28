@@ -13,7 +13,7 @@ interface Props {
 }
 
 export const Cards: React.FC<Props> = ({ currentCard }) => {
-	const { t } = useTranslation();
+	const { t } = useTranslation("home");
 
 	const techmmunityDivisionsCards = useMemo(
 		() => [

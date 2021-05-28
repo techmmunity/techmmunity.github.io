@@ -9,7 +9,7 @@ import { Card } from "./components/Card";
 import { Container, Description, Title, Subtitle, Cards } from "./styles";
 
 export const MadeOfSection: React.FC = () => {
-	const { t } = useTranslation();
+	const { t } = useTranslation("home");
 
 	const madeOfCards = [
 		{

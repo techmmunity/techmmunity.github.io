@@ -6,8 +6,7 @@ import { Container, Description, ConfirmationButton } from "./styles";
 
 export const CookiesAlertModal: React.FC = () => {
 	const [isCookiesAccepted, setIsCookiesAccepted] = useState(true);
-
-	const { t } = useTranslation();
+	const { t } = useTranslation("components");
 
 	useEffect(() => {
 		const cookiesAccepted = localStorage.getItem("cookies-accepted");
