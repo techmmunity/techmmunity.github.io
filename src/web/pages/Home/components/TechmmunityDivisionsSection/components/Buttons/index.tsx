@@ -17,7 +17,7 @@ interface Props {
 
 export const Buttons: React.FC<Props> = memo(
 	({ currentCard, setCurrentCard }) => {
-		const { t } = useTranslation();
+		const { t } = useTranslation("home");
 
 		const techmmunityDivisionsButtons = useMemo(
 			() => [

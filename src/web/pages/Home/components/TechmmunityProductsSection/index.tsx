@@ -9,7 +9,7 @@ import { SocialNetworksUrls } from "config/social-networks-urls";
 import { Container, Description, Title, Subtitle, Cards } from "./styles";
 
 export const TechmmunityProductsSection: React.FC = () => {
-	const { t } = useTranslation();
+	const { t } = useTranslation("home");
 
 	const techmmunityProductsCards = [
 		{

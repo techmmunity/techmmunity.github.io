@@ -5,7 +5,7 @@ import { Card } from "./components/Card";
 import { Container, Description, Title, Subtitle, Cards } from "./styles";
 
 export const FeedbackSection: React.FC = () => {
-	const { t } = useTranslation();
+	const { t } = useTranslation("home");
 
 	const feedbacksCards = [
 		{

@@ -8,15 +8,20 @@ import Document, {
 
 import { ServerStyleSheet } from "styled-components";
 
+import enUSSystem from "assets/translations/en-US/system.json";
+import ptBRSystem from "assets/translations/pt-BR/system.json";
+
 import { i18n } from "config/i18n";
 
-const getHtmlLang = (locale: string) => {
+import { GetSystemInformationResult } from "types/interfaces/system";
+
+const getSystemInformation = (locale: string): GetSystemInformationResult => {
 	switch (locale) {
 		case "pt-BR":
-			return "pt";
+			return ptBRSystem as GetSystemInformationResult;
 		case "en-US":
 		default:
-			return "en";
+			return enUSSystem as GetSystemInformationResult;
 	}
 };
 
@@ -49,10 +54,12 @@ export default class MyDocument extends Document {
 
 	render() {
 		const { language } = this.props.__NEXT_DATA__.query;
-		const htmlLang = getHtmlLang((language || i18n.defaultLocale) as string);
+		const { html, head } = getSystemInformation(
+			(language || i18n.defaultLocale) as string,
+		);
 
 		return (
-			<Html lang={htmlLang}>
+			<Html lang={html.lang}>
 				<Head>
 					{/* Google Tag Manager */}
 					<script
@@ -65,13 +72,10 @@ export default class MyDocument extends Document {
 						}}
 					/>
 					{/* End Google Tag Manager */}
-					<meta
-						name="description"
-						content="Techmmunity is a Tech Community, with focus to teach people how to code, design, make sound design, do robotic engineering stuff, and do company management."
-					/>
+					<meta name="description" content={head.metas.description} />
 					<meta name="og:site_name" content="Techmmunity" />
 					<meta name="og:url" content="https://techmmunity.github.io/" />
-					<meta name="og:locale" content={htmlLang} />
+					<meta name="og:locale" content={head.metas.ogLocale} />
 					<link
 						href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
 						rel="stylesheet"

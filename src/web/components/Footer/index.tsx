@@ -63,7 +63,7 @@ const socialNetworks = [
 ];
 
 export const Footer: React.FC = () => {
-	const { t } = useTranslation();
+	const { t } = useTranslation("components");
 
 	return (
 		<>

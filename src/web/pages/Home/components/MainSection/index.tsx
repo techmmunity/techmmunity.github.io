@@ -10,7 +10,7 @@ import { SocialNetworksUrls } from "config/social-networks-urls";
 import { Container, Description, Title, Subtitle, Links } from "./styles";
 
 export const MainSection: React.FC = () => {
-	const { t } = useTranslation();
+	const { t } = useTranslation("home");
 
 	return (
 		<Container id="main">

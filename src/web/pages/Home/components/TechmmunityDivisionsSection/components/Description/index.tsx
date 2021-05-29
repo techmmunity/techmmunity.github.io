@@ -5,7 +5,7 @@ import { memo } from "react";
 import { Container, Title, Subtitle } from "./styles";
 
 export const Description: React.FC = memo(() => {
-	const { t } = useTranslation();
+	const { t } = useTranslation("home");
 
 	return (
 		<Container>
