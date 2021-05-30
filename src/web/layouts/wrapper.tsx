@@ -18,5 +18,9 @@ const getLayout = (layout?: LayoutsEnum): React.FC => {
 export const LayoutWrapper: React.FC = props => {
 	const Layout = getLayout((props.children as any).type.layout);
 
-	return <Layout {...props}>{props.children}</Layout>;
+	return (
+		<Layout {...props}>
+			<main>{props.children}</main>
+		</Layout>
+	);
 };

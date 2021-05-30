@@ -9,7 +9,7 @@ import { GTMPageView } from "utils/gtm";
 
 import { LayoutWrapper } from "web/layouts/wrapper";
 
-import GlobalStyle, { Main } from "./styles";
+import GlobalStyle from "./styles";
 
 export const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 	useEffect(() => {
@@ -26,9 +26,7 @@ export const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 		<>
 			<Head />
 			<LayoutWrapper {...pageProps}>
-				<Main>
-					<Component {...pageProps} />
-				</Main>
+				<Component {...pageProps} />
 			</LayoutWrapper>
 			<GlobalStyle />
 		</>
