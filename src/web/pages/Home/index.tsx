@@ -1,3 +1,6 @@
+import { useTranslation } from "react-i18next";
+
+import { HeadTitle } from "web/components/HeadTitle";
 import { Line } from "web/components/Line";
 
 import { FeedbackSection } from "./components/FeedbackSection";
@@ -8,16 +11,21 @@ import { TechmmunityProductsSection } from "./components/TechmmunityProductsSect
 
 import { FCWithLayout } from "types/interfaces/layout";
 
-export const HomePage: FCWithLayout = () => (
-	<>
-		<MainSection />
-		<Line />
-		<MadeOfSection />
-		<Line />
-		<TechmmunityDivisionsSection />
-		<Line />
-		<TechmmunityProductsSection />
-		<Line />
-		<FeedbackSection />
-	</>
-);
+export const HomePage: FCWithLayout = () => {
+	const { t } = useTranslation("home");
+
+	return (
+		<>
+			<HeadTitle title={t("head.title")} />
+			<MainSection />
+			<Line />
+			<MadeOfSection />
+			<Line />
+			<TechmmunityDivisionsSection />
+			<Line />
+			<TechmmunityProductsSection />
+			<Line />
+			<FeedbackSection />
+		</>
+	);
+};
