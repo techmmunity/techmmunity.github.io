@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.div`
 	display: flex;
@@ -11,6 +11,6 @@ export const Container = styled.div`
 export const Content = styled.span`
 	width: 100%;
 	height: 1px;
-	background: ${Colors.gray200}80;
+	background: ${COLORS.gray200}80;
 	margin: 7.5rem 2rem;
 `;

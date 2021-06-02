@@ -14,19 +14,19 @@ export const MadeOfSection: React.FC = () => {
 	const madeOfCards = [
 		{
 			id: 1,
-			Icon: FiCpu,
+			icon: FiCpu,
 			title: t("madeOfSection.cards.technology.title"),
 			description: t("madeOfSection.cards.technology.description"),
 		},
 		{
 			id: 2,
-			Icon: TiGroup,
+			icon: TiGroup,
 			title: t("madeOfSection.cards.community.title"),
 			description: t("madeOfSection.cards.community.description"),
 		},
 		{
 			id: 3,
-			Icon: AiFillLike,
+			icon: AiFillLike,
 			title: t("madeOfSection.cards.diversity.title"),
 			description: t("madeOfSection.cards.diversity.description"),
 		},

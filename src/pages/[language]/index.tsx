@@ -7,6 +7,7 @@ import { i18n } from "config/i18n";
 
 export default HomePage;
 
+// eslint-disable-next-line require-await
 export const getStaticPaths: GetStaticPaths = async () => {
 	const languages = i18n.locales;
 
@@ -21,7 +22,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-	const language = (params?.language || i18n.defaultLocale) as string;
+	const language = (params?.language ?? i18n.defaultLocale) as string;
 
 	return {
 		props: {

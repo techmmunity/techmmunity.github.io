@@ -13,12 +13,17 @@ import {
 
 interface Props {
 	url: string;
-	Icon: IconType;
+	icon: IconType;
 	title: string;
 	description: string;
 }
 
-export const Card: React.FC<Props> = ({ url, Icon, title, description }) => (
+export const Card: React.FC<Props> = ({
+	url,
+	icon: Icon,
+	title,
+	description,
+}) => (
 	<Container>
 		<Content>
 			<IconContainer>

@@ -7,12 +7,12 @@ interface Props {
 	id: number;
 	currentCard: number;
 	setCurrentCard: Dispatch<SetStateAction<number>>;
-	Icon: IconType;
+	icon: IconType;
 	text: string;
 }
 
 export const Button: React.FC<Props> = memo(
-	({ id, currentCard, setCurrentCard, text, Icon }) => (
+	({ id, currentCard, setCurrentCard, text, icon: Icon }) => (
 		<Li>
 			<Container
 				active={id === currentCard}

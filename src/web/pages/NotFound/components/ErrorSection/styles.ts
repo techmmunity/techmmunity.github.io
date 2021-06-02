@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.section`
 	display: flex;
@@ -19,7 +19,7 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-	color: ${Colors.gray100};
+	color: ${COLORS.gray100};
 	font-size: 2rem;
 	margin: 1rem 0;
 `;
@@ -27,8 +27,8 @@ export const Subtitle = styled.p`
 export const RedirectToHomeButton = styled.div`
 	> a {
 		display: block;
-		background: ${Colors.primary};
-		color: ${Colors.white1000};
+		background: ${COLORS.primary};
+		color: ${COLORS.white1000};
 		font-weight: 500;
 		border-radius: 3px;
 		padding: 1.25rem 1.5rem;
@@ -38,7 +38,7 @@ export const RedirectToHomeButton = styled.div`
 		&:hover,
 		&:focus,
 		&:active {
-			background: ${Colors.darkPrimary};
+			background: ${COLORS.darkPrimary};
 		}
 	}
 `;

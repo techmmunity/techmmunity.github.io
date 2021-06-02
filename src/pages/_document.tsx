@@ -26,7 +26,7 @@ const getSystemInformation = (locale: string): GetSystemInformationResult => {
 };
 
 export default class MyDocument extends Document {
-	static async getInitialProps(ctx: DocumentContext) {
+	public static async getInitialProps(ctx: DocumentContext) {
 		const sheet = new ServerStyleSheet();
 		const originalRenderPage = ctx.renderPage;
 
@@ -52,7 +52,8 @@ export default class MyDocument extends Document {
 		}
 	}
 
-	render() {
+	public render() {
+		// eslint-disable-next-line no-underscore-dangle
 		const { language } = this.props.__NEXT_DATA__.query;
 		const { html, head } = getSystemInformation(
 			(language || i18n.defaultLocale) as string,
@@ -64,6 +65,7 @@ export default class MyDocument extends Document {
 					{/* Google Tag Manager */}
 					<script
 						dangerouslySetInnerHTML={{
+							// eslint-disable-next-line @typescript-eslint/naming-convention
 							__html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 											new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 											j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -85,6 +87,7 @@ export default class MyDocument extends Document {
 					{/* Google Tag Manager (noscript) */}
 					<noscript
 						dangerouslySetInnerHTML={{
+							// eslint-disable-next-line @typescript-eslint/naming-convention
 							__html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NG5KTT"
 											height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
 						}}

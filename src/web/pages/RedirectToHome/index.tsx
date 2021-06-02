@@ -3,9 +3,9 @@ import { useRouter } from "next/router";
 
 import { useEffect } from "react";
 
-import { FCWithLayout } from "types/interfaces/layout";
+import { FcWithLayout } from "types/interfaces/layout";
 
-export const RedirectToHomePage: FCWithLayout = () => {
+export const RedirectToHomePage: FcWithLayout = () => {
 	const { push } = useRouter();
 
 	useEffect(() => {
@@ -14,12 +14,15 @@ export const RedirectToHomePage: FCWithLayout = () => {
 		switch (true) {
 			case language.startsWith("pt-"):
 				push("/pt-BR");
+
 				return;
 			case language.startsWith("en-"):
 				push("/en-US");
+
 				return;
 			default:
 				push(`/${i18n.defaultLocale}`);
+
 				return;
 		}
 	}, [push]);

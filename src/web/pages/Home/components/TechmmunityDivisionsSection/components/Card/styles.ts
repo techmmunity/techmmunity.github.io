@@ -2,7 +2,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.div<{
 	isCurrent: boolean;
@@ -36,7 +36,7 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 	justify-content: center;
 	width: 50%;
 	max-height: 39.2rem;
-	background: ${Colors.gray500}80;
+	background: ${COLORS.gray500}80;
 	border-radius: ${({ invertOrder }) =>
 		invertOrder ? "0 5px 5px 0" : "5px 0 0 5px"};
 	padding: 3rem 6.5rem 3rem 2.5rem;
@@ -47,7 +47,7 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 		justify-content: center;
 		width: 100%;
 		max-width: 15rem;
-		background: ${Colors.primary};
+		background: ${COLORS.primary};
 		font-size: 1.4rem;
 		font-weight: bold;
 		border-radius: 3px;
@@ -57,7 +57,7 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 		&:hover,
 		&:focus,
 		&:active {
-			background: ${Colors.darkPrimary};
+			background: ${COLORS.darkPrimary};
 		}
 
 		@media (max-width: 360px) {
@@ -78,7 +78,7 @@ export const Title = styled.h4`
 `;
 
 export const Description = styled.p`
-	color: ${Colors.gray100};
+	color: ${COLORS.gray100};
 	font-size: 1.8rem;
 	line-height: 2.8rem;
 	margin: 1rem 0 2.5rem 0;

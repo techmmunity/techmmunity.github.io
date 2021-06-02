@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.li`
 	width: 100%;
@@ -20,7 +20,7 @@ export const IconContainer = styled.div`
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: ${Colors.primary};
+		background: ${COLORS.primary};
 		border-radius: 50%;
 		padding: 1.5rem;
 		margin-bottom: 2rem;
@@ -33,7 +33,7 @@ export const IconContainer = styled.div`
 		&:hover,
 		&:focus,
 		&:active {
-			background: ${Colors.darkPrimary};
+			background: ${COLORS.darkPrimary};
 		}
 	}
 `;
@@ -57,7 +57,7 @@ export const Title = styled.div`
 `;
 
 export const Description = styled.p`
-	color: ${Colors.gray100};
+	color: ${COLORS.gray100};
 	font-size: 1.8rem;
 	line-height: 2.8rem;
 `;

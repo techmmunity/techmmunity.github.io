@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.div`
 	position: relative;
@@ -24,7 +24,7 @@ export const Container = styled.div`
 		align-items: center;
 		justify-content: center;
 		content: "404";
-		color: ${Colors.gray500};
+		color: ${COLORS.gray500};
 		font-size: clamp(1.6rem, 1rem + 50vw, 50rem);
 		font-weight: bold;
 		z-index: -1;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Li = styled.li``;
 
@@ -8,8 +8,8 @@ export const Container = styled.button<{ active: boolean }>`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: ${Colors.gray500}80;
-	color: ${({ active }) => (active ? Colors.gray50 : Colors.gray100)};
+	background: ${COLORS.gray500}80;
+	color: ${({ active }) => (active ? COLORS.gray50 : COLORS.gray100)};
 	border-radius: 50px;
 	padding: 1rem 1.5rem;
 	margin: 0.5rem;
@@ -19,12 +19,12 @@ export const Container = styled.button<{ active: boolean }>`
 
 	&:hover,
 	&:focus {
-		color: ${Colors.gray50};
+		color: ${COLORS.gray50};
 		filter: opacity(100%);
 	}
 
 	> svg {
-		color: ${Colors.primary};
+		color: ${COLORS.primary};
 		font-size: clamp(18px, 1rem + 1vw, 1.8rem);
 	}
 
