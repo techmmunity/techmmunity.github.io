@@ -18,6 +18,7 @@ export const MainSection: React.FC = () => {
 				<Title>{t("mainSection.description.title")}</Title>
 				<Subtitle>{t("mainSection.description.subtitle")}</Subtitle>
 			</Description>
+			<RedirectLinks />
 			<Links>
 				<LinkWithLanguage href="#made-of">
 					{t("mainSection.links.aboutUs")}
@@ -26,7 +27,6 @@ export const MainSection: React.FC = () => {
 					{t("mainSection.links.community")}
 				</Link>
 			</Links>
-			<RedirectLinks />
 		</Container>
 	);
 };
