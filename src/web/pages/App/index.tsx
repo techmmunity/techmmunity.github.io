@@ -5,7 +5,7 @@ import React, { useEffect } from "react";
 
 import { Head } from "./components/Head";
 
-import { gtmPageView } from "utils/gtm";
+import { setGtmPageView } from "utils/gtm";
 
 import { LayoutWrapper } from "web/layouts/wrapper";
 
@@ -13,7 +13,7 @@ import { GlobalStyle } from "./styles";
 
 export const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 	useEffect(() => {
-		const handleRouteChange = (url: string) => gtmPageView(url);
+		const handleRouteChange = (url: string) => setGtmPageView(url);
 
 		Router.events.on("routeChangeComplete", handleRouteChange);
 

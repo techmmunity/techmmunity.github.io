@@ -3,7 +3,7 @@ interface PageEventProps {
 	page: string;
 }
 
-export const gtmPageView = (url: string) => {
+export const setGtmPageView = (url: string) => {
 	const pageEvent: PageEventProps = {
 		event: "pageview",
 		page: url,

@@ -22,7 +22,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-	const language = (params?.language ?? i18n.defaultLocale) as string;
+	const language = params?.language as string;
 
 	return {
 		props: {
