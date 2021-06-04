@@ -26,6 +26,7 @@
 
 	// Make VSCode understand this files as files of this languages
 	"files.associations": {
+		".lintstagedrc": "json",
 		".env.test": "env"
 	},
 
