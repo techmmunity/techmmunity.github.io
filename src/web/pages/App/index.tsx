@@ -25,7 +25,7 @@ export const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 	return (
 		<>
 			<Head />
-			<LayoutWrapper {...pageProps}>
+			<LayoutWrapper>
 				<Component {...pageProps} />
 			</LayoutWrapper>
 			<GlobalStyle />
