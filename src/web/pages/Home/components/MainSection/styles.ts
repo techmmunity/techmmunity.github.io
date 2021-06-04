@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.section`
 	display: flex;
@@ -21,7 +21,7 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.h2`
-	color: ${Colors.gray100};
+	color: ${COLORS.gray100};
 	font-size: 2rem;
 	font-weight: normal;
 	margin: 1rem 0;
@@ -29,7 +29,7 @@ export const Subtitle = styled.h2`
 
 const RedirectCSS = css`
 	display: block;
-	color: ${Colors.white1000};
+	color: ${COLORS.white1000};
 	font-size: 1.6rem;
 	border-radius: 3px;
 	padding: 1.5rem 3.2rem;
@@ -42,13 +42,13 @@ export const Links = styled.div`
 
 	> a:first-child {
 		${RedirectCSS}
-		background: ${Colors.gray500};
+		background: ${COLORS.gray500};
 		font-weight: 600;
 
 		&:hover,
 		&:focus,
 		&:active {
-			background: ${Colors.gray800};
+			background: ${COLORS.gray800};
 		}
 
 		@media (max-width: 768px) {
@@ -58,13 +58,13 @@ export const Links = styled.div`
 
 	> a:last-child {
 		${RedirectCSS}
-		background: ${Colors.primary};
+		background: ${COLORS.primary};
 		font-weight: 500;
 
 		&:hover,
 		&:focus,
 		&:active {
-			background: ${Colors.darkPrimary};
+			background: ${COLORS.darkPrimary};
 		}
 	}
 

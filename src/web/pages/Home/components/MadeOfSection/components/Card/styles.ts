@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.li`
 	display: flex;
@@ -22,8 +22,8 @@ export const IconContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: ${Colors.primary};
-	color: ${Colors.white1000};
+	background: ${COLORS.primary};
+	color: ${COLORS.white1000};
 	border-radius: 50%;
 	padding: 1.5rem;
 
@@ -38,7 +38,7 @@ export const Title = styled.h4`
 `;
 
 export const Description = styled.p`
-	color: ${Colors.gray100};
+	color: ${COLORS.gray100};
 	font-size: 1.8rem;
 	line-height: 2.8rem;
 	text-align: center;

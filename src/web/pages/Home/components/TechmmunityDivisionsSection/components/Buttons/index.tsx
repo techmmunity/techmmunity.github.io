@@ -23,27 +23,27 @@ export const Buttons: React.FC<Props> = memo(
 			() => [
 				{
 					id: 1,
-					Icon: BiCodeAlt,
+					icon: BiCodeAlt,
 					text: t("techmmunityDivisionsSection.inputs.dev"),
 				},
 				{
 					id: 2,
-					Icon: FaPencilAlt,
+					icon: FaPencilAlt,
 					text: t("techmmunityDivisionsSection.inputs.graphic"),
 				},
 				{
 					id: 3,
-					Icon: RiVolumeUpFill,
+					icon: RiVolumeUpFill,
 					text: t("techmmunityDivisionsSection.inputs.song"),
 				},
 				{
 					id: 4,
-					Icon: BsGearFill,
+					icon: BsGearFill,
 					text: t("techmmunityDivisionsSection.inputs.robotic"),
 				},
 				{
 					id: 5,
-					Icon: RiSuitcaseFill,
+					icon: RiSuitcaseFill,
 					text: t("techmmunityDivisionsSection.inputs.manager"),
 				},
 			],

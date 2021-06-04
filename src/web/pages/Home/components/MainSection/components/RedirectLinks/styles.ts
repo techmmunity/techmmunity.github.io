@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.div`
 	display: flex;
@@ -17,12 +17,12 @@ export const Container = styled.div`
 export const RedirectLink = styled.div<{ active: boolean; position: string }>`
 	> a {
 		display: block;
-		color: ${Colors.white1000};
+		color: ${COLORS.white1000};
 		font-weight: 500;
 		text-align: center;
 		padding: 1.5rem 3.2rem;
 		transition: background-color 0.2s ease-out;
-		background: ${({ active }) => (active ? Colors.primary : Colors.gray500)};
+		background: ${({ active }) => (active ? COLORS.primary : COLORS.gray500)};
 		border-radius: ${({ position }) =>
 			position === "left" ? "5px 0 0 5px" : "0 5px 5px 0"};
 
@@ -30,7 +30,7 @@ export const RedirectLink = styled.div<{ active: boolean; position: string }>`
 		&:focus,
 		&:active {
 			background: ${({ active }) =>
-				active ? Colors.darkPrimary : Colors.gray800};
+				active ? COLORS.darkPrimary : COLORS.gray800};
 		}
 
 		@media (max-width: 768px) {

@@ -5,7 +5,7 @@ import { LinkWithLanguage } from "web/components/LinkWithLanguage";
 
 import { RedirectLinks } from "./components/RedirectLinks";
 
-import { SocialNetworksUrls } from "config/social-networks-urls";
+import { SOCIAL_NETWORKS_URL } from "config/social-networks-urls";
 
 import { Container, Description, Title, Subtitle, Links } from "./styles";
 
@@ -23,7 +23,7 @@ export const MainSection: React.FC = () => {
 				<LinkWithLanguage href="#made-of">
 					{t("mainSection.links.aboutUs")}
 				</LinkWithLanguage>
-				<Link href={SocialNetworksUrls.discord} blank>
+				<Link href={SOCIAL_NETWORKS_URL.discord} blank>
 					{t("mainSection.links.community")}
 				</Link>
 			</Links>

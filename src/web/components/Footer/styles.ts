@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.footer`
 	display: flex;
@@ -16,7 +16,7 @@ export const Container = styled.footer`
 
 export const Copyright = styled.p`
 	text-align: center;
-	color: ${Colors.gray100};
+	color: ${COLORS.gray100};
 	font-size: 1.8rem;
 	margin: 2rem 0;
 `;
@@ -46,8 +46,8 @@ export const SocialNetwork = styled.li`
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: ${Colors.gray500};
-		color: ${Colors.primary};
+		background: ${COLORS.gray500};
+		color: ${COLORS.primary};
 		font-size: 2.6rem;
 		border-radius: 50%;
 		padding: 1rem;
@@ -56,8 +56,8 @@ export const SocialNetwork = styled.li`
 		&:hover,
 		&:focus,
 		&:active {
-			background: ${Colors.primary};
-			color: ${Colors.white1000};
+			background: ${COLORS.primary};
+			color: ${COLORS.white1000};
 		}
 	}
 `;

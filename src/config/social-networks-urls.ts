@@ -1,4 +1,4 @@
-export const SocialNetworksUrls = {
+export const SOCIAL_NETWORKS_URL = {
 	discord: "https://discord.gg/qCJXz6P4qw",
 	twitch: "https://www.twitch.tv/techmmunity",
 	youtube: "https://www.youtube.com/channel/UCl322bbCTdwW-eOEO4J0Zxw",

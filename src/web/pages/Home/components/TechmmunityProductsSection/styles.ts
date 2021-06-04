@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.section`
 	display: flex;
@@ -19,7 +19,7 @@ export const Title = styled.h2`
 `;
 
 export const Subtitle = styled.h3`
-	color: ${Colors.gray100};
+	color: ${COLORS.gray100};
 	font-size: 2rem;
 	font-weight: normal;
 	margin: 1rem 0;

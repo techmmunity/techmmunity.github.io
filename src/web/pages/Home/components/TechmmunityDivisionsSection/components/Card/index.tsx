@@ -2,7 +2,7 @@ import { memo } from "react";
 
 import { Link } from "web/components/Link";
 
-import { SocialNetworksUrls } from "config/social-networks-urls";
+import { SOCIAL_NETWORKS_URL } from "config/social-networks-urls";
 
 import {
 	Container,
@@ -33,7 +33,7 @@ export const Card: React.FC<Props> = memo(
 				<Title>{title}</Title>
 				<Description>{description}</Description>
 				<Link
-					href={SocialNetworksUrls.discord}
+					href={SOCIAL_NETWORKS_URL.discord}
 					aria-label={learnMore.ariaLabel}
 					blank
 				>

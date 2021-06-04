@@ -9,12 +9,12 @@ import {
 } from "./styles";
 
 interface Props {
-	Icon: IconType;
+	icon: IconType;
 	title: string;
 	description: string;
 }
 
-export const Card: React.FC<Props> = ({ Icon, title, description }) => (
+export const Card: React.FC<Props> = ({ icon: Icon, title, description }) => (
 	<Container>
 		<Content>
 			<IconContainer>

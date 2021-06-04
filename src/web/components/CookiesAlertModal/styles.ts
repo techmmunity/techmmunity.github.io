@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Colors } from "assets/colors";
+import { COLORS } from "assets/colors";
 
 export const Container = styled.div<{ isCookiesAccepted: boolean }>`
 	position: fixed;
@@ -10,7 +10,7 @@ export const Container = styled.div<{ isCookiesAccepted: boolean }>`
 	display: ${({ isCookiesAccepted }) => (isCookiesAccepted ? "none" : "flex")};
 	align-items: center;
 	justify-content: space-between;
-	background: ${Colors.black800};
+	background: ${COLORS.black800};
 	border-radius: 5px;
 	padding: 1.5rem 2rem;
 	margin: 1.5rem 1rem;
@@ -33,8 +33,8 @@ export const Description = styled.p`
 `;
 
 export const ConfirmationButton = styled.button`
-	background: ${Colors.primary};
-	color: ${Colors.white1000};
+	background: ${COLORS.primary};
+	color: ${COLORS.white1000};
 	border-radius: 3px;
 	font-weight: bold;
 	padding: 1rem 1.5rem;
@@ -43,7 +43,7 @@ export const ConfirmationButton = styled.button`
 
 	&:hover,
 	&:focus {
-		background: ${Colors.darkPrimary};
+		background: ${COLORS.darkPrimary};
 	}
 
 	@media (max-width: 380px) {
