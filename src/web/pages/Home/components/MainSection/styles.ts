@@ -2,6 +2,16 @@ import styled, { css } from "styled-components";
 
 import { COLORS } from "assets/colors";
 
+const RedirectCSS = css`
+	display: block;
+	color: ${COLORS.white1000};
+	font-size: 1.6rem;
+	border-radius: 3px;
+	padding: 1.5rem 3.2rem;
+	margin: 0 1rem;
+	transition: background-color 0.2s ease-out;
+`;
+
 export const Container = styled.section`
 	display: flex;
 	flex-direction: column;
@@ -25,16 +35,6 @@ export const Subtitle = styled.h2`
 	font-size: 2rem;
 	font-weight: normal;
 	margin: 1rem 0;
-`;
-
-const RedirectCSS = css`
-	display: block;
-	color: ${COLORS.white1000};
-	font-size: 1.6rem;
-	border-radius: 3px;
-	padding: 1.5rem 3.2rem;
-	margin: 0 1rem;
-	transition: background-color 0.2s ease-out;
 `;
 
 export const Links = styled.div`
