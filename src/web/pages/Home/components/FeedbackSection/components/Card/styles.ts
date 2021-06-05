@@ -1,5 +1,3 @@
-import { ImQuotesLeft } from "react-icons/im";
-
 import styled from "styled-components";
 
 import { COLORS } from "assets/colors";
@@ -16,11 +14,11 @@ export const Container = styled.li`
 	margin: 1rem;
 `;
 
-export const Content = styled.div``;
-
-export const QuoteIcon = styled(ImQuotesLeft)`
-	color: ${COLORS.primary};
-	font-size: 3rem;
+export const Content = styled.div`
+	> svg {
+		color: ${COLORS.primary};
+		font-size: 3rem;
+	}
 `;
 
 export const Feedback = styled.p`
