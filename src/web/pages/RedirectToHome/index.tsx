@@ -3,9 +3,9 @@ import { useRouter } from "next/router";
 
 import { useEffect } from "react";
 
-import { FcWithLayout } from "types/interfaces/layout";
+import { FCWithLayout } from "types/interfaces/layout";
 
-export const RedirectToHomePage: FcWithLayout = () => {
+export const RedirectToHomePage: FCWithLayout = () => {
 	const { push } = useRouter();
 
 	useEffect(() => {
