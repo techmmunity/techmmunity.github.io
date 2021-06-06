@@ -9,9 +9,9 @@ import { MainSection } from "./components/MainSection";
 import { TechmmunityDivisionsSection } from "./components/TechmmunityDivisionsSection";
 import { TechmmunityProductsSection } from "./components/TechmmunityProductsSection";
 
-import { FcWithLayout } from "types/interfaces/layout";
+import { FCWithLayout } from "types/interfaces/layout";
 
-export const HomePage: FcWithLayout = () => {
+export const HomePage: FCWithLayout = () => {
 	const { t } = useTranslation("home");
 
 	return (
