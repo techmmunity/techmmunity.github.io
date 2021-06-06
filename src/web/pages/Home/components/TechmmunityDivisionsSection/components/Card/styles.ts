@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 import { COLORS } from "assets/colors";
 
-export const Container = styled.div<{
+export const Container = styled.li<{
 	isCurrent: boolean;
 	invertOrder: boolean;
 }>`
