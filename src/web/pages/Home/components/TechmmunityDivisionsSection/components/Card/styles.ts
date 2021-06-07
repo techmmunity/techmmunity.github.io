@@ -1,5 +1,3 @@
-import { BsArrowRight } from "react-icons/bs";
-
 import styled from "styled-components";
 
 import { COLORS } from "assets/colors";
@@ -60,6 +58,10 @@ export const Content = styled.div<{ invertOrder: boolean }>`
 			background: ${COLORS.darkPrimary};
 		}
 
+		> svg {
+			margin-left: 1rem;
+		}
+
 		@media (max-width: 360px) {
 			max-width: unset;
 		}
@@ -82,10 +84,6 @@ export const Description = styled.p`
 	font-size: 1.8rem;
 	line-height: 2.8rem;
 	margin: 1rem 0 2.5rem 0;
-`;
-
-export const ArrowRight = styled(BsArrowRight)`
-	margin-left: 1rem;
 `;
 
 export const Image = styled.img<{ invertOrder: boolean }>`

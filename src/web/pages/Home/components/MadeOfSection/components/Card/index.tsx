@@ -1,4 +1,5 @@
-import { IconType } from "react-icons";
+import { Icon } from "web/components/Icon";
+import { IconsType } from "web/components/Icon/assets/icons";
 
 import {
 	Container,
@@ -9,16 +10,16 @@ import {
 } from "./styles";
 
 interface Props {
-	icon: IconType;
+	icon: IconsType;
 	title: string;
 	description: string;
 }
 
-export const Card: React.FC<Props> = ({ icon: Icon, title, description }) => (
+export const Card: React.FC<Props> = ({ icon, title, description }) => (
 	<Container>
 		<Content>
 			<IconContainer>
-				<Icon />
+				<Icon icon={icon} />
 			</IconContainer>
 			<Title>{title}</Title>
 			<Description>{description}</Description>

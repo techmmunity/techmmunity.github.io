@@ -1,17 +1,11 @@
 import { memo } from "react";
 
+import { Icon } from "web/components/Icon";
 import { Link } from "web/components/Link";
 
 import { SOCIAL_NETWORKS_URL } from "config/social-networks-urls";
 
-import {
-	Container,
-	Content,
-	Title,
-	Description,
-	ArrowRight,
-	Image,
-} from "./styles";
+import { Container, Content, Title, Description, Image } from "./styles";
 
 interface Props {
 	isCurrent: boolean;
@@ -37,7 +31,7 @@ export const Card: React.FC<Props> = memo(
 					aria-label={learnMore.ariaLabel}
 					blank
 				>
-					{learnMore.text} <ArrowRight />
+					{learnMore.text} <Icon icon="arrowRight" />
 				</Link>
 			</Content>
 			<Image src={image} alt={alt} invertOrder={invertOrder} />

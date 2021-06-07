@@ -1,5 +1,5 @@
-import { IconType } from "react-icons";
-
+import { Icon } from "web/components/Icon";
+import { IconsType } from "web/components/Icon/assets/icons";
 import { Link } from "web/components/Link";
 
 import {
@@ -13,22 +13,17 @@ import {
 
 interface Props {
 	url: string;
-	icon: IconType;
+	icon: IconsType;
 	title: string;
 	description: string;
 }
 
-export const Card: React.FC<Props> = ({
-	url,
-	icon: Icon,
-	title,
-	description,
-}) => (
+export const Card: React.FC<Props> = ({ url, icon, title, description }) => (
 	<Container>
 		<Content>
 			<IconContainer>
 				<Link href={url} blank>
-					<Icon />
+					<Icon icon={icon} />
 				</Link>
 			</IconContainer>
 			<DescriptionContainer>

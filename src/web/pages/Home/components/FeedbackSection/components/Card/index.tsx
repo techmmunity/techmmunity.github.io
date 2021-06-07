@@ -1,13 +1,7 @@
+import { Icon } from "web/components/Icon";
 import { Link } from "web/components/Link";
 
-import {
-	Container,
-	Content,
-	QuoteIcon,
-	Feedback,
-	Line,
-	Author,
-} from "./styles";
+import { Container, Content, Feedback, Line, Author } from "./styles";
 
 interface Props {
 	feedback: string;
@@ -18,7 +12,7 @@ interface Props {
 export const Card: React.FC<Props> = ({ feedback, url, author }) => (
 	<Container>
 		<Content>
-			<QuoteIcon />
+			<Icon icon="quotesLeft" />
 			<Feedback>{feedback}</Feedback>
 		</Content>
 		<Content>
