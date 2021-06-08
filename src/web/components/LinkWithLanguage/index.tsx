@@ -8,6 +8,7 @@ export const LinkWithLanguage: React.FC<LinkProps> = ({
 	blank,
 	disabled,
 	children,
+	rel = "",
 	...props
 }) => {
 	const { query } = useRouter();
@@ -18,7 +19,7 @@ export const LinkWithLanguage: React.FC<LinkProps> = ({
 			<a
 				style={{ pointerEvents: disabled ? "none" : "auto" }}
 				target={blank ? "_blank" : "_self"}
-				rel="noopener noreferrer"
+				rel={`noopener noreferrer ${rel}`}
 				{...props}
 			>
 				{children}
