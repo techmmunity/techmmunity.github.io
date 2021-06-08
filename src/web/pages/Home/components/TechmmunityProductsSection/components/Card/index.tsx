@@ -12,17 +12,24 @@ import {
 } from "./styles";
 
 interface Props {
+	name: string;
 	url: string;
 	icon: IconsType;
 	title: string;
 	description: string;
 }
 
-export const Card: React.FC<Props> = ({ url, icon, title, description }) => (
+export const Card: React.FC<Props> = ({
+	name,
+	url,
+	icon,
+	title,
+	description,
+}) => (
 	<Container>
 		<Content>
 			<IconContainer>
-				<Link href={url} blank>
+				<Link href={url} blank aria-label={name}>
 					<Icon icon={icon} />
 				</Link>
 			</IconContainer>
