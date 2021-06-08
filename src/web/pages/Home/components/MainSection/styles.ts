@@ -7,6 +7,7 @@ const RedirectCSS = css`
 	color: ${COLORS.white1000};
 	font-size: 1.6rem;
 	border-radius: 3px;
+	text-align: center;
 	padding: 1.5rem 3.2rem;
 	margin: 0 1rem;
 	transition: background-color 0.2s ease-out;
