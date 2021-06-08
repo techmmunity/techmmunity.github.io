@@ -10,6 +10,7 @@ import { Container, Description, Title, Subtitle, Cards } from "./styles";
 
 interface TechmmunityProductsCard {
 	id: number;
+	name: string;
 	url: string;
 	icon: IconsType;
 	title: string;
@@ -22,6 +23,7 @@ export const TechmmunityProductsSection: React.FC = () => {
 	const techmmunityProductsCards: Array<TechmmunityProductsCard> = [
 		{
 			id: 1,
+			name: "Discord",
 			url: SOCIAL_NETWORKS_URL.discord,
 			icon: "discord",
 			title: t("techmmunityProductsSection.cards.discord.title"),
@@ -29,6 +31,7 @@ export const TechmmunityProductsSection: React.FC = () => {
 		},
 		{
 			id: 2,
+			name: "Youtube",
 			url: SOCIAL_NETWORKS_URL.youtube,
 			icon: "youtube",
 			title: t("techmmunityProductsSection.cards.youtube.title"),
@@ -36,6 +39,7 @@ export const TechmmunityProductsSection: React.FC = () => {
 		},
 		{
 			id: 3,
+			name: "Twitch",
 			url: SOCIAL_NETWORKS_URL.twitch,
 			icon: "twitch",
 			title: t("techmmunityProductsSection.cards.twitch.title"),
