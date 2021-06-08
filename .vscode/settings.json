@@ -101,6 +101,7 @@
 		"grayscale",
 		"nestjs",
 		"nextjs",
+		"nojekyll",
 		"pageview",
 		"paren",
 		"pexels",
@@ -110,6 +111,7 @@
 		"svgr",
 		"techmmunity",
 		"testid",
+		"webfactory",
 		"webp"
 	]
 }
