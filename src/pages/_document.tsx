@@ -53,7 +53,6 @@ export default class MyDocument extends Document {
 	}
 
 	public render() {
-		// eslint-disable-next-line no-underscore-dangle
 		const { language } = this.props.__NEXT_DATA__.query;
 		const { html, head } = getSystemInformation(
 			(language || i18n.defaultLocale) as string,
