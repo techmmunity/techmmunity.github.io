@@ -5,7 +5,7 @@ type LinkAttributes = DetailedHTMLProps<
 	HTMLAnchorElement
 >;
 
-type LinkOmitted = Omit<LinkAttributes, "rel" | "target">;
+type LinkOmitted = Omit<LinkAttributes, "style" | "target">;
 
 export interface LinkProps extends LinkOmitted {
 	href: string;
